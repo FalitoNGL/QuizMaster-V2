@@ -1,0 +1,782 @@
+[
+    {
+      "question": "Apa yang membedakan intelijen sebagai ilmu pengetahuan dengan kegiatan mata-mata biasa?",
+      "options": [
+        "Intelijen selalu dilakukan secara rahasia dan ilegal",
+        "Intelijen berdasarkan metode ilmiah dan proses analisis sistematis",
+        "Intelijen tidak memerlukan verifikasi informasi",
+        "Kegiatan intelijen hanya dilakukan oleh militer",
+        "Intelijen tidak digunakan dalam pengambilan Keputusan"
+      ],
+      "correct": 1,
+      "explanation": "Intelijen adalah kegiatan sistematis yang melibatkan siklus terstruktur (perencanaan, pengumpulan, analisis, diseminasi), bukan sekadar kegiatan mata-mata yang hanya merupakan salah satu bagian dari proses pengumpulan informasi.",
+      "reference": "File 'INTELIJEN 1.pptx', Halaman 2, 'PENGERTIAN DASAR'; File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'RODA PERPUTARAN INTELIJEN'"
+    },
+    {
+      "question": "Salah satu ciri utama intelijen sebagai ilmu adalah...",
+      "options": [
+        "Berdasarkan intuisi dan pengalaman semata",
+        "Berfokus pada pengumpulan dokumen rahasia",
+        "Menggunakan pendekatan sistematis, analitis, dan objektif",
+        "Berfungsi hanya untuk kepentingan politik luar negeri",
+        "Tidak memerlukan evaluasi hasil"
+      ],
+      "correct": 2,
+      "explanation": "Teori analisis intelijen modern menekankan penggunaan Analisis Terstruktur (Structured Analytic Techniques) untuk mengurangi bias kognitif dan meningkatkan objektivitas serta ketelitian analisis, yang merupakan ciri keilmuan.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 20, 'ANALISIS TERSTRUKTUR (STRUCTURED ANALYTIC TECHNIQUES - SATS)'"
+    },
+    {
+      "question": "Dalam kerangka keilmuan, intelijen berfungsi untuk...",
+      "options": [
+        "Menentukan musuh negara secara langsung",
+        "Memberikan informasi kasar tanpa penyaringan",
+        "Menghasilkan pengetahuan yang berguna dalam pengambilan keputusan",
+        "Membuat opini publik mendukung pemerintah",
+        "Menghindari keterlibatan dalam konflik"
+      ],
+      "correct": 2,
+      "explanation": "Menurut Sherman Kent, intelijen adalah pengetahuan (knowledge) yang telah diolah dan dianalisis untuk mendukung kebijakan ('policy support'). Tujuannya adalah sebagai bahan pertimbangan dalam merumuskan kebijakan dan pengambilan keputusan.",
+      "reference": "File 'INTELIJEN 1.pptx', Halaman 3, 'INTELIJEN sebagai PENGETAHUAN'; File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 2, 'Intelijen sebagai Pengetahuan'"
+    },
+    {
+      "question": "Salah satu metode ilmiah dalam intelijen adalah...",
+      "options": [
+        "Pengambilan keputusan berdasarkan suara terbanyak",
+        "Peramalan tanpa data",
+        "Pengumpulan, analisis, interpretasi, dan diseminasi informasi",
+        "Penetapan target berdasarkan keinginan pribadi",
+        "Pemilihan sumber informasi secara acak"
+      ],
+      "correct": 2,
+      "explanation": "Metode ilmiah intelijen termanifestasi dalam Roda Perputaran Intelijen (Siklus Intelijen), yang secara sistematis terdiri dari tahapan Perencanaan, Pengumpulan, Pengolahan, Analisis & Produksi (termasuk interpretasi), dan Diseminasi.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'RODA PERPUTARAN INTELIJEN'"
+    },
+    {
+      "question": "Mengapa intelijen dianggap sebagai ilmu terapan?",
+      "options": [
+        "Karena bersifat teoretis dan tidak digunakan di lapangan",
+        "Karena hanya digunakan oleh akademisi",
+        "Karena menggabungkan teori dan praktik untuk mendukung kebijakan nyata",
+        "Karena tidak bisa diuji secara empiris",
+        "Karena tidak memiliki struktur metodologis"
+      ],
+      "correct": 2,
+      "explanation": "Intelijen adalah ilmu terapan karena seluruh prosesnya, dari teori hingga praktik, bertujuan menghasilkan produk yang digunakan oleh pengambil kebijakan untuk menyusun kebijakan dan tindakan nyata.",
+      "reference": "File 'INTELIJEN 1.pptx', Halaman 3, 'INTELIJEN sebagai PENGETAHUAN'"
+    },
+    {
+      "question": "Salah satu ciri utama intelijen sebagai organisasi adalah...",
+      "options": [
+        "Tidak memiliki struktur yang jelas dan fleksibel",
+        "Bertugas menyebarkan informasi rahasia ke publik",
+        "Memiliki struktur hirarki, fungsi, dan tugas tertentu",
+        "Bekerja hanya dalam situasi perang terbuka",
+        "Hanya berfokus pada aspek diplomasi luar negeri"
+      ],
+      "correct": 2,
+      "explanation": "Intelijen sebagai organisasi memiliki struktur hierarki, tugas, fungsi, dan prosedur operasional standar (SOP) yang jelas. Strukturnya umumnya dibagi berdasarkan fungsi utama seperti Pengumpulan, Analisis, dan Kontra Intelijen.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 3, 'STRUKTUR DASAR ORGANISASI INTELIJEN'"
+    },
+    {
+      "question": "Dalam konteks organisasi intelijen, apa yang dimaksud dengan 'chain of command'?",
+      "options": [
+        "Rangkaian kode rahasia untuk komunikasi",
+        "Urutan prioritas informasi yang harus disampaikan ke publik",
+        "Garis perintah atau rantai komando dalam struktur organisasi",
+        "Sistem pengarsipan dokumen sensitif",
+        "Hubungan antara agen intelijen dan wartawan"
+      ],
+      "correct": 2,
+      "explanation": "Sebagian besar organisasi intelijen memiliki struktur hierarkis dengan tingkatan komando dan tanggung jawab yang jelas, yang merupakan definisi dari 'chain of command' atau rantai komando.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 3, 'Hierarki'"
+    },
+    {
+      "question": "Tujuan utama pembentukan organisasi intelijen negara adalah...",
+      "options": [
+        "Membuat opini publik mendukung pemerintah",
+        "Memberikan data ekonomi untuk sektor swasta",
+        "Mendukung pengambilan keputusan strategis dan keamanan nasional",
+        "Menentukan kebijakan luar negeri negara lain",
+        "Mengelola bisnis rahasia untuk pendapatan negara"
+      ],
+      "correct": 2,
+      "explanation": "Organisasi intelijen adalah institusi yang mengelola aktivitas intelijen demi mendukung kepentingan dan keamanan negara, terutama dalam mendukung pengambilan keputusan terkait kebijakan luar negeri dan keamanan nasional.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 3, 'Intelijen sebagai organisasi'"
+    },
+    {
+      "question": "Berikut ini yang bukan merupakan fungsi umum dalam organisasi intelijen adalah...",
+      "options": [
+        "Pengumpulan informasi",
+        "Analisis dan penilaian intelijen",
+        "Operasi kontra intelijen",
+        "Pelaporan publik secara terbuka",
+        "Diseminasi intelijen kepada pengambil Keputusan"
+      ],
+      "correct": 3,
+      "explanation": "Salah satu budaya unik dan fundamental dalam organisasi intelijen adalah Kerahasiaan (Secrecy). Pelaporan publik secara terbuka bertentangan langsung dengan prinsip ini.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 5, 'BUDAYA UNIK'"
+    },
+    {
+      "question": "Apa peran penting dari bagian 'kontra intelijen' dalam sebuah organisasi intelijen?",
+      "options": [
+        "Mengembangkan sistem perdagangan internasional",
+        "Melindungi organisasi dari penyusupan, sabotase, dan pengungkapan informasi rahasia",
+        "Membuat propaganda untuk media sosial",
+        "Menerjemahkan dokumen luar negeri",
+        "Menjalin kerja sama dengan wartawan dan media"
+      ],
+      "correct": 1,
+      "explanation": "Fungsi Kontra Intelijen adalah melindungi aset, personel, dan operasi organisasi dari ancaman intelijen musuh, termasuk spionase dan infiltrasi.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 4, 'Kontra Intelijen (Counterintelligence)'"
+    },
+    {
+      "question": "Dalam konteks intelijen sebagai kegiatan, tahap awal dari proses siklus intelijen adalah...",
+      "options": [
+        "Diseminasi informasi",
+        "Analisis data mentah",
+        "Perencanaan dan penentuan kebutuhan informasi",
+        "Penangkapan target operasi",
+        "Penyembunyian identitas agen"
+      ],
+      "correct": 2,
+      "explanation": "Roda Perputaran Intelijen diawali dengan tahap Perencanaan dan Pengarahan (Planning and Direction), yang bertujuan utama mengidentifikasi kebutuhan informasi.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'PERENCANAAN DAN PENGARAHAN (PLANNING AND DIRECTION)'"
+    },
+    {
+      "question": "Kegiatan yang termasuk dalam tahap pengumpulan (collection) dalam siklus intelijen adalah...",
+      "options": [
+        "Membuat kebijakan berdasarkan laporan intelijen",
+        "Mengumpulkan data dari sumber terbuka dan tertutup",
+        "Menyampaikan informasi ke pihak non-pemerintah",
+        "Menyembunyikan hasil analisis",
+        "Menghukum penyebar informasi palsu"
+      ],
+      "correct": 1,
+      "explanation": "Tahap Pengumpulan adalah proses memperoleh informasi dari berbagai sumber, baik yang bersifat terbuka (OSINT) maupun tertutup (HUMINT, SIGINT, dll).",
+      "reference": "File 'INTELIJEN 1.pptx', Halaman 10, 'PENYELIDIKAN (LID)'"
+    },
+    {
+      "question": "Dalam operasi intelijen, proses yang dilakukan untuk mengubah informasi mentah menjadi informasi yang dapat digunakan disebut...",
+      "options": [
+        "Pengkodean informasi",
+        "Penangkapan lawan",
+        "Pengolahan dan analisis intelijen",
+        "Penyusunan strategi militer",
+        "Peretasan sistem lawan"
+      ],
+      "correct": 2,
+      "explanation": "Siklus intelijen memiliki tahap Pengolahan (mengubah data mentah menjadi format yang dapat dianalisis) dan Analisis (menginterpretasikan data untuk menghasilkan intelijen).",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'PENGOLAHAN (PROCESSING)' dan 'ANALISIS DAN PRODUKSI (ANALYSIS AND PRODUCTION)'"
+    },
+    {
+      "question": "Salah satu contoh kegiatan dalam operasi kontra intelijen adalah...",
+      "options": [
+        "Mengumpulkan data dari media sosial",
+        "Melakukan serangan militer",
+        "Mendeteksi dan menggagalkan upaya spionase pihak lawan",
+        "Memberikan ceramah intelijen ke publik",
+        "Membuka akses data rahasia ke media"
+      ],
+      "correct": 2,
+      "explanation": "Kontra-Intelijen bertujuan untuk melindungi kegiatan intelijen sendiri dari kegiatan intelijen pihak lawan, yang mencakup identifikasi dan netralisasi upaya spionase musuh.",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 26, 'Kontra-Intelijen (Counterintelligence)'"
+    },
+    {
+      "question": "Diseminasi dalam kegiatan intelijen berarti...",
+      "options": [
+        "Penghancuran informasi rahasia setelah digunakan",
+        "Penyebaran informasi intelijen kepada pihak yang membutuhkan untuk pengambilan keputusan",
+        "Pengalihan tanggung jawab ke lembaga lain",
+        "Penyaringan informasi palsu untuk publik",
+        "Pemutusan jalur komunikasi antara agen"
+      ],
+      "correct": 1,
+      "explanation": "Diseminasi adalah tahap penyampaian hasil analisis intelijen kepada pihak yang membutuhkan (pengambil kebijakan atau unit operasional) untuk mendukung pengambilan keputusan.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'DISEMINASI (DISSEMINATION)'"
+    },
+    {
+      "question": "Apa tujuan utama dari tahap Perencanaan dan Pengarahan dalam Roda Perputaran Intelijen?",
+      "options": [
+        "Melakukan operasi kontra intelijen",
+        "Menentukan sumber dana operasi intelijen",
+        "Menetapkan kebutuhan informasi dan mengarahkan kegiatan pengumpulan",
+        "Mengelola hasil analisis intelijen",
+        "Menyebarkan informasi ke media"
+      ],
+      "correct": 2,
+      "explanation": "Tujuan utama tahap ini adalah mengidentifikasi kebutuhan informasi dari pembuat kebijakan dan mengembangkan Rencana Pengumpulan (Collection Plan) untuk mendapatkan informasi tersebut.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 4, 'TUJUAN UTAMA'"
+    },
+    {
+      "question": "Tahap perencanaan dalam siklus intelijen sangat bergantung pada...",
+      "options": [
+        "Arah kebijakan luar negeri negara pesaing",
+        "Ketersediaan alat sadap",
+        "Kebutuhan informasi strategis dari pimpinan atau pengguna intelijen",
+        "Jumlah agen yang dimiliki",
+        "Situasi ekonomi nasional"
+      ],
+      "correct": 2,
+      "explanation": "Tahap perencanaan dimulai dari kebutuhan 'konsumen' intelijen (decision-makers). Pertanyaan merekalah yang menjadi dasar perumusan kebutuhan informasi strategis.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 5, 'AKTOR UTAMA: KONSUMEN INTELIJEN (DECISION-MAKERS)'"
+    },
+    {
+      "question": "Analisa tugas dalam proses intelijen bertujuan untuk...",
+      "options": [
+        "Menyusun naskah pidato pejabat tinggi negara",
+        "Mengkaji sumber daya dan batasan pelaksanaan operasi intelijen",
+        "Menganalisis hasil pengolahan data",
+        "Menyebarkan laporan intelijen",
+        "Menentukan kode komunikasi rahasia"
+      ],
+      "correct": 1,
+      "explanation": "Analisa Tugas adalah proses mendalam untuk memahami konteks, tujuan, dan batasan dari permintaan intelijen. Ini termasuk mengenali kendala atau batasan dalam proses, seperti batasan sumber daya.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 9, 'ANALISIS TUGAS (MISSION ANALYSIS / TASK ANALYSIS)'"
+    },
+    {
+      "question": "Dalam analisa sasaran, hal yang paling penting untuk diperhatikan adalah...",
+      "options": [
+        "Warna dan simbol target",
+        "Letak geografis semata",
+        "Siapa, apa, di mana, kapan, dan bagaimana tentang sasaran",
+        "Nama samaran yang digunakan sasaran",
+        "Jumlah personel yang tersedia"
+      ],
+      "correct": 2,
+      "explanation": "Analisa Sasaran adalah proses mengidentifikasi dan mempelajari siapa atau apa (individu, organisasi, tempat, aktivitas) yang menjadi pusat masalah intelijen, yang secara efektif menjawab pertanyaan-pertanyaan dasar 5W+1H.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 11, 'ANALISIS SASARAN'"
+    },
+    {
+      "question": "Tahap pengumpulan informasi dalam siklus intelijen mencakup kegiatan berikut, kecuali:",
+      "options": [
+        "Observasi",
+        "Wawancara",
+        "Penyerangan langsung",
+        "Penyadapan",
+        "Pemanfaatan sumber terbuka"
+      ],
+      "correct": 2,
+      "explanation": "Teknik pengumpulan dalam penyelidikan tertutup meliputi pengamatan, penjejakan, penyusupan, dan penyadapan. Penyerangan langsung adalah tindakan militer ofensif, bukan teknik pengumpulan intelijen.",
+      "reference": "File 'INTELIJEN 7 TEK PUL.pptx', Halaman 3, 'PENYELIDIKAN TERTUTUP'"
+    },
+    {
+      "question": "Metode pengumpulan data yang bersifat teknis dan tidak langsung adalah...",
+      "options": [
+        "Wawancara narasumber",
+        "Survei media",
+        "IMINT (Imagery Intelligence)",
+        "Kunjungan lapangan",
+        "Observasi terbuka"
+      ],
+      "correct": 2,
+      "explanation": "IMINT (Imagery Intelligence) adalah pengumpulan informasi melalui analisis citra dari platform seperti satelit atau drone, yang merupakan metode teknis dan tidak melibatkan interaksi manusia langsung.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 17, 'IMINT (Imagery Intelligence)'"
+    },
+    {
+      "question": "Informasi yang berhasil dikumpulkan belum disebut sebagai “intelijen” karena...",
+      "options": [
+        "Harus diuji keaslian sumbernya",
+        "Belum memiliki nilai ekonomi",
+        "Belum diolah dan dianalisis untuk mendukung pengambilan keputusan",
+        "Harus disampaikan ke publik lebih dahulu",
+        "Tidak berasal dari lembaga resmi"
+      ],
+      "correct": 2,
+      "explanation": "Intelijen adalah informasi yang telah diproses, dianalisis, dievaluasi, dan diinterpretasikan sehingga memiliki makna dan relevansi. Informasi mentah belum melalui proses tersebut.",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 25, 'TERMINOLOGI KUNCI - INFORMASI DAN INTELIJEN'"
+    },
+    {
+      "question": "Tahap pengolahan informasi bertujuan untuk...",
+      "options": [
+        "Mengarsipkan data yang dikumpulkan",
+        "Menghapus data yang tidak relevan",
+        "Mengorganisasi, menafsirkan, dan mengubah data mentah menjadi intelijen siap pakai",
+        "Menggandakan dokumen untuk laporan",
+        "Membagikan informasi ke media sosial"
+      ],
+      "correct": 2,
+      "explanation": "Tahap Pengolahan (Processing) bertujuan mengorganisasi dan menyaring data. Tahap Analisis (Analysis) bertujuan menafsirkan data tersebut. Keduanya mengubah data mentah menjadi intelijen.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'PENGOLAHAN (PROCESSING)' dan 'ANALISIS DAN PRODUKSI (ANALYSIS AND PRODUCTION)'"
+    },
+    {
+      "question": "Hasil dari tahap pengolahan dalam siklus intelijen biasanya disebut...",
+      "options": [
+        "Informasi mentah",
+        "Dokumen negara",
+        "Intelijen yang dapat ditindaklanjuti (actionable intelligence)",
+        "Propaganda",
+        "Draf perjanjian kerjasama"
+      ],
+      "correct": 2,
+      "explanation": "Hasil akhir dari siklus intelijen adalah Produk Intelijen, yang esensinya adalah 'actionable' atau dapat ditindaklanjuti untuk mendukung pengambilan keputusan.",
+      "reference": "File 'INTELIJEN 15 JUKNIS ADMINTEL.pptx', Halaman 3, 'PRODUK INTELIJEN'"
+    },
+    {
+      "question": "Dalam tahap distribusi, prinsip utama yang harus dijaga adalah...",
+      "options": [
+        "Kecepatan menyebarkan ke publik",
+        "Penyampaian informasi hanya kepada pihak yang membutuhkan dan berwenang",
+        "Penyimpanan informasi selama mungkin",
+        "Penyebaran informasi melalui media massa",
+        "Pembuatan berita resmi pemerintah"
+      ],
+      "correct": 1,
+      "explanation": "Faktor kunci keberhasilan diseminasi adalah menyampaikan intelijen kepada pengguna yang tepat dan melindungi informasi sensitif dengan memastikan hanya pihak yang memiliki otorisasi yang menerimanya.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 45, 'FAKTOR KUNCI KEBERHASILAN DISEMINASI'"
+    },
+    {
+      "question": "Jika hasil intelijen tidak disampaikan tepat waktu kepada pengambil keputusan, maka...",
+      "options": [
+        "Akan meningkatkan kredibilitas",
+        "Intelijen menjadi tidak berguna karena kehilangan nilai strategis",
+        "Bisa dijual ke pihak lain",
+        "Bisa diganti dengan opini publik",
+        "Masih tetap valid untuk semua keputusan"
+      ],
+      "correct": 1,
+      "explanation": "Salah satu faktor kunci keberhasilan diseminasi adalah ketepatan waktu (Timeliness). Intelijen yang terlambat adalah intelijen yang tidak berguna karena kehilangan relevansinya.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 45, 'Ketepatan Waktu (Timeliness)'"
+    },
+    {
+      "question": "Tahap evaluasi dalam RPI bertujuan untuk...",
+      "options": [
+        "Menghukum agen yang gagal",
+        "Mengulang seluruh proses dari awal",
+        "Menilai efektivitas dan akurasi proses dan hasil intelijen",
+        "Menghapus semua dokumen lama",
+        "Membuat propaganda baru"
+      ],
+      "correct": 2,
+      "explanation": "Tahap Evaluasi dan Umpan Balik bertujuan untuk menilai efektivitas proses intelijen dan memberikan umpan balik untuk perbaikan siklus selanjutnya.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'EVALUASI DAN UMPAN BALIK (EVALUATION AND FEEDBACK)'"
+    },
+    {
+      "question": "Evaluasi hasil intelijen diperlukan agar...",
+      "options": [
+        "Laporan bisa dicetak lebih banyak",
+        "Proses dan metode intelijen terus diperbaiki dan disempurnakan",
+        "Intelijen dapat menjadi bagian dari opini media",
+        "Informasi bisa disebarkan ke semua pihak",
+        "Operasi selanjutnya bisa ditunda"
+      ],
+      "correct": 1,
+      "explanation": "Tujuan utama dari tahap Evaluasi dan Umpan Balik adalah untuk perbaikan siklus selanjutnya, yang berarti proses dan metode intelijen terus disempurnakan.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'EVALUASI DAN UMPAN BALIK (EVALUATION AND FEEDBACK)'"
+    },
+    {
+      "question": "Jika evaluasi menemukan bahwa informasi yang dikumpulkan tidak sesuai dengan kebutuhan awal, maka tindakan yang paling tepat adalah...",
+      "options": [
+        "Menghentikan semua kegiatan intelijen",
+        "Mengulang tahap perencanaan dan pengarahan",
+        "Menghapus semua arsip",
+        "Mengalihkan tugas ke lembaga lain",
+        "Menutup operasi dengan segera"
+      ],
+      "correct": 1,
+      "explanation": "Umpan balik dari tahap evaluasi digunakan untuk memperbaiki siklus selanjutnya. Jika hasilnya tidak sesuai, maka kebutuhan perlu didefinisikan ulang dalam tahap Perencanaan baru.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'EVALUASI DAN UMPAN BALIK (EVALUATION AND FEEDBACK)'"
+    },
+    {
+      "question": "Manakah pernyataan berikut yang paling benar mengenai hubungan antar-tahap dalam Roda Perputaran Intelijen?",
+      "options": [
+        "Setiap tahap bersifat independen dan tidak saling terhubung",
+        "Tahap evaluasi dilakukan hanya saat krisis",
+        "Semua tahap saling terkait secara siklikal dan berulang",
+        "Tahap distribusi adalah akhir dan tidak perlu umpan balik",
+        "Pengumpulan dan evaluasi dapat digabung"
+      ],
+      "correct": 2,
+      "explanation": "Roda Perputaran Intelijen adalah serangkaian tahapan sistematis yang saling terhubung dalam sebuah siklus yang berkelanjutan.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 3, 'RODA PERPUTARAN INTELIJEN'"
+    },
+    {
+      "question": "Apa yang dimaksud dengan keamanan siber dalam konteks intelijen?",
+      "options": [
+        "Upaya pemasaran produk teknologi terbaru",
+        "Perlindungan data pribadi dari pengguna media sosial",
+        "Perlindungan sistem informasi dan komunikasi dari ancaman digital demi mendukung operasi intelijen",
+        "Pemantauan aktivitas hacker oleh polisi",
+        "Penjualan perangkat lunak keamanan secara online"
+      ],
+      "correct": 2,
+      "explanation": "Teori Intelijen Siber berfokus pada ancaman dan operasi di ruang siber. Keamanan siber menjadi prioritas intelijen untuk melindungi infrastruktur penting dan data sensitif.",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 17, 'TEORI INTELIJEN SIBER (CYBER INTELLIGENCE THEORY)'"
+    },
+    {
+      "question": "Tujuan utama keamanan siber dalam intelijen adalah...",
+      "options": [
+        "Mengumpulkan informasi bisnis",
+        "Melindungi identitas pejabat publik",
+        "Menjaga kerahasiaan, integritas, dan ketersediaan data intelijen",
+        "Mengendalikan jaringan sosial digital",
+        "Membatasi akses publik ke internet"
+      ],
+      "correct": 2,
+      "explanation": "Fungsi Pengamanan (PAM) dalam intelijen bertujuan melindungi informasi milik sendiri dari segala bentuk ancaman. Dalam konteks siber, ini diterjemahkan menjadi prinsip kerahasiaan, integritas, dan ketersediaan.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 21, 'PENGAMANAN (PAM)'"
+    },
+    {
+      "question": "Salah satu bentuk ancaman yang paling sering dihadapi dalam keamanan siber intelijen adalah...",
+      "options": [
+        "Ransomware dan serangan phishing",
+        "Gangguan listrik",
+        "Demonstrasi massa",
+        "Inflasi ekonomi",
+        "Kekeringan"
+      ],
+      "correct": 0,
+      "explanation": "Materi mencantumkan berbagai jenis ancaman siber, diantaranya adalah Malware (yang mencakup Ransomware) dan Phishing.",
+      "reference": "File 'INTELIJEN 8 KAMSIBER & KRIPTOGRAFI.pptx', Halaman 4, 'JENIS² ANCAMAN SIBER'"
+    },
+    {
+      "question": "Mengapa kriptografi penting dalam kegiatan intelijen?",
+      "options": [
+        "Untuk menyulitkan komunikasi dalam organisasi",
+        "Agar informasi dapat dibaca semua pihak",
+        "Untuk mengenkripsi dan menjaga kerahasiaan pesan intelijen dari pihak yang tidak berwenang",
+        "Untuk memperlambat transmisi data",
+        "Untuk membentuk sandi negara yang bisa diakses umum"
+      ],
+      "correct": 2,
+      "explanation": "Kriptografi adalah ilmu mengamankan informasi. Salah satu tujuan utamanya adalah Kerahasiaan (Confidentiality), yaitu mencegah pihak yang tidak berwenang membaca data.",
+      "reference": "File 'INTELIJEN 8 KAMSIBER & KRIPTOGRAFI.pptx', Halaman 12, 'KEAMANAN KRIPTOGRAFI'"
+    },
+    {
+      "question": "Kriptografi kunci publik digunakan dalam intelijen karena...",
+      "options": [
+        "Semua pesan dikirim dalam bentuk terbuka",
+        "Satu kunci digunakan untuk membuka semua pesan",
+        "Pesan hanya dapat dibuka dengan kunci privat yang sesuai",
+        "Tidak perlu autentikasi",
+        "Lebih cepat dari komunikasi lisan"
+      ],
+      "correct": 2,
+      "explanation": "Kriptografi Asimetris (kunci publik) menggunakan pasangan kunci publik dan privat. Pesan yang dienkripsi dengan kunci publik hanya dapat didekripsi oleh pemilik kunci privat pasangannya, menjamin kerahasiaan.",
+      "reference": "File 'INTELIJEN 8 KAMSIBER & KRIPTOGRAFI.pptx', Halaman 13, 'Kriptografi Asimetris'"
+    },
+    {
+      "question": "Contoh penerapan keamanan kriptografi dalam komunikasi operasi intelijen adalah...",
+      "options": [
+        "Mengirim informasi melalui grup WhatsApp tanpa enkripsi",
+        "Menulis laporan dengan sandi rahasia dan mengirim melalui kanal terenkripsi",
+        "Menyampaikan data via email umum",
+        "Menyebarkan pesan melalui media sosial",
+        "Menyimpan dokumen di komputer umum"
+      ],
+      "correct": 1,
+      "explanation": "Aplikasi kriptografi yang paling umum adalah komunikasi aman, seperti penggunaan pesan instan dengan enkripsi end-to-end, email aman, atau kanal komunikasi militer terenkripsi.",
+      "reference": "File 'INTELIJEN 8 KAMSIBER & KRIPTOGRAFI.pptx', Halaman 18, '1. KOMUNIKASI AMAN'"
+    },
+    {
+      "question": "Peran utama keamanan siber dalam operasi intelijen pengamanan adalah...",
+      "options": [
+        "Mengawasi lalu lintas",
+        "Melindungi infrastruktur digital strategis dari infiltrasi musuh",
+        "Mengatur pasukan di lapangan",
+        "Mengganti jaringan sosial",
+        "Mempromosikan transparansi total"
+      ],
+      "correct": 1,
+      "explanation": "Intelijen Pengamanan berfokus pada perlindungan aset. Dalam domain siber, ini berarti melindungi infrastruktur digital penting dari ancaman dan serangan siber.",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 24, 'Intelijen Pengamanan (Security Intelligence)'"
+    },
+    {
+      "question": "Jika suatu sistem intelijen berhasil diretas dan data operasional bocor, apa dampak paling serius?",
+      "options": [
+        "Komputer menjadi lambat",
+        "Informasi hilang permanen",
+        "Terungkapnya identitas agen dan misi strategis",
+        "File rusak dan tidak bisa dibuka",
+        "Terjadi spam email"
+      ],
+      "correct": 2,
+      "explanation": "Fungsi Pengamanan (PAM) mencakup perlindungan personel (agen) dan kegiatan (misi). Kebocoran data yang mengungkap dua hal ini merupakan kegagalan fundamental dan memiliki dampak paling serius terhadap keamanan nasional.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 21, 'PENGAMANAN (PAM)'"
+    },
+    {
+      "question": "Dalam konteks keamanan siber, apa yang dimaksud dengan threat actor?",
+      "options": [
+        "Pemeran film thriller",
+        "Pengguna internet biasa",
+        "Pihak yang aktif menciptakan ancaman siber terhadap sistem",
+        "Pegawai biasa yang lalai",
+        "Peneliti akademik"
+      ],
+      "correct": 2,
+      "explanation": "Ancaman (Threat) didefinisikan sebagai kemampuan dan niat suatu pihak untuk menyebabkan kerugian. Pihak atau entitas inilah yang disebut sebagai Aktor Ancaman (Threat Actor).",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 25, 'Ancaman (Threat)'"
+    },
+    {
+      "question": "Hubungan antara keamanan kriptografi dan keamanan siber dalam operasi intelijen adalah...",
+      "options": [
+        "Kriptografi bersifat opsional",
+        "Keduanya berjalan terpisah",
+        "Kriptografi adalah bagian integral dari keamanan siber untuk melindungi data sensitif intelijen",
+        "Kriptografi hanya untuk estetika keamanan",
+        "Keamanan siber tidak memerlukan kriptografi"
+      ],
+      "correct": 2,
+      "explanation": "Kriptografi berperan sebagai fondasi utama keamanan digital. Dalam keamanan siber, kriptografi adalah alat esensial yang digunakan untuk proteksi data dan sistem otentikasi.",
+      "reference": "File 'INTELIJEN 8 KAMSIBER & KRIPTOGRAFI.pptx', Halaman 11, 'KEAMANAN KRIPTOGRAFI'; Halaman 14, 'PERAN KRIPTOGRAFI DALAM KEAMANAN SIBER'"
+    },
+    {
+      "question": "Ketika terjadi kompromi sandi dalam suatu operasi pengamanan, langkah awal yang harus dilakukan adalah...",
+      "options": [
+        "Melanjutkan misi seperti biasa",
+        "Menghapus seluruh arsip",
+        "Mengganti kunci kriptografi dan mengidentifikasi jalur kebocoran",
+        "Membuat sandi baru tanpa analisa",
+        "Menutup jaringan selama seminggu"
+      ],
+      "correct": 2,
+      "explanation": "Respons Insiden (Incident Response) adalah prosedur yang diambil ketika insiden keamanan terjadi. Langkahnya termasuk meminimalkan kerusakan (mengganti kunci) dan mencegah terulangnya insiden (mengidentifikasi jalur kebocoran).",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 26, 'Respons Insiden (Incident Response)'"
+    },
+    {
+      "question": "Salah satu cara mencegah serangan siber terhadap sistem intelijen adalah...",
+      "options": [
+        "Membuka jaringan untuk semua perangkat",
+        "Melarang penggunaan kata sandi",
+        "Menerapkan sistem deteksi intrusi dan firewall berlapis",
+        "Menonaktifkan antivirus",
+        "Menggunakan jaringan publik secara rutin"
+      ],
+      "correct": 2,
+      "explanation": "Kerangka strategis keamanan siber terdiri dari Pencegahan (menggunakan firewall, antivirus, enkripsi) dan Deteksi (menggunakan sistem pemantauan seperti SIEM dan IDS/IPS).",
+      "reference": "File 'INTELIJEN 8 KAMSIBER & KRIPTOGRAFI.pptx', Halaman 8, 'KERANGKA STRATEGIS KEAMANAN SIBER'"
+    },
+    {
+      "question": "Apa alasan utama perlunya integrasi antara unit intelijen dan tim keamanan siber nasional?",
+      "options": [
+        "Untuk efisiensi anggaran",
+        "Untuk mempercepat pelaporan ke publik",
+        "Untuk membentuk kolaborasi dalam mendeteksi, merespons, dan mencegah ancaman siber yang bersifat strategis",
+        "Supaya lebih populer di media",
+        "Agar dapat membentuk partai siber"
+      ],
+      "correct": 2,
+      "explanation": "Teori Komunitas Intelijen dan Teori Intelijen Siber sama-sama menekankan pentingnya kolaborasi dan berbagi informasi antar badan untuk menghadapi ancaman yang kompleks dan lintas batas.",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 15, 'TEORI KOMUNITAS INTELIJEN'; Halaman 17, 'TEORI INTELIJEN SIBER'"
+    },
+    {
+      "question": "Dalam operasi intelijen pengamanan terhadap kegiatan pejabat negara, aspek kriptografi paling krusial adalah...",
+      "options": [
+        "Kecepatan transmisi data",
+        "Biaya enkripsi",
+        "Kerahasiaan dan autentikasi pesan antara petugas pengamanan dan pusat komando",
+        "Jumlah perangkat yang digunakan",
+        "Warna antarmuka sistem"
+      ],
+      "correct": 2,
+      "explanation": "Dua dari empat tujuan utama kriptografi adalah Kerahasiaan (Confidentiality) dan Otentikasi (Authentication), yang sangat krusial untuk melindungi komunikasi operasional dalam misi pengamanan.",
+      "reference": "File 'INTELIJEN 8 KAMSIBER & KRIPTOGRAFI.pptx', Halaman 12, 'KEAMANAN KRIPTOGRAFI'"
+    },
+    {
+      "question": "Mengapa operasi pengamanan VVIP memerlukan pendekatan siber-intelijen yang terpadu?",
+      "options": [
+        "Karena komunikasi digital tidak penting",
+        "Agar VVIP dapat menggunakan media sosial",
+        "Karena ancaman tidak hanya fisik tetapi juga digital seperti penyadapan dan sabotase informasi",
+        "Agar dapat membuat promosi acara",
+        "Untuk mempermudah wartawan"
+      ],
+      "correct": 2,
+      "explanation": "Lanskap ancaman modern telah berevolusi. Ancaman terhadap VVIP tidak lagi hanya fisik, tetapi juga mencakup domain digital. Oleh karena itu, intelijen siber diperlukan untuk mendeteksi dan mencegah ancaman digital.",
+      "reference": "File 'INTELIJEN FULL.pptx', Halaman 23, 'ERA DISRUPSI TEKNOLOGI DAN ANCAMAN HIBRIDA'"
+    },
+    {
+      "question": "Apa tujuan utama dari pembuatan skenario operasi intelijen pengamanan?",
+      "options": [
+        "Mempersulit operasi",
+        "Menekan biaya operasional",
+        "Memberikan gambaran pelaksanaan yang sistematis dan terencana",
+        "Menyederhanakan birokrasi",
+        "Menentukan posisi geografi operasi"
+      ],
+      "correct": 2,
+      "explanation": "Skenario intelijen adalah rancangan atau simulasi yang disusun sebagai alat bantu dalam perencanaan, latihan, dan pengambilan keputusan, sehingga memberikan gambaran pelaksanaan yang sistematis.",
+      "reference": "File 'INTELIJEN 14-15 JUKNIS OPS.pptx', Halaman 5, 'SKENARIO INTELIJEN'"
+    },
+    {
+      "question": "Petunjuk Teknis (Juknis) dalam operasi intelijen digunakan untuk...",
+      "options": [
+        "Menyusun naskah akademik",
+        "Memfasilitasi audit keuangan",
+        "Memberikan arahan teknis pelaksanaan kegiatan lapangan secara sistematis",
+        "Mengatur distribusi logistik",
+        "Membuat laporan tahunan"
+      ],
+      "correct": 2,
+      "explanation": "Juknis adalah dokumen resmi berisi penjelasan rinci, langkah-langkah, dan prosedur pelaksanaan suatu kegiatan agar dapat dilaksanakan sesuai standar. Juknis bersifat praktis dan operasional untuk pelaksana di lapangan.",
+      "reference": "File 'INTELIJEN 14-15 JUKNIS OPS.pptx', Halaman 15, 'PETUNJUK TEKNIS'"
+    },
+    {
+      "question": "Yang bukan merupakan komponen utama dalam petunjuk teknis operasi intelijen adalah...",
+      "options": [
+        "Tujuan dan sasaran",
+        "Metode kerja",
+        "Rencana anggaran belanja",
+        "Tugas dan tanggung jawab",
+        "Waktu pelaksanaan"
+      ],
+      "correct": 2,
+      "explanation": "Juknis menjelaskan 'apa, siapa, bagaimana, dan kapan' suatu kegiatan dilakukan. Sementara operasi secara keseluruhan memerlukan anggaran, Rencana Anggaran Belanja biasanya berada dalam dokumen perencanaan yang lebih tinggi, bukan di dalam Juknis yang berfokus pada prosedur teknis.",
+      "reference": "File 'INTELIJEN 14-15 JUKNIS OPS.pptx', Halaman 15, 'Karakteristik Petunjuk Teknis (Juknis)'"
+    },
+    {
+      "question": "Mengapa administrasi intelijen sangat penting dalam setiap operasi?",
+      "options": [
+        "Untuk mengurangi laporan tertulis",
+        "Agar data mudah disebarluaskan",
+        "Menjamin dokumentasi, akuntabilitas, dan kesinambungan kegiatan intelijen",
+        "Supaya operasi lebih rahasia",
+        "Untuk menghentikan kegiatan intelijen"
+      ],
+      "correct": 2,
+      "explanation": "Juknis Admintel memberikan standar agar setiap kegiatan intelijen terdokumentasi secara tertib, rapi, dan dapat dipertanggungjawabkan (akuntabilitas).",
+      "reference": "File 'INTELIJEN 15 JUKNIS ADMINTEL.pptx', Halaman 2, 'Fungsinya'"
+    },
+    {
+      "question": "Salah satu fungsi utama administrasi dalam intelijen adalah...",
+      "options": [
+        "Menyaring calon agen",
+        "Menyusun strategi politik",
+        "Mengarsipkan dan mengamankan dokumen serta produk intelijen",
+        "Menghapus data rahasia",
+        "Melatih agen lapangan"
+      ],
+      "correct": 2,
+      "explanation": "Fungsi Juknis Admintel secara spesifik mencakup tata kelola administrasi mulai dari pencatatan, pelaporan, pengarsipan, hingga distribusi hasil intelijen.",
+      "reference": "File 'INTELIJEN 15 JUKNIS ADMINTEL.pptx', Halaman 2, 'Fungsinya'"
+    },
+    {
+      "question": "Dokumen intelijen yang berisi evaluasi dan saran atas situasi tertentu disebut...",
+      "options": [
+        "Berita acara",
+        "Laporan harian",
+        "Format intelijen analitis",
+        "Berita intelijen terbuka",
+        "Nota dinas"
+      ],
+      "correct": 2,
+      "explanation": "Produk intelijen adalah hasil dari proses analisis dan produksi. Produk seperti Penilaian Ancaman (Threat Assessment) atau Estimasi Intelijen Nasional (NIE) bersifat analitis dan berisi evaluasi serta saran.",
+      "reference": "File 'INTELIJEN tambahan ORG & GIAT.pptx', Halaman 9, 'Contoh produk intelijen strategis'"
+    },
+    {
+      "question": "Dalam sistem kerja intelijen, format intelijen digunakan untuk...",
+      "options": [
+        "Mengubah data menjadi grafik",
+        "Mengkomunikasikan hasil analisis secara baku dan terstruktur",
+        "Menyaring informasi hoaks",
+        "Mengatur jadwal operasional",
+        "Menyusun bahan ajar"
+      ],
+      "correct": 1,
+      "explanation": "Format Intelijen adalah susunan baku atau pola penulisan standar yang digunakan untuk menyusun produk-produk intelijen agar konsisten, lengkap, dan mudah dipahami oleh pembaca.",
+      "reference": "File 'INTELIJEN 15 JUKNIS ADMINTEL.pptx', Halaman 5, 'FORMAT INTELIJEN #'"
+    },
+    {
+      "question": "Skenario operasi pengamanan sebaiknya disusun berdasarkan...",
+      "options": [
+        "Preferensi pejabat",
+        "Situasi aktual dan potensi ancaman di lapangan",
+        "Hasil pemilu",
+        "Peraturan kepegawaian",
+        "Jadwal acara protokoler"
+      ],
+      "correct": 1,
+      "explanation": "Dasar penyusunan skenario intelijen meliputi analisis ancaman, perkiraan medan operasi, kekuatan dan kelemahan lawan, serta dinamika situasi. Ini semua merujuk pada kondisi aktual dan potensi ancaman.",
+      "reference": "File 'INTELIJEN 14-15 JUKNIS OPS.pptx', Halaman 5, 'Dasar penyusunan skenario intelijen'"
+    },
+    {
+      "question": "Manakah dari berikut ini yang termasuk produk administrasi intelijen?",
+      "options": [
+        "Film dokumenter",
+        "Laporan intelijen, berita intelijen, dan petunjuk pelaksanaan",
+        "Sandi negara",
+        "Aplikasi chat terenkripsi",
+        "Sensor elektronik"
+      ],
+      "correct": 1,
+      "explanation": "Produk intelijen mencakup laporan dan berita intelijen. Petunjuk pelaksanaan adalah dokumen administratif yang mengatur kegiatan. Keduanya berada dalam lingkup administrasi intelijen.",
+      "reference": "File 'INTELIJEN 15 JUKNIS ADMINTEL.pptx', Halaman 2 & 3"
+    },
+    {
+      "question": "Fungsi dari berita intelijen adalah...",
+      "options": [
+        "Memberi hiburan kepada pengguna",
+        "Menyampaikan data mentah kepada masyarakat umum",
+        "Menyampaikan informasi hasil pengolahan intelijen secara periodik",
+        "Mengganti laporan keuangan",
+        "Memberi laporan hukum"
+      ],
+      "correct": 2,
+      "explanation": "Pembaruan Intelijen Rutin (Intelligence Updates) adalah produk berkala (harian, mingguan) yang memberikan ringkasan perkembangan terkini. Berita intelijen adalah salah satu bentuknya.",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 26, '4. Pembaruan Intelijen Rutin (Intelligence Updates)'"
+    },
+    {
+      "question": "Petunjuk pelaksanaan yang rinci dan aplikatif dalam lapangan disebut...",
+      "options": [
+        "Rencana strategis",
+        "Konsep dokumen negara",
+        "Petunjuk teknis (juknis)",
+        "Taktik militer",
+        "Protokol diplomasi"
+      ],
+      "correct": 2,
+      "explanation": "Juknis adalah dokumen yang paling detail dalam menjelaskan 'bagaimana caranya' suatu kegiatan dilaksanakan, membuatnya paling rinci dan aplikatif di lapangan.",
+      "reference": "File 'INTELIJEN 14-15 JUKNIS OPS.pptx', Halaman 16, 'Perbedaan singkat dengan dokumen sejenis'"
+    },
+    {
+      "question": "Format intelijen dalam bentuk “laporan analisa tugas” bertujuan untuk...",
+      "options": [
+        "Mengelola dana operasi",
+        "Menentukan metode penyamaran",
+        "Mengidentifikasi kebutuhan informasi dalam suatu kegiatan",
+        "Menentukan cara berpakaian agen",
+        "Mencari sponsor operasi"
+      ],
+      "correct": 2,
+      "explanation": "Analisa Tugas berfungsi untuk memperdalam pemahaman terhadap kebutuhan intelijen, yang hasilnya digunakan untuk merumuskan kebutuhan intelijen yang spesifik dan membangun Rencana Pengumpulan (Collection Plan).",
+      "reference": "File 'INTELIJEN tambahan RPI.pptx', Halaman 8, 'Analisis Tugas biasanya mendahului Analisis Sasaran...'"
+    },
+    {
+      "question": "Produk intelijen yang digunakan oleh pimpinan untuk mengambil keputusan strategis disebut...",
+      "options": [
+        "Berita harian",
+        "Info publik",
+        "Produk akhir intelijen",
+        "Instruksi kerja",
+        "Protokol media"
+      ],
+      "correct": 2,
+      "explanation": "Produk Intelijen adalah hasil akhir dari proses perputaran intelijen yang disusun secara spesifik untuk mendukung pengambilan keputusan pimpinan.",
+      "reference": "File 'INTELIJEN 15 JUKNIS ADMINTEL.pptx', Halaman 3, 'PRODUK INTELIJEN'"
+    },
+    {
+      "question": "Salah satu unsur penting dalam skenario operasi intelijen pengamanan adalah...",
+      "options": [
+        "Keterangan jumlah peserta",
+        "Daftar absensi",
+        "Proyeksi situasi dan kontinjensi",
+        "Rencana makan siang",
+        "Surat tugas"
+      ],
+      "correct": 2,
+      "explanation": "Skenario intelijen digunakan untuk penyusunan rencana kontinjensi (contingency planning) dan membuat proyeksi atau skenario ke depan untuk mengantisipasi berbagai kemungkinan.",
+      "reference": "File 'INTELIJEN 14-15 JUKNIS OPS.pptx', Halaman 5, 'SKENARIO INTELIJEN'"
+    },
+    {
+      "question": "Format intelijen yang digunakan dalam tahap pengumpulan informasi biasanya memuat...",
+      "options": [
+        "Analisis lanjutan dan evaluasi",
+        "Jadwal dinas staf",
+        "Identifikasi sumber, jenis informasi, dan waktu pengumpulan",
+        "Laporan keuangan",
+        "Catatan kehadiran agen"
+      ],
+      "correct": 2,
+      "explanation": "Pada tahap pengolahan, informasi dinilai berdasarkan tingkat kepercayaan sumber dan kebenaran isinya. Hal ini mengharuskan laporan dari tahap pengumpulan memuat metadata penting seperti sumber, isi, dan waktu.",
+      "reference": "File 'INTELIJEN 6 OLAH GUN.pptx', Halaman 4, 'NERACA PENILAIAN'"
+    }
+]

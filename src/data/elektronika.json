@@ -1,0 +1,338 @@
+[
+  {
+    "question": "Istilah 'IoT' yang merujuk pada koneksi antara perangkat elektronik dengan internet merupakan singkatan dari...",
+    "options": [
+      "Internal of Technology",
+      "Internet of Things",
+      "Integrated on Technology",
+      "Internet of Telemetry"
+    ],
+    "correct": 1,
+    "explanation": "IoT adalah singkatan dari Internet of Things, sebuah konsep di mana objek fisik dilengkapi dengan sensor dan konektivitas untuk terhubung dan bertukar data melalui internet.",
+    "reference": "Materi: Konsep Dasar IoT"
+  },
+  {
+    "question": "Hukum yang menyatakan bahwa perubahan medan magnet dapat menimbulkan gaya gerak listrik (GGL) induksi adalah...",
+    "options": [
+      "Hukum Ohm",
+      "Hukum Kirchhoff",
+      "Hukum Faraday",
+      "Hukum Coulomb"
+    ],
+    "correct": 2,
+    "explanation": "Hukum Induksi Faraday adalah prinsip dasar elektromagnetisme yang menjelaskan bagaimana medan magnet yang berubah seiring waktu menciptakan medan listrik (GGL Induksi).",
+    "reference": "Materi: Hukum Induksi Faraday"
+  },
+  {
+    "question": "Komponen elektronika aktif yang terdiri dari gabungan jutaan transistor, dioda, dan komponen lain dalam kemasan kecil disebut...",
+    "options": [
+      "Printed Circuit Board (PCB)",
+      "Central Processing Unit (CPU)",
+      "Resistor Array",
+      "Integrated Circuit (IC)"
+    ],
+    "correct": 3,
+    "explanation": "Integrated Circuit (IC) atau sirkuit terpadu adalah sebuah komponen semikonduktor kecil yang di dalamnya terdapat rangkaian elektronik yang terdiri dari banyak komponen individual.",
+    "reference": "Materi: Sirkuit Terpadu (IC)"
+  },
+  {
+    "question": "Komponen atau rangkaian elektronika yang berfungsi untuk menghasilkan sinyal listrik periodik (gelombang) adalah...",
+    "options": [
+      "Osilator",
+      "Amplifier",
+      "Filter",
+      "Rectifier"
+    ],
+    "correct": 0,
+    "explanation": "Osilator adalah rangkaian yang menghasilkan sinyal keluaran yang berulang (periodik) tanpa memerlukan sinyal masukan, contohnya gelombang sinus atau kotak.",
+    "reference": "Materi: Osilator Elektronik"
+  },
+  {
+    "question": "Satuan untuk mengukur nilai kapasitansi dari sebuah kapasitor adalah...",
+    "options": [
+      "Henry",
+      "Ohm",
+      "Farad",
+      "Volt"
+    ],
+    "correct": 2,
+    "explanation": "Farad (F) adalah satuan SI untuk kapasitansi, yang mengukur kemampuan suatu komponen (kapasitor) untuk menyimpan muatan listrik.",
+    "reference": "Materi: Kapasitansi dan Kapasitor"
+  },
+  {
+    "question": "Komponen elektronika aktif yang terbuat dari bahan semikonduktor dan berfungsi utama sebagai penyearah tegangan listrik adalah...",
+    "options": [
+      "Transistor",
+      "Dioda",
+      "Induktor",
+      "Resistor"
+    ],
+    "correct": 1,
+    "explanation": "Dioda memungkinkan arus listrik mengalir hanya dalam satu arah (forward bias) dan menghambatnya dari arah sebaliknya (reverse bias), sehingga berfungsi sebagai penyearah.",
+    "reference": "Materi: Dioda Penyearah"
+  },
+  {
+    "question": "Fenomena di mana medan listrik dan medan magnet saling berhubungan dan merambat bersama sebagai gelombang disebut...",
+    "options": [
+      "Resonansi",
+      "Induktansi",
+      "Elektrostatik",
+      "Elektromagnetik"
+    ],
+    "correct": 3,
+    "explanation": "Elektromagnetik adalah cabang fisika yang mempelajari hubungan antara medan listrik dan medan magnet, yang dapat merambat sebagai gelombang elektromagnetik seperti cahaya dan radio.",
+    "reference": "Materi: Gelombang Elektromagnetik"
+  },
+  {
+    "question": "Protokol komunikasi ringan berbasis publish-subscribe yang umum digunakan dalam perangkat IoT adalah...",
+    "options": [
+      "HTTP",
+      "FTP",
+      "MQTT",
+      "SMTP"
+    ],
+    "correct": 2,
+    "explanation": "MQTT (Message Queuing Telemetry Transport) dirancang untuk koneksi dengan perangkat yang memiliki keterbatasan sumber daya dan bandwidth jaringan yang rendah, khas pada aplikasi IoT.",
+    "reference": "Materi: Protokol MQTT"
+  },
+  {
+    "question": "Komponen elektronika pasif yang dapat menyimpan energi dalam bentuk medan magnet adalah...",
+    "options": [
+      "Kapasitor",
+      "Resistor",
+      "Dioda",
+      "Induktor"
+    ],
+    "correct": 3,
+    "explanation": "Induktor, yang biasanya berupa lilitan kawat, akan menghasilkan medan magnet ketika dialiri arus listrik dan menyimpan energi dalam medan tersebut.",
+    "reference": "Materi: Induktor"
+  },
+  {
+    "question": "Contoh gelombang elektromagnetik (GEM) yang memiliki frekuensi lebih besar dari cahaya tampak dan digunakan dalam bidang medis adalah...",
+    "options": [
+      "Gelombang Radio",
+      "Sinar Inframerah",
+      "Sinar-X",
+      "Gelombang Mikro"
+    ],
+    "correct": 2,
+    "explanation": "Sinar-X memiliki energi dan frekuensi yang sangat tinggi, memungkinkannya menembus jaringan lunak tubuh dan digunakan untuk pencitraan medis (rontgen).",
+    "reference": "Materi: Spektrum Elektromagnetik"
+  },
+  {
+    "question": "Waktu yang dibutuhkan untuk menyelesaikan satu getaran atau satu putaran penuh disebut...",
+    "options": [
+      "Frekuensi",
+      "Amplitudo",
+      "Periode",
+      "Fase"
+    ],
+    "correct": 2,
+    "explanation": "Periode (T) adalah durasi waktu dari satu siklus lengkap dalam suatu peristiwa periodik. Satuannya adalah detik (s).",
+    "reference": "Materi: Periode dan Frekuensi"
+  },
+  {
+    "question": "Gerak bolak-balik suatu benda di sekitar titik setimbangnya, yang merupakan proyeksi dari gerak melingkar beraturan, disebut...",
+    "options": [
+      "Gerak Lurus Berubah Beraturan",
+      "Gerak Jatuh Bebas",
+      "Getaran Harmonik Sederhana",
+      "Gerak Parabola"
+    ],
+    "correct": 2,
+    "explanation": "Getaran Harmonik Sederhana (GHS) adalah model dasar dari gerak osilasi di mana gaya pemulih sebanding dengan simpangan dari posisi setimbang.",
+    "reference": "Materi: Gerak Harmonik Sederhana"
+  },
+  {
+    "question": "Bahan yang sangat sulit menghantarkan arus listrik karena memiliki resistivitas yang tinggi disebut...",
+    "options": [
+      "Konduktor",
+      "Semikonduktor",
+      "Isolator",
+      "Superkonduktor"
+    ],
+    "correct": 2,
+    "explanation": "Isolator (atau dielektrik) memiliki elektron valensi yang terikat kuat sehingga tidak mudah bergerak dan menghantarkan arus listrik.",
+    "reference": "Materi: Konduktor dan Isolator"
+  },
+  {
+    "question": "Kapasitansi kapasitor dipengaruhi oleh sifat bahan dielektrik di antara pelatnya, yang disebut...",
+    "options": [
+      "Resistivitas",
+      "Permeabilitas",
+      "Konduktivitas",
+      "Permitivitas"
+    ],
+    "correct": 3,
+    "explanation": "Permitivitas adalah ukuran kemampuan suatu bahan untuk menyimpan energi listrik dalam medan listrik. Semakin tinggi permitivitas bahan dielektrik, semakin besar kapasitansinya.",
+    "reference": "Materi: Dielektrik dan Permitivitas"
+  },
+  {
+    "question": "Sekumpulan komponen elektronika yang dihubungkan satu sama lain untuk menjalankan fungsi tertentu disebut...",
+    "options": [
+      "Protokol",
+      "Algoritma",
+      "Rangkaian",
+      "Sistem"
+    ],
+    "correct": 2,
+    "explanation": "Rangkaian elektronik adalah interkoneksi dari berbagai komponen elektronik (seperti resistor, kapasitor, transistor) yang dirancang untuk melakukan tugas tertentu.",
+    "reference": "Materi: Rangkaian Elektronik"
+  },
+  {
+    "question": "Bahan seperti Silikon dan Germanium yang bersifat isolator pada suhu rendah namun dapat menjadi konduktor dalam kondisi tertentu disebut...",
+    "options": [
+      "Konduktor",
+      "Isolator",
+      "Semikonduktor",
+      "Superkonduktor"
+    ],
+    "correct": 2,
+    "explanation": "Semikonduktor memiliki sifat kelistrikan di antara konduktor dan isolator, yang dapat dikontrol dengan doping atau suhu, menjadi dasar dari semua komponen elektronik modern.",
+    "reference": "Materi: Semikonduktor"
+  },
+  {
+    "question": "Simpangan atau jarak terjauh dari titik setimbang dalam suatu getaran disebut...",
+    "options": [
+      "Frekuensi",
+      "Periode",
+      "Amplitudo",
+      "Panjang Gelombang"
+    ],
+    "correct": 2,
+    "explanation": "Amplitudo adalah ukuran dari besarnya osilasi atau getaran, yang menunjukkan energi maksimum dari getaran tersebut.",
+    "reference": "Materi: Amplitudo Getaran"
+  },
+  {
+    "question": "Gelombang elektromagnetik (GEM) termasuk jenis gelombang di mana arah getarnya tegak lurus dengan arah rambatnya, yang disebut gelombang...",
+    "options": [
+      "Longitudinal",
+      "Transversal",
+      "Mekanik",
+      "Stasioner"
+    ],
+    "correct": 1,
+    "explanation": "Pada gelombang transversal, osilasi (misalnya, medan listrik dan magnet pada GEM) terjadi tegak lurus terhadap arah perambatan energi gelombang.",
+    "reference": "Materi: Gelombang Transversal"
+  },
+  {
+    "question": "Banyaknya getaran atau gelombang yang terjadi dalam satu detik disebut...",
+    "options": [
+      "Periode",
+      "Amplitudo",
+      "Frekuensi",
+      "Fase"
+    ],
+    "correct": 2,
+    "explanation": "Frekuensi (f) adalah kebalikan dari periode (f = 1/T) dan diukur dalam satuan Hertz (Hz), yang setara dengan satu siklus per detik.",
+    "reference": "Materi: Frekuensi"
+  },
+  {
+    "question": "Resistor yang nilainya dapat diubah-ubah, seperti potensiometer dan trimpot, termasuk dalam jenis resistor...",
+    "options": [
+      "Tetap (Fixed)",
+      "Variabel",
+      "Film Karbon",
+      "SMD"
+    ],
+    "correct": 1,
+    "explanation": "Resistor variabel dirancang agar nilai hambatannya dapat disesuaikan secara manual, biasanya digunakan untuk mengontrol volume, kecerahan, atau parameter lain dalam sebuah rangkaian.",
+    "reference": "Materi: Resistor Variabel"
+  },
+  {
+    "question": "Selain varco, contoh kapasitor yang nilainya dapat diubah-ubah (variabel) adalah...",
+    "options": [
+      "Kapasitor Keramik",
+      "Kapasitor Elektrolit",
+      "Trimmer",
+      "Kapasitor Mika"
+    ],
+    "correct": 2,
+    "explanation": "Kapasitor trimmer adalah kapasitor variabel berukuran kecil yang dirancang untuk penyesuaian halus (kalibrasi) pada rangkaian, biasanya disetel sekali dengan obeng.",
+    "reference": "Materi: Kapasitor Variabel"
+  },
+  {
+    "question": "Resistor yang memiliki nilai hambatan yang sudah ditentukan dari pabrik dan tidak dapat diubah disebut...",
+    "options": [
+      "Potensiometer",
+      "Trimpot",
+      "Resistor Tetap (Fixed Resistor)",
+      "Rheostat"
+    ],
+    "correct": 2,
+    "explanation": "Fixed resistor atau resistor tetap adalah jenis resistor yang paling umum, di mana nilai hambatannya konstan dan ditunjukkan oleh kode warna atau angka pada badannya.",
+    "reference": "Materi: Resistor Tetap"
+  },
+  {
+    "question": "Gelang warna emas atau perak pada resistor menunjukkan nilai...",
+    "options": [
+      "Digit pertama",
+      "Faktor pengali",
+      "Koefisien suhu",
+      "Toleransi"
+    ],
+    "correct": 3,
+    "explanation": "Gelang terakhir pada resistor 4 atau 5 gelang menunjukkan toleransi, yaitu persentase penyimpangan maksimum dari nilai hambatannya (Emas: ±5%, Perak: ±10%).",
+    "reference": "Materi: Kode Warna Resistor"
+  },
+  {
+    "question": "Alat ukur yang digunakan untuk menampilkan bentuk sinyal listrik dalam domain waktu adalah...",
+    "options": [
+      "Multimeter",
+      "Generator Sinyal",
+      "Osiloskop",
+      "Spektrum Analyzer"
+    ],
+    "correct": 2,
+    "explanation": "Osiloskop adalah alat ukur elektronik yang memetakan tegangan sinyal sebagai fungsi waktu, menghasilkan grafik yang dapat digunakan untuk menganalisis bentuk gelombang.",
+    "reference": "Materi: Osiloskop"
+  },
+  {
+    "question": "Wilayah di sekitar sambungan P-N pada dioda yang kehabisan pembawa muatan bebas disebut...",
+    "options": [
+      "Daerah Konduksi",
+      "Pita Valensi",
+      "Daerah Deplesi (Depletion Region)",
+      "Celah Energi"
+    ],
+    "correct": 2,
+    "explanation": "Daerah deplesi terbentuk karena difusi elektron dan hole melintasi sambungan P-N, menciptakan daerah yang bersifat isolator dan menghasilkan tegangan penghalang internal.",
+    "reference": "Materi: Sambungan P-N dan Daerah Deplesi"
+  },
+  {
+    "question": "Gelombang elektromagnetik yang memiliki rentang frekuensi terendah dan umum digunakan untuk siaran dan komunikasi adalah gelombang...",
+    "options": [
+      "Radio",
+      "Inframerah",
+      "Ultraviolet",
+      "Gamma"
+    ],
+    "correct": 0,
+    "explanation": "Gelombang radio memiliki panjang gelombang terpanjang dalam spektrum elektromagnetik, sehingga ideal untuk transmisi jarak jauh seperti siaran radio AM/FM, TV, dan komunikasi nirkabel.",
+    "reference": "Materi: Gelombang Radio"
+  },
+  {
+    "question": "Komponen elektronika pasif yang berfungsi untuk menyimpan muatan listrik dalam bentuk medan listrik adalah...",
+    "options": [
+      "Induktor",
+      "Kapasitor",
+      "Resistor",
+      "Transformator"
+    ],
+    "correct": 1,
+    "explanation": "Kapasitor terdiri dari dua pelat konduktor yang dipisahkan oleh bahan dielektrik, yang memungkinkannya menyimpan energi potensial listrik saat diberi tegangan.",
+    "reference": "Materi: Kapasitor"
+  },
+  {
+    "question": "Komponen elektronika aktif yang berfungsi sebagai penguat sinyal atau saklar otomatis adalah...",
+    "options": [
+      "Dioda",
+      "Resistor",
+      "Kapasitor",
+      "Transistor"
+    ],
+    "correct": 3,
+    "explanation": "Transistor adalah komponen semikonduktor fundamental yang dapat menguatkan sinyal listrik kecil menjadi besar atau bertindak sebagai saklar yang dikendalikan secara elektronik.",
+    "reference": "Materi: Transistor"
+  }
+]

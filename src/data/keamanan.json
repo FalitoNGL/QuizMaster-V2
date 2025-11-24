@@ -1,0 +1,702 @@
+[
+    {
+        "question": "Dalam Perpres No. 71 Tahun 2019, apa yang dimaksud dengan transaksi elektronik?",
+        "options": ["Transaksi di pasar tradisional", "Transaksi uang tunai", "Setiap tindakan hukum yang dilakukan dengan menggunakan sistem elektronik", "Transaksi jual beli secara langsung"],
+        "correct": 2,
+        "explanation": "Perpres No. 71 Tahun 2019 mengatur penyelenggaraan sistem dan transaksi elektronik, sehingga transaksi elektronik adalah setiap tindakan hukum yang menggunakan sistem elektronik.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Fungsi \"audit trail\" adalah untuk...",
+        "options": ["Menyimpan data", "Melacak perubahan", "Menghapus data", "Mempercepat koneksi"],
+        "correct": 1,
+        "explanation": "Audit trail adalah mekanisme untuk merekam dan melacak perubahan data atau sistem guna memonitor integritas dan aktivitas sistem.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 21"
+    },
+    {
+        "question": "Malware yang menyamar sebagai program yang sah disebut...",
+        "options": ["Spyware", "Worm", "Virus", "Trojan horse"],
+        "correct": 3,
+        "explanation": "Trojan horse adalah malware yang menyamar sebagai perangkat lunak sah untuk mengelabui pengguna agar menjalankannya.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 28"
+    },
+    {
+        "question": "Perpres No. 71 Tahun 2019 mengatur tentang perlindungan data pribadi yang dikelola oleh?",
+        "options": ["Lembaga swasta", "Instansi pemerintah dan badan usaha yang menyediakan sistem elektronik", "Organisasi internasional", "Pengguna internet"],
+        "correct": 1,
+        "explanation": "Perpres mengatur perlindungan data pada penyelenggara sistem elektronik baik instansi pemerintah maupun badan usaha yang menyediakan layanan sistem elektronik.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Berikut ini yang bukan merupakan tujuan SAM adalah ...",
+        "options": ["Mengurangi biaya software", "Meningkatkan produktivitas", "Menegakkan kepatuhan", "Menghapus semua lisensi"],
+        "correct": 3,
+        "explanation": "Tujuan SAM adalah mengurangi biaya perangkat lunak, menegakkan kepatuhan, meningkatkan produktivitas, bukan menghapus lisensi secara keseluruhan.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 27"
+    },
+    {
+        "question": "Apa sanksi yang dapat dikenakan bagi pelanggar UU ITE seperti menyebarkan informasi palsu yang merugikan orang lain?",
+        "options": ["Pemberian sertifikat penghargaan", "Pemecatan dari pekerjaan oleh pemerintah", "Pemutusan akses internet permanen", "Hukuman pidana atau denda"],
+        "correct": 3,
+        "explanation": "UU ITE mengatur sanksi pidana dan denda bagi pelanggar yang menyebarkan informasi palsu/hoaks yang merugikan orang lain.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 16"
+    },
+    {
+        "question": "ISO/IEC 27001 adalah framework untuk ...",
+        "options": ["Desain jaringan", "Manajemen risiko", "Pelatihan pegawai", "Perhitungan aset"],
+        "correct": 1,
+        "explanation": "ISO/IEC 27001 adalah standar internasional untuk sistem manajemen keamanan informasi termasuk manajemen risiko keamanan informasi.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 42"
+    },
+    {
+        "question": "Dokumen kebijakan retensi data harus ...",
+        "options": ["Diabaikan", "Diperbarui secara berkala", "Disimpan selamanya", "Dihapus setiap tahun"],
+        "correct": 1,
+        "explanation": "Kebijakan retensi data harus selalu diperbarui secara berkala agar tetap relevan dengan proses bisnis dan peraturan yang berlaku.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 31"
+    },
+    {
+        "question": "Kontrol untuk serangan phishing pada e-mail adalah ...",
+        "options": ["Memindahkan server", "Memasang anti-phishing", "Mengabaikan risiko", "Menghapus akun e-mail"],
+        "correct": 1,
+        "explanation": "Anti-phishing pada email digunakan sebagai kontrol untuk mencegah serangan phishing yang termasuk serangan perangkat lunak.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 65"
+    },
+    {
+        "question": "Data nilai mahasiswa termasuk klasifikasi aset ...",
+        "options": ["Informasi", "Fisik", "Jaringan", "Virtual"],
+        "correct": 0,
+        "explanation": "Data nilai mahasiswa adalah aset informasi yang harus dilindungi karena berisi data sensitif organisasi pendidikan.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 9"
+    },
+    {
+        "question": "Etika dalam keamanan informasi ditetapkan oleh...",
+        "options": ["Humas perusahaan", "Pemerintah", "Teknisi komputer", "Profesional dan asosiasi"],
+        "correct": 3,
+        "explanation": "Etika keamanan informasi diatur dan dipelihara oleh organisasi profesional seperti ACM, ISSA, (ISC)2, ISACA.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 55"
+    },
+    {
+        "question": "Jika organisasi memilih acceptance, artinya ...",
+        "options": ["Risiko diabaikan karena biaya penanganan lebih besar", "Semua kontrol diterapkan", "Aset dihapus", "Risiko dialihkan ke pihak lain"],
+        "correct": 0,
+        "explanation": "Strategi acceptance artinya risiko dianggap dapat diterima sehingga tidak diambil tindakan pengendalian karena biaya penanganan lebih besar daripada manfaatnya.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 71"
+    },
+    {
+        "question": "Loss magnitude diperoleh dari ...",
+        "options": ["Likelihood × Attack success probability", "Likelihood × Probable loss", "Asset value × Probable loss", "Asset value × Attack success probability"],
+        "correct": 2,
+        "explanation": "Loss magnitude adalah perkalian nilai aset dengan persentase kerugian yang mungkin terjadi jika serangan berhasil.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 51"
+    },
+    {
+        "question": "Data \"sangat rahasia\" di organisasi pendidikan contohnya ...",
+        "options": ["Brosur kampus", "Jadwal kuliah", "Daftar riwayat kesehatan mahasiswa", "Informasi publik"],
+        "correct": 2,
+        "explanation": "Data sangat rahasia mencakup informasi sensitif seperti riwayat kesehatan dan psikologi mahasiswa.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 25"
+    },
+    {
+        "question": "Standar bersifat...",
+        "options": ["Disarankan", "Wajib", "Tidak diperlukan", "Opsional"],
+        "correct": 1,
+        "explanation": "Standar adalah aturan yang wajib diikuti oleh organisasi untuk memenuhi persyaratan keamanan.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 8"
+    },
+    {
+        "question": "Nilai Uncertainty 10% dalam perhitungan risiko berarti bahwa ...",
+        "options": ["Estimasi 10% akurat", "Estimasi 90% akurat", "Risiko lebih dari 10% tidak diabaikan", "Tidak perlu kontrol apabila risiko kurang dari 10%"],
+        "correct": 1,
+        "explanation": "Uncertainty 10% berarti perkiraan penilaian risiko memiliki ketidakpastian 10%, sehingga tingkat akurasinya sekitar 90%.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 55"
+    },
+    {
+        "question": "Contoh kontrol fisik adalah ...",
+        "options": ["CCTV", "Enkripsi", "Password", "Firewall"],
+        "correct": 0,
+        "explanation": "Kontrol fisik seperti CCTV digunakan untuk menjaga keamanan fisik aset dan lingkungan organisasi.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 34"
+    },
+    {
+        "question": "\"Defense in Depth\" adalah strategi dengan...",
+        "options": ["Proteksi satu lapis", "Firewall tunggal", "Proteksi bertahap dan berlapis", "VPN dan jaringan"],
+        "correct": 2,
+        "explanation": "Defense in Depth adalah pendekatan pertahanan keamanan berlapis agar jika satu lapisan gagal, lapisan lain tetap melindungi aset.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 36"
+    },
+    {
+        "question": "Faktor penting dalam menyamakan persepsi etis adalah...",
+        "options": ["Media sosial", "Upah tinggi", "Hukuman", "Pendidikan"],
+        "correct": 3,
+        "explanation": "Pendidikan merupakan faktor utama dalam meratakan persepsi etis di kalangan karyawan dan masyarakat.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 50"
+    },
+    {
+        "question": "Jika seseorang melanggar etika, maka hukumannya bersifat...",
+        "options": ["Administratif", "Hukum pidana", "Finansial", "Sosial"],
+        "correct": 3,
+        "explanation": "Pelanggaran etika umumnya dihukum dengan sanksi sosial, seperti dicap tidak sopan atau dijauhi, bukan sanksi hukum resmi.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 52"
+    },
+    {
+        "question": "Kerangka kerja keamanan kecuali ...",
+        "options": ["NIST SP 800-53", "SAM", "ISO/IEC 27001", "COBIT"],
+        "correct": 1,
+        "explanation": "SAM adalah Software Asset Management, bukan kerangka kerja keamanan.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 42"
+    },
+    {
+        "question": "Siklus manajemen risiko bersifat ...",
+        "options": ["Tidak perlu dievaluasi", "Berkelanjutan", "Hanya untuk aset fisik", "Sekali saja"],
+        "correct": 1,
+        "explanation": "Siklus manajemen risiko dilakukan secara terus-menerus dan berkelanjutan.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 80"
+    },
+    {
+        "question": "Serangan \"SQL Injection\" termasuk dalam kategori...",
+        "options": ["Intersepsi", "Interupsi", "Fabrikasi", "Modifikasi"],
+        "correct": 0,
+        "explanation": "SQL Injection adalah serangan intersepsi yang mencuri dan mengakses data secara ilegal.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 36"
+    },
+    {
+        "question": "Data \"internal\" dalam organisasi boleh diakses oleh ...",
+        "options": ["Karyawan dan kontraktor resmi", "Semua pihak", "Pesaing", "Publik"],
+        "correct": 0,
+        "explanation": "Data internal hanya boleh diakses oleh pihak dalam organisasi yang berwenang.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 24"
+    },
+    {
+        "question": "Manajemen risiko dalam keamanan informasi bertujuan untuk ...",
+        "options": ["Menghilangkan semua risiko", "Menyimpan data di cloud", "Mengabaikan ancaman", "Mengurangi risiko ke tingkat yang dapat diterima"],
+        "correct": 3,
+        "explanation": "Tujuan utama manajemen risiko adalah mengendalikan risiko hingga tingkat yang dapat diterima.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 5"
+    },
+    {
+        "question": "Salah satu alasan pentingnya UU ITE adalah...",
+        "options": ["Mengganti KUHP", "Mewajibkan penggunaan media sosial", "Menjadi landasan hukum transaksi elektronik", "Mengatur semua media cetak"],
+        "correct": 2,
+        "explanation": "UU ITE menjadi dasar hukum untuk transaksi dan komunikasi elektronik di Indonesia.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "SAM adalah singkatan dari ...",
+        "options": ["Security Audit Management", "Software Asset Management", "System Access Monitor", "Storage Asset Module"],
+        "correct": 1,
+        "explanation": "SAM adalah pengelolaan aset perangkat lunak untuk efisiensi dan kepatuhan lisensi software.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 27"
+    },
+    {
+        "question": "Whiteboard termasuk dalam aset ...",
+        "options": ["Jaringan", "Manusia", "Perangkat lunak", "Fisik"],
+        "correct": 3,
+        "explanation": "Whiteboard adalah aset fisik, bukan jaringan atau perangkat lunak.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 9"
+    },
+    {
+        "question": "Contoh pelanggaran UU ITE yang berhubungan dengan privasi adalah...",
+        "options": ["Menyebar meme lucu", "Mengunduh film bajakan", "Mengedit foto untuk keperluan pribadi", "Mengakses data pribadi orang lain tanpa izin"],
+        "correct": 3,
+        "explanation": "Mengakses data pribadi tanpa izin melanggar UU ITE dan UU PDP.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 16"
+    },
+    {
+        "question": "Retensi data bertujuan untuk ...",
+        "options": ["Menyimpan data selamanya", "Mematuhi regulasi dengan menyimpan data dalam jangka waktu tertentu", "Menghapus semua data dalam rentang waktu yang sama", "Mengabaikan regulasi dengan menghapus data-data penting"],
+        "correct": 1,
+        "explanation": "Retensi data mengatur penyimpanan data sesuai ketentuan hukum dan kebutuhan bisnis selama waktu tertentu.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 31"
+    },
+    {
+        "question": "Dokumen yang memberikan langkah rinci disebut...",
+        "options": ["Baseline", "Prosedur", "Kebijakan", "Guideline"],
+        "correct": 1,
+        "explanation": "Prosedur adalah dokumen dengan instruksi langkah demi langkah untuk mencapai tujuan tertentu.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 11"
+    },
+    {
+        "question": "Ancaman \"spionase\" dalam konteks keamanan informasi berarti ...",
+        "options": ["Pemadaman listrik", "Bencana alam", "Kesalahan manusia", "Pencurian data oleh pihak tidak berwenang"],
+        "correct": 3,
+        "explanation": "Spionase adalah ancaman berupa pengintaian atau pencurian informasi secara ilegal.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 37"
+    },
+    {
+        "question": "Berikut ini yang termasuk strategi defense dalam manajemen risiko adalah ...",
+        "options": ["Mengabaikan risiko", "Memasang firewall", "Menghapus asset", "Membeli asuransi"],
+        "correct": 1,
+        "explanation": "Defense adalah strategi perlindungan seperti pemasangan firewall dan pelatihan untuk mencegah serangan.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 67"
+    },
+    {
+        "question": "Residual risk adalah ...",
+        "options": ["Risiko sisa setelah penerapan kontrol", "Risiko alam", "Risiko yang tidak teridentifikasi", "Risiko yang sudah dihilangkan"],
+        "correct": 0,
+        "explanation": "Residual risk adalah risiko yang masih tersisa setelah organisasi menerapkan kontrol pengendalian risiko.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 11"
+    },
+    {
+        "question": "Loss frequency dihitung dengan rumus ...",
+        "options": ["Likelihood × Probable loss", "Asset value × Attack success probability", "Likelihood × Attack success probability", "Asset value × Probable loss"],
+        "correct": 2,
+        "explanation": "Loss frequency adalah hasil perkalian kemungkinan terjadinya serangan dengan probabilitas keberhasilan serangan.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 46"
+    },
+    {
+        "question": "Risk appetite adalah ...",
+        "options": ["Jumlah risiko yang dapat diterima organisasi", "Daftar ancaman", "Nilai moneter aset", "Jenis kerentanan"],
+        "correct": 0,
+        "explanation": "Risk appetite adalah tingkat risiko yang masih dapat ditoleransi oleh organisasi tanpa perlu tindakan lebih lanjut.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 55"
+    },
+    {
+        "question": "Kebijakan data formal digunakan untuk ...",
+        "options": ["Menghapus aset", "Membeli software", "Menetapkan klasifikasi aset", "Mempekerjakan staf"],
+        "correct": 2,
+        "explanation": "Kebijakan formal menetapkan klasifikasi dan perlindungan aset informasi dalam organisasi.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 14"
+    },
+    {
+        "question": "Data yang termasuk RESTRICTED adalah ...",
+        "options": ["Brosur marketing", "Struktur organisasi", "Jadwal meeting", "Nomor kartu kredit"],
+        "correct": 3,
+        "explanation": "Data restricted adalah data sensitif dan rahasia seperti nomor kartu kredit yang harus dilindungi ketat.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 25"
+    },
+    {
+        "question": "Contoh eksploit adalah...",
+        "options": ["Firewall", "Backup data", "Audit sistem", "Zero-day attack"],
+        "correct": 3,
+        "explanation": "Eksploit adalah teknik memanfaatkan celah keamanan, contoh zero-day attack adalah eksploit yang memanfaatkan kerentanan yang belum diketahui publik.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 37"
+    },
+    {
+        "question": "Enkripsi data berfungsi untuk menjaga aspek...",
+        "options": ["Integrity", "Availability", "Confidentiality", "Utility"],
+        "correct": 2,
+        "explanation": "Enkripsi menjaga kerahasiaan data agar tidak dapat dibaca oleh pihak yang tidak berwenang.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 21"
+    },
+    {
+        "question": "COBIT digunakan untuk ...",
+        "options": ["Mitigasi risiko", "Manajemen proyek", "Tata kelola TI", "Pelatihan keamanan fisik"],
+        "correct": 2,
+        "explanation": "COBIT adalah framework untuk tata kelola dan manajemen teknologi informasi dalam organisasi.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 42"
+    },
+    {
+        "question": "Berikut ini merupakan standar manajemen aset kecuali:",
+        "options": ["NIST IR 7693", "DAMABOK", "NIST SP-1800-5", "ISO 9001"],
+        "correct": 3,
+        "explanation": "ISO 9001 adalah standar manajemen mutu, bukan manajemen aset.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 45"
+    },
+    {
+        "question": "Prioritas aset ditentukan dengan ...",
+        "options": ["Analisis faktor tertimbang", "Luas gedung", "Warna label", "Jumlah pegawai"],
+        "correct": 0,
+        "explanation": "Prioritas aset diukur menggunakan analisis faktor tertimbang berdasarkan kriteria penting, biaya, reputasi, dsb.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 29"
+    },
+    {
+        "question": "Nilai Risk appetite = 8 dalam studi kasus berarti bahwa ...",
+        "options": ["Nilai Risiko sisa di bawah 8 dapat diterima", "Nilai aset maksimal 8", "Tidak ada kontrol diperlukan", "Nilai Risiko sisa di atas 8 dapat diterima"],
+        "correct": 0,
+        "explanation": "Jika risiko residual lebih rendah dari risk appetite, maka risiko tersebut diterima oleh organisasi.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 58"
+    },
+    {
+        "question": "Menurut Whitman, aset meliputi seluruh elemen berikut, kecuali..",
+        "options": ["Anggaran", "Orang", "Hardware", "Prosedur"],
+        "correct": 0,
+        "explanation": "Menurut Whitman, aset adalah orang, prosedur, hardware, software, data, jaringan, bukan anggaran.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 5"
+    },
+    {
+        "question": "The Computer Misuse Act berasal dari negara...",
+        "options": ["Australia", "Inggris", "Indonesia", "AS"],
+        "correct": 1,
+        "explanation": "Computer Misuse Act adalah undang-undang keamanan komputer yang berlaku di Inggris sejak 1990.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 24"
+    },
+    {
+        "question": "Risk treatment merujuk pada ...",
+        "options": ["Pelatihan pegawai", "Penanganan risiko", "Identifikasi risiko", "Pembelian aset serta perhitungan risiko"],
+        "correct": 1,
+        "explanation": "Risk treatment adalah tahap pengendalian dan penanganan risiko setelah risiko diidentifikasi dan dinilai.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 5"
+    },
+    {
+        "question": "Apakah UU Penyiaran No. 32 Tahun 2002 mengatur tentang penyiaran radio dan televisi saja?",
+        "options": ["Hanya televisi", "Tidak, juga mengatur media penyiaran lain yang menggunakan gelombang elektronik", "Hanya radio", "Ya, hanya radio dan televisi"],
+        "correct": 1,
+        "explanation": "UU Penyiaran mengatur berbagai media penyiaran yang menggunakan gelombang elektronik, bukan hanya radio dan televisi.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Proses manajemen risiko dimulai dengan ...",
+        "options": ["Membeli asuransi", "Menghapus aset", "Mempekerjakan ahli TI", "Identifikasi risiko"],
+        "correct": 3,
+        "explanation": "Tahap pertama manajemen risiko adalah identifikasi risiko untuk mengetahui ancaman dan kerentanan yang ada.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 13"
+    },
+    {
+        "question": "Penegakan UU ITE di Indonesia dilakukan oleh…",
+        "options": ["Kementerian Dalam Negeri", "Kominfo", "Mahkamah Konstitusi", "Kepolisian dan Kejaksaan"],
+        "correct": 3,
+        "explanation": "Penegakan hukum terhadap pelanggaran UU ITE dilaksanakan oleh aparat penegak hukum seperti kepolisian dan kejaksaan.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 16"
+    },
+    {
+        "question": "Data pribadi menurut UU PDP adalah …",
+        "options": ["Data yang berisi informasi umum", "Data yang dapat mengidentifikasi seseorang secara langsung atau tidak langsung", "Data yang digunakan untuk riset saja", "Data yang sudah dipublikasikan"],
+        "correct": 1,
+        "explanation": "UU Perlindungan Data Pribadi (PDP) mengatur data yang dapat mengidentifikasi individu baik langsung maupun tidak langsung.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Konsep \"utility\" dalam Parkerian Hexad merujuk pada...",
+        "options": ["Data dalam kondisi bisa digunakan", "Data disimpan di cloud", "Data dalam bentuk terenkripsi", "Data hanya bisa dibuka oleh admin"],
+        "correct": 0,
+        "explanation": "Utility berarti data harus dalam kondisi yang dapat digunakan oleh pengguna, bukan hanya tersimpan.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 15"
+    },
+    {
+        "question": "Apa akibat dari eksploitasi kerentanan sistem?",
+        "options": ["Akses ditingkatkan", "Data dicuri atau rusak", "Sistem menjadi lebih cepat", "Tidak ada perubahan"],
+        "correct": 1,
+        "explanation": "Eksploitasi kerentanan menyebabkan pelanggaran keamanan yang dapat mengakibatkan kehilangan, pencurian, atau kerusakan data.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 12"
+    },
+    {
+        "question": "Metode pencegahan kesalahan karena ketidaktahuan adalah dengan...",
+        "options": ["Pendidikan dan kebijakan", "Pemecatan langsung", "Audit", "Firewall"],
+        "correct": 0,
+        "explanation": "Pendidikan dan penyebaran kebijakan mencegah kesalahan karena kurangnya pengetahuan tentang keamanan informasi.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 50"
+    },
+    {
+        "question": "Langkah untuk melindungi dari interupsi adalah...",
+        "options": ["Redundansi server dan backup", "Membatasi login", "Audit database", "Menggunakan social engineering"],
+        "correct": 0,
+        "explanation": "Interupsi (gangguan) dapat dicegah dengan sistem redundansi dan backup data untuk menjaga ketersediaan sistem.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 24"
+    },
+    {
+        "question": "Perbedaan antara guideline dan standar adalah...",
+        "options": ["Tidak ada perbedaan", "Standar wajib, guideline disarankan", "Standar opsional, guideline wajib", "Guideline wajib, standar opsional"],
+        "correct": 1,
+        "explanation": "Standar adalah aturan wajib, sedangkan guideline adalah saran yang fleksibel untuk situasi tertentu.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 10"
+    },
+    {
+        "question": "Contoh serangan interupsi yang memengaruhi availability adalah...",
+        "options": ["Membaca email orang lain", "Serangan DDoS ke server", "Menyisipkan data palsu ke database", "Mengedit file laporan"],
+        "correct": 1,
+        "explanation": "DDoS menyerang ketersediaan sistem dengan membanjiri server sehingga tidak dapat diakses pengguna sah.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 23"
+    },
+    {
+        "question": "Database pelanggan termasuk aset dengan sensitivitas ...",
+        "options": ["Publik", "Internal", "Umum", "Sangat Rahasia"],
+        "correct": 1,
+        "explanation": "Database pelanggan biasanya dikategorikan sebagai data internal yang hanya boleh diakses pihak berwenang dalam organisasi.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 18"
+    },
+    {
+        "question": "Berikut ini yang merupakan tanggung jawab pemilik aset adalah...",
+        "options": ["Menjual aset", "Menghapus data", "Memperbarui inventaris", "Mempekerjakan vendor"],
+        "correct": 2,
+        "explanation": "Pemilik aset bertanggung jawab untuk memelihara inventaris aset agar data aset selalu akurat dan terbaru.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 24"
+    },
+    {
+        "question": "Risk transfer dapat dilakukan dengan ...",
+        "options": ["Menghapus data", "Pelatihan karyawan", "Membeli asuransi", "Mematikan server"],
+        "correct": 2,
+        "explanation": "Risk transfer adalah memindahkan risiko ke pihak lain, salah satunya dengan asuransi risiko keamanan informasi.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 68"
+    },
+    {
+        "question": "Berikut ini merupakan tujuan manajemen asset, kecuali ...",
+        "options": ["Menghapus semua risiko", "Memonitor penyusutan", "Menghindari pembelian", "Menjaga nilai aset"],
+        "correct": 0,
+        "explanation": "Manajemen aset bertujuan menjaga nilai aset, memonitor penyusutan, menghindari pembelian berlebih, bukan menghapus semua risiko.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 22"
+    },
+    {
+        "question": "Manfaat klasifikasi aset adalah ...",
+        "options": ["Menghindari pembelian hardware", "Mempercepat penyusutan aset", "Menghapus data lama", "Mengoptimalkan manajemen patch"],
+        "correct": 3,
+        "explanation": "Klasifikasi aset membantu menetapkan kontrol yang tepat seperti manajemen patch sesuai sensitivitas aset.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 18"
+    },
+    {
+        "question": "Pedoman NIST SP 800-88 digunakan untuk ...",
+        "options": ["Pemusnahan data", "Pembelian software", "Pelatihan pegawai", "Pelabelan aset"],
+        "correct": 0,
+        "explanation": "NIST SP 800-88 adalah standar untuk media sanitasi dan penghapusan data secara aman.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 38"
+    },
+    {
+        "question": "Pemusnahan data sesuai NIST SP 800-88 dilakukan dengan ...",
+        "options": ["Penghapusan permanen", "Penyimpanan cloud", "Pengabaian", "Pembakaran dokumen"],
+        "correct": 0,
+        "explanation": "Proses penghapusan data yang tidak dapat dipulihkan, sesuai standar NIST SP 800-88.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 38"
+    },
+    {
+        "question": "Nilai aset dapat ditentukan berdasarkan ...",
+        "options": ["Jumlah pegawai", "Tahun pembelian", "Warna fisik aset", "Dampak pada reputasi"],
+        "correct": 3,
+        "explanation": "Penilaian aset mempertimbangkan dampak finansial, operasional, dan reputasi jika terjadi kehilangan atau kerusakan.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 27"
+    },
+    {
+        "question": "IRP (Incident Response Plan) termasuk dalam strategi ...",
+        "options": ["Termination", "Acceptance", "Defense", "Mitigation"],
+        "correct": 3,
+        "explanation": "IRP adalah rencana respon insiden untuk mengurangi dampak insiden keamanan (mitigasi risiko).",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 69"
+    },
+    {
+        "question": "Yang termasuk sumber ancaman adalah...",
+        "options": ["Semua benar", "Bencana alam", "Hacker", "Karyawan internal"],
+        "correct": 0,
+        "explanation": "Sumber ancaman bisa berasal dari bencana alam, hacker, maupun karyawan internal.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 38"
+    },
+    {
+        "question": "Fungsi VPN dalam keamanan informasi adalah untuk...",
+        "options": ["Mengakses konten luar", "Menghapus log", "Mempercepat Browse", "Mengamankan koneksi"],
+        "correct": 3,
+        "explanation": "VPN melindungi data dengan mengenkripsi koneksi internet agar aman dari penyadapan.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 36"
+    },
+    {
+        "question": "Berikut ini yang merupakan contoh aset virtual di kampus adalah ..",
+        "options": ["Kartu identitas", "Lemari arsip", "Akun Google Workspace", "Proyektor"],
+        "correct": 2,
+        "explanation": "Aset virtual meliputi akun layanan cloud seperti Google Workspace atau Microsoft 365.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 10"
+    },
+    {
+        "question": "Berikut ini adalah contoh pelanggaran yang diatur dalam UU ITE, kecuali...",
+        "options": ["Mengirim pesan berisi pencemaran nama baik", "Menyebarkan hoaks di media sosial", "Membajak siaran televisi", "Mengakses sistem elektronik tanpa izin"],
+        "correct": 2,
+        "explanation": "Membajak siaran televisi diatur dalam UU Penyiaran, bukan UU ITE yang fokus pada transaksi elektronik dan informasi digital.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Menurut NIST SP 800-30, tahap pertama dalam penilaian risiko adalah ...",
+        "options": ["Analisis dampak", "Identifikasi ancaman", "Evaluasi kontrol", "Karakterisasi sistem"],
+        "correct": 3,
+        "explanation": "Tahap awal adalah memahami sistem yang akan dinilai risiko keamanannya.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 44"
+    },
+    {
+        "question": "Tujuan kontrol keamanan adalah ...",
+        "options": ["Mengurangi risiko ke tingkat diterima", "Menyimpan aset di cloud", "Mengabaikan ancaman", "Menghilangkan semua risiko"],
+        "correct": 0,
+        "explanation": "Kontrol keamanan dipasang agar risiko dapat dikendalikan hingga tingkat yang diterima organisasi.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 66"
+    },
+    {
+        "question": "Apa sanksi yang dapat dikenakan jika melanggar UU PDP?",
+        "options": ["Peringatan saja", "Hanya denda", "Sanksi administratif dan pidana", "Penjara seumur hidup"],
+        "correct": 2,
+        "explanation": "Pelanggaran UU PDP dapat berujung sanksi administratif hingga pidana sesuai ketentuan hukum.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Manfaat dari adanya SAM adalah ...",
+        "options": ["Menghilangkan semua software", "Mengoptimalkan lisensi", "Menjual aset", "Mempercepat penyusutan"],
+        "correct": 1,
+        "explanation": "SAM membantu pengelolaan dan optimalisasi lisensi perangkat lunak untuk efisiensi biaya dan kepatuhan.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 27"
+    },
+    {
+        "question": "Data pajak umumnya disimpan selama ...",
+        "options": ["10 tahun", "4 tahun", "Permanen", "1 tahun"],
+        "correct": 0,
+        "explanation": "Data pajak wajib disimpan selama 10 tahun sesuai peraturan perpajakan dan retensi data.",
+        "reference": "Referensi: Pertemuan 3_FKI_Manajemen Aset_Rev, slide 35"
+    },
+    {
+        "question": "Siapa yang disebut sebagai \"Pemilik Data\" dalam UU PDP?",
+        "options": ["Organisasi internasional", "Perusahaan yang mengelola data", "Orang yang dapat diidentifikasi dari data pribadi tersebut", "Pemerintah"],
+        "correct": 2,
+        "explanation": "Pemilik data adalah individu yang dapat dikenali secara langsung atau tidak langsung dari data pribadi tersebut.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Apa tujuan utama dari keamanan informasi?",
+        "options": ["Menurunkan biaya operasional", "Melindungi informasi dari ancaman", "Mengurangi penggunaan internet", "Meningkatkan performa sistem"],
+        "correct": 1,
+        "explanation": "Tujuan utama keamanan informasi adalah melindungi data dan sistem dari ancaman dan risiko keamanan.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 6"
+    },
+    {
+        "question": "Business Continuity Plan (BCP) fokus pada …",
+        "options": ["Pembelian asuransi", "Pelatihan karyawan", "Kelangsungan operasi bisnis", "Penghapusan data"],
+        "correct": 2,
+        "explanation": "BCP adalah rencana untuk memastikan proses bisnis tetap berjalan saat terjadi insiden atau bencana.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 70"
+    },
+    {
+        "question": "Apa tujuan utama Perpres No. 71 Tahun 2019?",
+        "options": ["Mengawasi ekspor impor perangkat elektronik", "Mengatur penyelenggaraan sistem dan transaksi elektronik yang aman dan terpercaya", "Mengatur tarif pajak elektronik", "Mengatur standar produksi perangkat elektronik"],
+        "correct": 1,
+        "explanation": "Perpres ini menetapkan kerangka hukum untuk pengelolaan sistem elektronik dan transaksi yang aman.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Contoh probable loss 100% berarti ...",
+        "options": ["Aset tidak perlu dilindungi", "Tidak ada risiko", "Aset tidak bernilai", "Aset hilang seluruhnya jika serangan berhasil"],
+        "correct": 3,
+        "explanation": "Probable loss 100% berarti aset akan hilang secara penuh jika terjadi insiden keamanan yang berhasil.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 51"
+    },
+    {
+        "question": "Spam Act 2003 berasal dari...",
+        "options": ["Australia", "AS", "Inggris", "Indonesia"],
+        "correct": 0,
+        "explanation": "Spam Act 2003 adalah regulasi Australia untuk mengatur pengiriman pesan spam dan komunikasi elektronik komersial.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 39"
+    },
+    {
+        "question": "Risiko dihitung dengan formula ...",
+        "options": ["Loss frequency × Loss magnitude + Uncertainty", "Loss frequency + Loss magnitude - Uncertainty", "Loss frequency + Loss magnitude - Uncertainty", "Loss frequency × Loss magnitude - Uncertainty"],
+        "correct": 0,
+        "explanation": "Rumus risiko mengalikan frekuensi kerugian dan besaran kerugian ditambah faktor ketidakpastian (uncertainty).",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 53"
+    },
+    {
+        "question": "Apabila nilai risk appetite =8, dan server dalam studi kasus memiliki nilai risiko sisa 8.6, hal ini berarti bahwa risiko ...",
+        "options": ["Diabaikan", "Dialihkan ke asuransi", "Diterima karena di bawah risk appetite", "Tidak diterima karena melebihi risk appetite"],
+        "correct": 3,
+        "explanation": "Risiko sisa 8.6 melebihi toleransi organisasi yaitu 8, maka risiko tidak diterima dan perlu dikontrol lebih lanjut.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 58"
+    },
+    {
+        "question": "Penyebab paling efektif dari pencegahan tindakan ilegal adalah...",
+        "options": ["Kelalaian administratif", "Gaji tinggi", "Kode warna kantor", "Ketakutan hukuman"],
+        "correct": 3,
+        "explanation": "Efektivitas pencegahan pelanggaran etika dan hukum sangat bergantung pada ancaman hukuman yang nyata dan tegas.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 51"
+    },
+    {
+        "question": "DRP (Disaster Recovery Plan) berfokus pada …",
+        "options": ["Pelatihan karyawan", "Penghapusan data", "Pembelian asuransi", "Pemulihan operasi pasca-bencana"],
+        "correct": 3,
+        "explanation": "DRP berisi prosedur dan langkah untuk mengembalikan operasi sistem setelah bencana terjadi.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 70"
+    },
+    {
+        "question": "Contoh pelanggaran hukum adalah…",
+        "options": ["Mengabaikan saran teman", "Tidak membalas email", "Berisik saat malam", "Menyebar hoaks di media sosial"],
+        "correct": 3,
+        "explanation": "Menyebarkan hoaks adalah tindak pidana yang diatur dalam UU ITE dan UU terkait lainnya.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 16"
+    },
+    {
+        "question": "Apa fungsi utama dari firewall dalam keamanan jaringan?",
+        "options": ["Mempercepat koneksi internet", "Menyaring lalu lintas jaringan", "Menyimpan data", "Menyembunyikan virus"],
+        "correct": 1,
+        "explanation": "Firewall bertugas mengontrol akses dan lalu lintas data masuk keluar jaringan untuk mencegah akses tidak sah.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 34"
+    },
+    {
+        "question": "Hukum pidana ditujukan untuk...",
+        "options": ["Aktivitas merugikan masyarakat", "Hubungan individu", "Perusahaan", "Mengatur keluarga"],
+        "correct": 0,
+        "explanation": "Hukum pidana mengatur perilaku yang dianggap merugikan masyarakat dan diatur sanksinya secara tegas.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 20"
+    },
+    {
+        "question": "Manakah yang termasuk kategori data pribadi sensitif menurut UU PDP?",
+        "options": ["Data kesehatan dan biometrik", "Nama lengkap", "Nomor telepon", "Alamat rumah"],
+        "correct": 0,
+        "explanation": "Data kesehatan dan biometrik masuk kategori data pribadi sensitif yang memerlukan perlindungan khusus.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Etika adalah…",
+        "options": ["Sanksi pidana", "Aturan sosial dan moral", "Undang-undang pemerintah", "Hukum resmi"],
+        "correct": 1,
+        "explanation": "Etika merupakan aturan atau norma sosial yang mengatur perilaku yang diterima dalam masyarakat atau profesi tertentu.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 50"
+    },
+    {
+        "question": "Hukum privat mencakup…",
+        "options": ["Konstitusi", "Hukum komersial dan ketenagakerjaan", "Hukum pidana", "Administrasi negara"],
+        "correct": 1,
+        "explanation": "Hukum privat mengatur hubungan antar individu atau organisasi termasuk hukum komersial dan ketenagakerjaan.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 20"
+    },
+    {
+        "question": "Siapa yang bertugas mengawasi pelaksanaan UU PDP?",
+        "options": ["Dewan Perwakilan Rakyat", "Kepolisian dan Kejaksaan", "Komisi Perlindungan Data Pribadi (KPPD)", "Pemerintah daerah"],
+        "correct": 2,
+        "explanation": "KPPD adalah lembaga yang bertanggung jawab atas pengawasan penerapan UU Perlindungan Data Pribadi di Indonesia.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "Dalam studi kasus universitas, soal ujian tergolong aset dengan klasifikasi ...",
+        "options": ["Rahasia", "Tidak penting", "Eksternal", "Publik"],
+        "correct": 0,
+        "explanation": "Soal ujian mahasiswa diklasifikasikan sebagai data rahasia yang harus dilindungi agar tidak bocor sebelum waktu ujian.",
+        "reference": "Referensi: Pertemuan 4 FKI_Manajemen Risiko, slide 25"
+    },
+    {
+        "question": "Penyadapan komunikasi telepon termasuk dalam kategori serangan...",
+        "options": ["Fabrikasi", "Intersepsi", "Modifikasi", "Interupsi"],
+        "correct": 1,
+        "explanation": "Penyadapan telepon adalah intersepsi yang melanggar kerahasiaan komunikasi.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 19"
+    },
+    {
+        "question": "Berdasarkan UU PDP, data pribadi boleh diproses tanpa persetujuan dalam kondisi ...",
+        "options": ["Untuk kepentingan komersial", "Untuk hiburan", "Untuk kepentingan pribadi pengendali data", "Untuk kepentingan umum dan sesuai hukum"],
+        "correct": 3,
+        "explanation": "Pemrosesan data pribadi tanpa persetujuan dapat dilakukan jika ada dasar hukum dan untuk kepentingan umum yang sah.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 41"
+    },
+    {
+        "question": "HIPAA berkaitan dengan...",
+        "options": ["Pendaftaran perusahaan", "Spam dan iklan", "Data pasien dan kesehatan", "Keamanan finansial"],
+        "correct": 2,
+        "explanation": "HIPAA adalah regulasi AS yang mengatur kerahasiaan dan keamanan data kesehatan pasien.",
+        "reference": "Referensi: Pertemuan 2 FKI RKS A, slide 29"
+    },
+    {
+        "question": "Ancaman dari \"email phishing\" menyerang aspek...",
+        "options": ["Integrity", "Semua benar", "Availability", "Confidentiality"],
+        "correct": 3,
+        "explanation": "Phishing menyerang kerahasiaan data dengan mengelabui korban agar memberikan data sensitif.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 21"
+    },
+    {
+        "question": "Shoulder surfing termasuk jenis serangan...",
+        "options": ["Fisik", "Sosial", "Teknologi", "Spionase"],
+        "correct": 3,
+        "explanation": "Shoulder surfing adalah mengintip informasi secara fisik yang termasuk jenis spionase.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 37"
+    },
+    {
+        "question": "Jenis serangan seperti \"sniffing password\" termasuk dalam kategori...",
+        "options": ["Disengaja", "Aktif", "Tidak langsung", "Pasif"],
+        "correct": 3,
+        "explanation": "Sniffing password adalah serangan pasif karena hanya memantau dan mencuri data tanpa mengubahnya.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 36"
+    },
+    {
+        "question": "Keamanan fisik bertujuan untuk melindungi...",
+        "options": ["File digital", "Prosedur keamanan", "Jaringan internal", "Daerah/objek dari akses tidak sah"],
+        "correct": 3,
+        "explanation": "Keamanan fisik menjaga area dan objek agar tidak diakses oleh pihak yang tidak berwenang.",
+        "reference": "Referensi: Pertemuan 1.pdf, slide 34"
+    }
+]

@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  
+  /* Warna dasar jika gambar gagal dimuat */
+  background-color: #0f172a; 
+
+  /* ================== PENAMBAHAN LATAR BELAKANG NEBULA ================== */
+  /* Ganti URL ini dengan gambar nebula favorit Anda */
+  
+  background-size: cover; /* Memastikan gambar menutupi seluruh layar */
+  background-position: center; /* Posisi gambar di tengah */
+  background-attachment: fixed; /* Latar belakang tidak ikut scroll */
+}

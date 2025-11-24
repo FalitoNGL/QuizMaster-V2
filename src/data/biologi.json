@@ -1,0 +1,758 @@
+[
+  {
+    "question": "Ilmuwan yang pertama kali menggunakan istilah 'enzym' untuk mendeskripsikan zat aktif yang menyebabkan fermentasi adalah...",
+    "options": ["Eduard Buchner", "James B. Sumner", "Wilhelm Kühne", "Arthur Harden"],
+    "correct": 2,
+    "explanation": "Wilhelm Kühne, seorang profesor fisiologi dari Jerman, adalah orang pertama yang menggunakan istilah 'enzym' pada tahun 1878 untuk menjelaskan zat yang memfasilitasi reaksi kimia dalam tubuh.",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 3, 'ASAL USUL ENZIM'"
+  },
+  {
+    "question": "Komponen enzim yang tersusun dari protein dan bersifat tidak tahan panas (termolabil) disebut...",
+    "options": ["Kofaktor", "Holoenzim", "Apoenzim", "Koenzim"],
+    "correct": 2,
+    "explanation": "Apoenzim adalah bagian enzim yang tersusun dari protein dan sifatnya termolabil, yang berarti sensitif terhadap perubahan suhu dan pH.",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 9, 'STRUKTUR ENZIM'"
+  },
+  {
+    "question": "Enzim yang mengkatalisis reaksi hidrolisis (pemecahan ikatan dengan penambahan air), seperti lipase dan protease, termasuk dalam kelas...",
+    "options": ["Oksidoreduktase", "Transferase", "Hidrolase", "Ligase"],
+    "correct": 2,
+    "explanation": "Kelas Hidrolase (Kelas 3) adalah kelompok enzim yang mengkatalisis reaksi pemecahan ikatan kimia dengan menggunakan molekul air.",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 13, 'KLASIFIKASI & PENAMAAN ENZIM'"
+  },
+  {
+    "question": "Teori yang menjelaskan bahwa sisi aktif enzim memiliki bentuk yang fleksibel dan dapat menyesuaikan diri dengan bentuk substrat adalah...",
+    "options": ["Lock and Key Theory", "Induced Fit Theory", "Competitive Inhibition Theory", "Allosteric Regulation Theory"],
+    "correct": 1,
+    "explanation": "Teori Kecocokan Induksi (Induced Fit Theory) menyatakan bahwa sisi aktif enzim bersifat fleksibel dan akan mengalami perubahan konformasi untuk menyesuaikan dengan substrat, seperti sarung tangan yang pas dengan tangan.",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 30, 'MODEL PENGIKATAN ENZIM-SUBSTRAT'"
+  },
+  {
+    "question": "Inhibitor yang bekerja dengan cara menempati sisi aktif enzim sehingga bersaing dengan substrat disebut...",
+    "options": ["Inhibitor Non-Kompetitif", "Inhibitor Unkompetitif", "Inhibitor Kompetitif", "Inhibitor Irreversibel"],
+    "correct": 2,
+    "explanation": "Inhibitor kompetitif memiliki struktur yang mirip dengan substrat sehingga dapat berikatan dengan sisi aktif enzim dan menghalangi substrat untuk berikatan.",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 33, 'PENGHAMBAT KERJA ENZIM'"
+  },
+  {
+    "question": "Pada suhu yang sangat tinggi, aktivitas enzim akan menurun drastis karena terjadinya...",
+    "options": ["Peningkatan energi aktivasi", "Denaturasi protein", "Peningkatan konsentrasi substrat", "Penurunan pH"],
+    "correct": 1,
+    "explanation": "Suhu yang terlalu tinggi dapat merusak ikatan-ikatan dalam struktur tiga dimensi enzim, menyebabkan perubahan bentuk (denaturasi) yang membuat sisi aktifnya tidak lagi fungsional.",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 47, 'Pengaruh Suhu'"
+  },
+  {
+    "question": "Urutan tingkatan organisasi kehidupan dari yang paling sederhana hingga yang paling kompleks adalah...",
+    "options": ["Sel -> Jaringan -> Organ -> Sistem Organ -> Kimia", "Kimia -> Sel -> Jaringan -> Organ -> Sistem Organ", "Jaringan -> Sel -> Organ -> Sistem Organ -> Kimia", "Kimia -> Jaringan -> Sel -> Organ -> Sistem Organ"],
+    "correct": 1,
+    "explanation": "Struktur organisasi tubuh manusia dimulai dari tingkat paling dasar yaitu kimia (atom, molekul), kemudian membentuk sel, sel-sel serupa membentuk jaringan, jaringan membentuk organ, dan organ-organ bekerja sama dalam sistem organ.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 4, 'TINGKATAN STRUKTUR ORGANISASI TUBUH MANUSIA'"
+  },
+  {
+    "question": "Jaringan yang berfungsi sebagai penutup atau pelapis permukaan tubuh dan organ, dengan sel-sel yang tersusun sangat rapat adalah...",
+    "options": ["Jaringan Ikat", "Jaringan Otot", "Jaringan Saraf", "Jaringan Epitel"],
+    "correct": 3,
+    "explanation": "Jaringan epitel memiliki ciri khas sel-sel yang tersusun rapat membentuk lembaran, berfungsi untuk proteksi, sekresi, dan absorpsi, serta melapisi permukaan luar dan dalam tubuh.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 13, 'JARINGAN EPITEL'"
+  },
+  {
+    "question": "Darah diklasifikasikan sebagai jenis jaringan...",
+    "options": ["Epitel Khusus", "Otot Khusus", "Ikat Khusus", "Saraf Khusus"],
+    "correct": 2,
+    "explanation": "Darah termasuk dalam jaringan ikat khusus karena terdiri dari sel-sel (eritrosit, leukosit) yang berada dalam matriks ekstraseluler yang cair (plasma).",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 27, 'Connective Tissues'"
+  },
+  {
+    "question": "Organel sel yang berfungsi sebagai 'pembangkit tenaga' karena menjadi tempat utama respirasi seluler dan produksi ATP adalah...",
+    "options": ["Ribosom", "Lisosom", "Mitokondria", "Aparatus Golgi"],
+    "correct": 2,
+    "explanation": "Mitokondria adalah organel yang bertanggung jawab untuk menghasilkan sebagian besar energi sel dalam bentuk ATP melalui proses respirasi seluler, sehingga sering disebut 'the powerhouse of the cell'.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 44, 'MITOKONDRIA'"
+  },
+  {
+    "question": "Perbedaan utama antara sel prokariotik dan sel eukariotik adalah...",
+    "options": ["Kehadiran ribosom", "Kehadiran membran plasma", "Kehadiran nukleus yang terbungkus membran", "Kehadiran sitoplasma"],
+    "correct": 2,
+    "explanation": "Sel eukariotik memiliki nukleus sejati yang dibatasi oleh membran, tempat materi genetiknya (DNA) berada. Sebaliknya, sel prokariotik tidak memiliki nukleus, dan DNA-nya terletak di area sitoplasma yang disebut nukleoid.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 15, 'JENIS SEL BERDASARKAN ADA TIDAKNYA MEMBRAN INTI'"
+  },
+  {
+    "question": "Teknologi biometrik yang menganalisis struktur, bentuk, dan karakteristik wajah yang unik untuk identifikasi individu disebut...",
+    "options": ["Iris Recognition", "Fingerprint Recognition", "Face Recognition", "Voice Recognition"],
+    "correct": 2,
+    "explanation": "Face Recognition (Pengenalan Wajah) adalah teknologi yang mengidentifikasi individu berdasarkan fitur-fitur wajah yang unik, seperti jarak antar mata, lebar hidung, dan bentuk tulang pipi.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 11, 'FACE RECOGNITION (Pengenalan Wajah)'"
+  },
+  {
+    "question": "Dalam antropometri wajah, titik yang terletak pada pangkal hidung di antara kedua mata disebut...",
+    "options": ["Glabella", "Nasion", "Gnation", "Zygion"],
+    "correct": 1,
+    "explanation": "Nasion (N) adalah titik pada pangkal hidung di bidang midsagittal yang memotong garis nasofrontal, digunakan sebagai salah satu titik referensi utama dalam pengukuran wajah.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 85, 'Indeks wajah'"
+  },
+  {
+    "question": "Seseorang dengan indeks wajah 92% diklasifikasikan memiliki tipe wajah...",
+    "options": ["Mesoprosopic (Sedang)", "Euryprosopic (Lebar)", "Leptoprosopic (Sempit dan tinggi)", "Hypereuryprosopic (Sangat lebar)"],
+    "correct": 2,
+    "explanation": "Berdasarkan tabel klasifikasi, rentang indeks wajah untuk tipe Leptoprosopic (sempit dan tinggi) adalah 90-94%. Nilai 92% masuk dalam kategori ini.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 87, 'Indeks wajah'"
+  },
+  {
+    "question": "Tulang yang membentuk pipi dan memberikan kontur pada wajah disebut...",
+    "options": ["Tulang Frontal", "Tulang Nasal", "Tulang Mandibula", "Tulang Zygomatic"],
+    "correct": 3,
+    "explanation": "Tulang Zygomatic, atau tulang pipi, adalah tulang yang membentuk tonjolan pipi dan bagian dari orbit mata. Bentuknya sangat memengaruhi apakah wajah tampak lebar, tirus, atau oval.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 31, 'Tulang zygomatic'"
+  },
+  {
+    "question": "Bagian berwarna pada mata yang polanya sangat unik dan stabil sepanjang hidup sehingga digunakan untuk biometrik adalah...",
+    "options": ["Pupil", "Sklera", "Retina", "Iris"],
+    "correct": 3,
+    "explanation": "Iris adalah bagian mata yang berwarna dan memiliki pola yang sangat kompleks dan unik untuk setiap individu, bahkan pada kembar identik. Pola ini tetap stabil sepanjang hidup, menjadikannya biometrik yang sangat akurat.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 5, 'BIOMETRIK IRIS'"
+  },
+  {
+    "question": "Warna mata biru atau hijau disebabkan oleh...",
+    "options": ["Konsentrasi eumelanin yang sangat tinggi", "Konsentrasi pheomelanin yang sangat tinggi", "Konsentrasi eumelanin yang lebih sedikit dan efek penyebaran cahaya (Tyndall)", "Tidak adanya pigmen sama sekali"],
+    "correct": 2,
+    "explanation": "Mata berwarna biru atau hijau memiliki konsentrasi pigmen eumelanin yang lebih sedikit. Warnanya muncul akibat efek Tyndall, di mana cahaya dengan panjang gelombang pendek (biru) disebarkan oleh struktur kolagen di stroma iris.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 11, 'PIGMEN'"
+  },
+  {
+    "question": "Struktur pada mata yang berfungsi memfokuskan cahaya ke retina dan dapat mengubah ketebalannya untuk melihat objek dekat atau jauh adalah...",
+    "options": ["Kornea", "Lensa", "Pupil", "Badan Vitreus"],
+    "correct": 1,
+    "explanation": "Lensa mata berfungsi untuk menyempurnakan pemfokusan cahaya yang masuk. Otot siliaris dapat mengubah bentuk lensa (akomodasi) agar lebih tebal untuk melihat objek dekat dan lebih tipis untuk objek jauh.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 50, 'Lensa'"
+  },
+  {
+    "question": "Sel fotoreseptor di retina yang bertanggung jawab untuk penglihatan warna dan detail yang tajam adalah...",
+    "options": ["Sel Batang (Rods)", "Sel Kerucut (Cones)", "Sel Ganglion", "Sel Bipolar"],
+    "correct": 1,
+    "explanation": "Sel Kerucut (Cones) terkonsentrasi di fovea dan bertanggung jawab untuk penglihatan dalam cahaya terang (fotopik), persepsi warna, dan ketajaman visual yang tinggi.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 60, 'Sel Kerucut (Cone)'"
+  },
+  {
+    "question": "Kondisi rabun dekat (Hipermetropia) dikoreksi dengan menggunakan lensa...",
+    "options": ["Cekung (minus)", "Cembung (plus)", "Silinder", "Bifokal"],
+    "correct": 1,
+    "explanation": "Pada hipermetropia, cahaya difokuskan di belakang retina. Lensa cembung (plus) digunakan untuk mengumpulkan sinar cahaya lebih kuat sehingga titik fokusnya maju dan jatuh tepat di retina.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 64, 'Masalah-Masalah Refraksi'"
+  },
+  {
+    "question": "Pola sidik jari yang memiliki punggungan (ridges) yang masuk dari satu sisi, melengkung, dan keluar dari sisi yang sama, serta memiliki satu titik delta, disebut...",
+    "options": ["Arch", "Loop", "Whorl", "Composite"],
+    "correct": 1,
+    "explanation": "Pola Loop adalah tipe sidik jari yang paling umum, ditandai dengan adanya satu titik delta dan punggungan yang berbalik arah.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 77, 'SIDIK JARI / FINGERPRINT'"
+  },
+  {
+    "question": "Titik-titik fitur spesifik pada pola sidik jari, seperti ujung punggungan (ridge ending) dan percabangan (bifurcation), secara kolektif disebut...",
+    "options": ["Dermatoglyph", "Triradii", "Minutiae", "Core"],
+    "correct": 2,
+    "explanation": "Minutiae adalah titik-titik detail pada punggungan sidik jari yang digunakan untuk perbandingan dan identifikasi individu. Lokasi dan orientasi dari minutiae ini sangat unik.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 68, 'SIDIK JARI'"
+  },
+  {
+    "question": "Indeks yang dihitung dengan membagi jumlah pola Loops dengan jumlah pola Whorls pada sidik jari adalah...",
+    "options": ["Total Pattern Intensity (TPI)", "Dankmeijer Index (DI)", "Furuhata Index (FI)", "Total Ridge Count (TRC)"],
+    "correct": 2,
+    "explanation": "Furuhata Index (FI) secara spesifik digunakan untuk mengukur proporsi atau rasio antara jumlah pola Loops terhadap jumlah pola Whorls pada kesepuluh jari.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 8, 'Furuhata Index (FI)'"
+  },
+  {
+    "question": "Pembentukan pola sidik jari (dermatoglyph) pada manusia terjadi pada...",
+    "options": ["Saat lahir", "Masa pubertas", "Selama perkembangan embrio di dalam kandungan", "Masa dewasa awal"],
+    "correct": 2,
+    "explanation": "Pola dermatogliph dan sidik jari terbentuk sebelum kelahiran, sekitar minggu ke-13 kehamilan, dan polanya tetap tidak berubah sepanjang hidup.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 64 & 83, 'SIDIK JARI / FINGERPRINT' & 'PERKEMBANGAN SIDIK JARI'"
+  },
+  {
+    "question": "Bagian telapak tangan yang memiliki bantalan lemak dan jaringan lunak di pangkal ibu jari disebut...",
+    "options": ["Hypothenar eminence", "Thenar eminence", "Padding at the base of the fingers", "Heel of the hand"],
+    "correct": 1,
+    "explanation": "Thenar eminence atau thumb prominence adalah area menonjol di pangkal ibu jari yang terdiri dari beberapa otot kecil dan bantalan lemak yang mengontrol gerakan ibu jari.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 26, 'BAGIAN VOLAR PADA TANGAN'"
+  },
+  {
+    "question": "Biometrik yang didasarkan pada profil kimiawi bau tubuh yang unik bagi setiap individu disebut...",
+    "options": ["Biometrik Odor", "Biometrik Vokal", "Biometrik Termal", "Biometrik Genetik"],
+    "correct": 0,
+    "explanation": "Biometrik Body Odor adalah metode pengenalan identitas berdasarkan profil kimiawi bau tubuh, yang terdiri dari molekul-molekul volatil dan non-volatil yang unik.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 3, 'Biometrik Body Oddor'"
+  },
+  {
+    "question": "Variasi gen yang memengaruhi apakah seseorang menghasilkan keringat basah (berbau) atau kering (tidak berbau) adalah...",
+    "options": ["Gen HBB", "Gen FGF20", "Gen ABCC11", "Gen EDAR"],
+    "correct": 2,
+    "explanation": "Gen ABCC11 memiliki varian yang menentukan jenis sekresi kelenjar apokrin. Alel G menghasilkan keringat basah berbau, sementara alel A menghasilkan keringat kering tidak berbau yang umum pada populasi Asia Timur.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 6, 'Genetik'"
+  },
+  {
+    "question": "Tempat terjadinya pertukaran gas oksigen dan karbon dioksida di dalam paru-paru adalah...",
+    "options": ["Trakea", "Bronkus", "Bronkiolus", "Alveolus"],
+    "correct": 3,
+    "explanation": "Alveolus adalah kantung-kantung udara kecil di ujung saluran pernapasan yang dikelilingi oleh kapiler darah. Dindingnya yang sangat tipis memungkinkan terjadinya difusi gas (pertukaran O2 dan CO2).",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 41, 'Alveolus/Alveoli'"
+  },
+  {
+    "question": "Pada mekanisme pernapasan dada, proses inspirasi (menarik napas) terjadi karena...",
+    "options": ["Kontraksi otot antartulang rusuk dan relaksasi diafragma", "Relaksasi otot antartulang rusuk dan kontraksi diafragma", "Kontraksi otot antartulang rusuk yang mengangkat tulang rusuk", "Relaksasi otot antartulang rusuk yang menurunkan tulang rusuk"],
+    "correct": 2,
+    "explanation": "Saat inspirasi pernapasan dada, otot antartulang rusuk (muskulus intercostalis eksternal) berkontraksi, yang menyebabkan tulang rusuk terangkat. Hal ini memperbesar volume rongga dada dan menarik udara masuk.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 44, 'Mekanisme Pernapasan Dada'"
+  },
+  {
+    "question": "Kelenjar keringat yang menjadi penyebab utama bau badan karena menghasilkan sekresi kaya protein dan lipid yang diurai oleh bakteri adalah...",
+    "options": ["Kelenjar Ekrin", "Kelenjar Apokrin", "Kelenjar Sebacea", "Kelenjar Merokrin"],
+    "correct": 1,
+    "explanation": "Kelenjar Apokrin, yang aktif saat pubertas dan terletak di area seperti ketiak, menghasilkan keringat kental yang awalnya tidak berbau. Bakteri di kulit memetabolisme komponen ini menjadi senyawa volatil yang menyebabkan bau badan.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 57, 'Kelenjar Apokrin'"
+  },
+  {
+    "question": "Unit terkecil materi genetik yang terdapat dalam lokus kromosom dan menentukan sifat individu adalah...",
+    "options": ["Alel", "DNA", "Gen", "Nukleotida"],
+    "correct": 2,
+    "explanation": "Gen didefinisikan sebagai unit terkecil materi genetik yang menempati lokus spesifik pada kromosom dan terdiri atas substansi hereditas yang mengkode informasi untuk suatu sifat.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 23, 'DEFINISI GEN-ALEL-LOKUS'"
+  },
+  {
+    "question": "Kromosom yang menentukan karakter fisik tubuh dan tidak terkait dengan penentuan jenis kelamin disebut...",
+    "options": ["Gonosom", "Autosom", "Kromosom Homolog", "Kromatid"],
+    "correct": 1,
+    "explanation": "Autosom adalah kromosom tubuh yang jumlahnya sama pada jantan dan betina (pada manusia 22 pasang). Gonosom (kromosom seks, X dan Y) adalah yang menentukan jenis kelamin.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 15, '2 JENIS KROMOSOM'"
+  },
+  {
+    "question": "Dalam struktur DNA, basa nitrogen Purin terdiri dari...",
+    "options": ["Sitosin dan Timin", "Adenin dan Guanin", "Adenin dan Timin", "Sitosin dan Urasil"],
+    "correct": 1,
+    "explanation": "Basa nitrogen dalam DNA dibagi menjadi dua kelompok: Purin (struktur cincin ganda) yang terdiri dari Adenin (A) dan Guanin (G), dan Pirimidin (struktur cincin tunggal) yang terdiri dari Sitosin (C) dan Timin (T).",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 34, 'STRUKTUR DNA'"
+  },
+  {
+    "question": "Proses penyalinan informasi genetik dari DNA menjadi mRNA yang terjadi di dalam nukleus disebut...",
+    "options": ["Replikasi", "Translasi", "Transkripsi", "Elongasi"],
+    "correct": 2,
+    "explanation": "Transkripsi adalah tahap pertama dalam sintesis protein di mana segmen DNA (gen) disalin menjadi molekul RNA duta (mRNA) oleh enzim RNA polimerase.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 66, 'TRANSKRIPSI'"
+  },
+  {
+    "question": "Jenis RNA yang berfungsi membawa asam amino spesifik ke ribosom selama proses translasi adalah...",
+    "options": ["mRNA (RNA duta)", "rRNA (RNA ribosom)", "tRNA (RNA transfer)", "snRNA (Small Nuclear RNA)"],
+    "correct": 2,
+    "explanation": "RNA transfer (tRNA) memiliki antikodon yang akan berpasangan dengan kodon pada mRNA dan membawa asam amino yang sesuai untuk dirangkai menjadi polipeptida di ribosom.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 55, 'RNA transfer (t-RNA)'"
+  },
+  {
+    "question": "Tiga basa nitrogen berurutan pada mRNA yang mengkodekan satu asam amino tertentu disebut...",
+    "options": ["Antikodon", "Gen", "Kodon", "Nukleosida"],
+    "correct": 2,
+    "explanation": "Kodon adalah unit dasar dari kode genetik, yang terdiri dari urutan tiga basa nitrogen pada mRNA. Setiap kodon menentukan asam amino spesifik yang akan ditambahkan ke rantai polipeptida.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 64, 'KODE GENETIK (KODON)'"
+  },
+  {
+    "question": "Jika terjadi kesalahan dalam sintesis protein, sel memiliki mekanisme untuk menghancurkan protein yang rusak melalui struktur yang disebut...",
+    "options": ["Lisosom", "Proteasom", "Peroksisom", "Chaperon"],
+    "correct": 1,
+    "explanation": "Proteasom adalah kompleks protein besar yang berfungsi untuk mendegradasi atau menghancurkan protein yang tidak diperlukan atau rusak di dalam sel, termasuk protein yang salah lipat akibat kesalahan sintesis.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 77, 'KESALAHAN SINTESIS PROTEIN'"
+  },
+  {
+    "question": "Pada praktikum antropometri, pengukuran panjang wajah dilakukan dari titik Nasion hingga...",
+    "options": ["Zygion", "Glabella", "Gnation", "Pogonion"],
+    "correct": 2,
+    "explanation": "Panjang wajah (PW) atau tinggi wajah morfologis diukur sebagai jarak vertikal antara titik Nasion (pangkal hidung) dan titik Gnation (titik terendah pada dagu).",
+    "reference": "File 'PRAKTIKUM ANTROPO (3).pdf', Halaman 4, 'WAJAH'"
+  },
+  {
+    "question": "Dalam penghitungan Total Ridge Count (TRC) pada sidik jari, punggungan (ridges) dihitung pada garis imajiner yang ditarik antara...",
+    "options": ["Dua titik delta", "Inti (core) dan ujung jari", "Delta dan Inti (core)", "Dua percabangan (bifurcation)"],
+    "correct": 2,
+    "explanation": "TRC dihitung dengan cara menarik garis lurus imajiner dari titik Delta ke titik Inti (Core) pada pola sidik jari (tipe loop atau whorl), kemudian menghitung jumlah punggungan yang dilintasi oleh garis tersebut.",
+    "reference": "File 'PRAKTIKUM ANTROPO (3).pdf', Halaman 8, 'CARA MENGHITUNG PENGGUNGAN (RIDGES)'"
+  },
+  {
+    "question": "Menurut aturan penghitungan ridges, jika pada garis imajiner terdapat percabangan (bifurcation), maka akan dihitung sebagai...",
+    "options": ["0 ridge", "1 ridge", "2 ridges", "3 ridges"],
+    "correct": 2,
+    "explanation": "Rule 8 dalam penghitungan ridges menyatakan bahwa jika garis imajiner melintasi sebuah percabangan atau bifurcation, maka titik tersebut dihitung sebagai dua ridges.",
+    "reference": "File 'PRAKTIKUM ANTROPO (3).pdf', Halaman 11, 'Rule 8: When Bifurcation Pattern Appears'"
+  },
+  {
+    "question": "Jaringan yang memiliki kemampuan untuk berkontraksi dan menghasilkan gerakan adalah...",
+    "options": ["Jaringan Epitel", "Jaringan Ikat", "Jaringan Otot", "Jaringan Saraf"],
+    "correct": 2,
+    "explanation": "Jaringan otot tersusun dari sel-sel yang terspesialisasi untuk kontraksi. Kemampuan ini memungkinkan terjadinya berbagai gerakan tubuh, baik yang disadari maupun tidak disadari.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 12 & 50, 'JENIS JARINGAN' & 'JARINGAN OTOT'"
+  },
+  {
+    "question": "Jenis otot yang ditemukan di dinding organ-organ dalam seperti lambung dan usus, bekerja secara tidak sadar (involunter), dan tidak memiliki lurik adalah...",
+    "options": ["Otot Rangka", "Otot Jantung", "Otot Polos", "Otot Lurik"],
+    "correct": 2,
+    "explanation": "Otot polos memiliki sel berbentuk gelendong dengan satu inti di tengah dan tidak menunjukkan pola lurik. Otot ini bertanggung jawab atas kontraksi organ dalam dan bekerja di luar kendali sadar.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 57, 'Otot POLOS'"
+  },
+  {
+    "question": "Unit fungsional dasar dari kontraksi otot yang tersusun atas filamen aktin dan miosin adalah...",
+    "options": ["Sarkolema", "Sarkoplasma", "Miofibril", "Sarkomer"],
+    "correct": 3,
+    "explanation": "Sarkomer adalah unit kontraktil yang berulang di sepanjang miofibril. Pergeseran filamen aktin dan miosin di dalam sarkomer inilah yang menyebabkan pemendekan otot atau kontraksi.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 52, 'STRUKTUR JARINGAN OTOT'"
+  },
+  {
+    "question": "Bagian dari neuron yang berfungsi menerima impuls dari sel saraf lain dan meneruskannya ke badan sel adalah...",
+    "options": ["Akson", "Badan Sel", "Dendrit", "Selubung Mielin"],
+    "correct": 2,
+    "explanation": "Dendrit adalah percabangan sitoplasma dari badan sel yang berfungsi sebagai area penerima utama sinyal atau impuls dari neuron lain.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 39, 'Bagian-Bagian Neuron'"
+  },
+  {
+    "question": "Sel pendukung di sistem saraf pusat yang membentuk selubung mielin di sekitar akson untuk mempercepat hantaran impuls adalah...",
+    "options": ["Astrosit", "Mikroglia", "Oligodendrosit", "Sel Schwan"],
+    "correct": 2,
+    "explanation": "Oligodendrosit adalah jenis sel glia di Sistem Saraf Pusat (SSP) yang bertanggung jawab untuk mielinasi akson. Sel Schwan memiliki fungsi yang sama tetapi berada di Sistem Saraf Tepi (SST).",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 43, 'OLIGODENDROSIT'"
+  },
+  {
+    "question": "Retikulum Endoplasma yang permukaannya ditempeli oleh ribosom dan berfungsi dalam sintesis protein untuk sekresi disebut...",
+    "options": ["RE Halus", "RE Kasar", "Aparatus Golgi", "Lisosom"],
+    "correct": 1,
+    "explanation": "Retikulum Endoplasma Kasar (RE Kasar) memiliki ribosom yang melekat pada permukaannya, memberinya penampilan 'kasar'. Fungsinya adalah untuk sintesis dan modifikasi protein yang akan disekresikan atau dimasukkan ke dalam membran.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 32, 'RE Kasar'"
+  },
+  {
+    "question": "Organel yang berfungsi sebagai pusat 'daur ulang' sel, mengandung enzim hidrolitik untuk mencerna makromolekul dan organel yang rusak adalah...",
+    "options": ["Peroksisom", "Vakuola", "Lisosom", "Ribosom"],
+    "correct": 2,
+    "explanation": "Lisosom adalah vesikel yang berisi berbagai enzim hidrolitik yang dapat memecah protein, asam nukleat, karbohidrat, dan lipid. Lisosom berperan dalam fagositosis dan autofagi.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 41, 'LISOSOM'"
+  },
+  {
+    "question": "Bagian dari nukleus yang berfungsi sebagai tempat sintesis ribosom adalah...",
+    "options": ["Membran Nukleus", "Nukleoplasma", "Kromatin", "Nukleolus"],
+    "correct": 3,
+    "explanation": "Nukleolus atau anak inti adalah struktur padat di dalam nukleus yang merupakan tempat utama untuk transkripsi gen rRNA dan perakitan subunit ribosom.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 52, 'Nukleus (anak inti)'"
+  },
+  {
+    "question": "Dalam biometrik wajah, analisis yang menggunakan detail visual kulit seperti garis, pola, dan bercak untuk meningkatkan akurasi identifikasi disebut...",
+    "options": ["Analisis Titik Nodal", "Analisis Tekstur Kulit", "Analisis Termal", "Analisis Geometri"],
+    "correct": 1,
+    "explanation": "Analisis Tekstur Kulit (Skin Texture Analysis) mengubah pola unik pada kulit seseorang menjadi data matematis, yang dapat membedakan individu yang memiliki struktur wajah sangat mirip, seperti kembar identik.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 14, 'ANALISIS TEKSTUR KULIT'"
+  },
+  {
+    "question": "Struktur pada permukaan wajah yang merupakan lekukan vertikal antara hidung dan bibir atas adalah...",
+    "options": ["Sulcus nasolabialis", "Philtrum", "Tubercle of superior lip", "Commissure of lips"],
+    "correct": 1,
+    "explanation": "Philtrum adalah alur atau lekukan vertikal yang khas pada bagian tengah bibir atas, membentang dari bawah hidung.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 63 & 66, 'Titik permukaan wajah'"
+  },
+  {
+    "question": "Bagian dari mata yang merupakan lapisan terluar berwarna putih dan berfungsi sebagai pelindung adalah...",
+    "options": ["Kornea", "Iris", "Sklera", "Retina"],
+    "correct": 2,
+    "explanation": "Sklera adalah lapisan jaringan ikat fibrosa yang kuat dan berwarna putih yang menutupi sebagian besar bola mata, memberikan perlindungan dan tempat perlekatan otot mata.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 41, 'Sklera'"
+  },
+  {
+    "question": "Cairan bening yang mengisi ruang antara kornea dan lensa (anterior chamber) dan diproduksi oleh badan siliaris adalah...",
+    "options": ["Vitreous humour", "Aqueous humour", "Cairan serebrospinal", "Cairan limfa"],
+    "correct": 1,
+    "explanation": "Aqueous humour adalah cairan encer yang mengisi segmen anterior mata (ruang anterior dan posterior). Cairan ini memberikan nutrisi pada kornea dan lensa serta menjaga tekanan intraokular.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 49, 'Aqueous humor'"
+  },
+  {
+    "question": "Titik pada retina di mana saraf optik meninggalkan mata dan tidak mengandung sel fotoreseptor, sehingga menciptakan 'titik buta', disebut...",
+    "options": ["Fovea centralis", "Makula lutea", "Ora serrata", "Diskus optikus (Optic disc)"],
+    "correct": 3,
+    "explanation": "Diskus optikus adalah area di mana akson dari sel-sel ganglion berkumpul untuk membentuk saraf optik. Karena tidak ada sel batang atau kerucut di area ini, maka tidak ada persepsi cahaya yang terjadi di sana.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 54, 'Optic disc / diskus optikus'"
+  },
+  {
+    "question": "Gurat-gurat halus paralel pada kulit telapak tangan dan kaki yang berfungsi meningkatkan cengkeraman disebut...",
+    "options": ["Minutiae", "Dermatoglyph", "Crease", "Folikel"],
+    "correct": 1,
+    "explanation": "Dermatoglyph adalah istilah ilmiah untuk pola punggungan (ridge) pada kulit volar (telapak tangan dan kaki), termasuk sidik jari, yang berfungsi untuk meningkatkan gesekan dan sensitivitas sentuhan.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 63, 'DERMATOGLIPH'"
+  },
+  {
+    "question": "Pada struktur tangan, tulang-tulang yang membentuk pergelangan tangan disebut...",
+    "options": ["Phalanges", "Metacarpals", "Carpals", "Tarsals"],
+    "correct": 2,
+    "explanation": "Tulang Carpal (Ossa carpi) adalah delapan tulang kecil yang tersusun dalam dua baris dan membentuk pergelangan tangan, menghubungkan tulang lengan bawah dengan tulang telapak tangan.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 34, 'TULANG PERGELANGAN TANGAN'"
+  },
+  {
+    "question": "Lapisan terluar kulit yang bersifat avaskular (tidak memiliki pembuluh darah) dan terdiri dari epitel pipih berlapis dengan keratin adalah...",
+    "options": ["Dermis", "Hipodermis", "Epidermis", "Subdermis"],
+    "correct": 2,
+    "explanation": "Epidermis adalah lapisan paling atas dari kulit. Ini berfungsi sebagai penghalang pelindung terhadap patogen, kehilangan air, dan kerusakan lingkungan. Nutrisinya didapat dari difusi dari lapisan dermis di bawahnya.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 50, 'EPIDERMIS'"
+  },
+  {
+    "question": "Sel pada epidermis yang bertanggung jawab untuk memproduksi pigmen melanin yang memberi warna pada kulit adalah...",
+    "options": ["Keratinosit", "Melanosit", "Sel Taktil", "Sel Dendritik"],
+    "correct": 1,
+    "explanation": "Melanosit adalah sel khusus yang terletak di stratum basale epidermis. Sel ini memproduksi melanin, pigmen yang melindungi kulit dari radiasi UV dan menentukan warna kulit.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 51, 'EPIDERMIS'"
+  },
+  {
+    "question": "Bau tubuh seseorang dapat dipengaruhi oleh pola makan. Makanan yang tinggi kandungan sulfur seperti bawang putih dapat menghasilkan senyawa volatil berbau yang disebut...",
+    "options": ["Aseton", "Amonia", "Allyl methyl sulfide (AMS)", "Isoprena"],
+    "correct": 2,
+    "explanation": "Makanan tinggi sulfur seperti bawang putih mengandung allicin, yang dipecah oleh tubuh menjadi senyawa volatil seperti Allyl methyl sulfide (AMS). Senyawa ini dikeluarkan melalui keringat dan napas, menghasilkan bau yang khas.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 7, 'Diet (Pola Makan)'"
+  },
+  {
+    "question": "Pertukaran udara antara darah di dalam kapiler dengan sel-sel tubuh disebut...",
+    "options": ["Pernapasan Eksternal", "Pernapasan Internal", "Ventilasi Paru", "Respirasi Seluler"],
+    "correct": 1,
+    "explanation": "Pernapasan internal adalah proses di mana oksigen dilepaskan dari darah ke sel-sel jaringan, dan karbon dioksida diambil dari sel-sel jaringan ke dalam darah.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 42, 'Jenis Pernapasan'"
+  },
+  {
+    "question": "Struktur berbentuk pipa yang dikelilingi cincin tulang rawan berbentuk C dan berfungsi sebagai saluran udara dari laring ke bronkus adalah...",
+    "options": ["Faring", "Esofagus", "Trakea", "Laring"],
+    "correct": 2,
+    "explanation": "Trakea, atau batang tenggorokan, adalah saluran udara utama yang menghubungkan laring dengan bronkus. Cincin kartilagonya mencegah saluran napas dari kolaps.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 30, 'Trakhea (Tenggorokan)'"
+  },
+  {
+    "question": "Manakah dari berikut ini yang BUKAN merupakan fungsi gen?",
+    "options": ["Menyampaikan informasi genetik", "Mengontrol metabolisme tubuh", "Menentukan sifat keturunan", "Menghasilkan energi ATP secara langsung"],
+    "correct": 3,
+    "explanation": "Gen berfungsi sebagai cetak biru untuk sintesis protein yang kemudian mengontrol metabolisme dan menentukan sifat. Namun, produksi energi ATP secara langsung adalah fungsi dari proses respirasi seluler di mitokondria, bukan fungsi gen itu sendiri.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 28, 'FUNGSI GEN'"
+  },
+  {
+    "question": "Kumpulan kromosom suatu individu yang diatur secara sistematis berdasarkan ukuran dan bentuknya disebut...",
+    "options": ["Genom", "Kariotipe", "Fenotipe", "Alelom"],
+    "correct": 1,
+    "explanation": "Kariotipe adalah tampilan visual dari kromosom suatu sel yang diurutkan berpasangan. Ini digunakan untuk mendeteksi jumlah dan kelainan struktural kromosom.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 17, 'Kariotipe'"
+  },
+  {
+    "question": "Pada struktur DNA, ikatan yang menghubungkan pasangan basa nitrogen (misalnya A dengan T, dan G dengan C) adalah...",
+    "options": ["Ikatan Fosfodiester", "Ikatan Peptida", "Ikatan Glikosidik", "Ikatan Hidrogen"],
+    "correct": 3,
+    "explanation": "Dua untai DNA disatukan oleh ikatan hidrogen yang terbentuk di antara pasangan basa komplementer. Ada dua ikatan hidrogen antara A dan T, dan tiga ikatan hidrogen antara G dan C.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 33, 'Gambaran dari struktur DNA'"
+  },
+  {
+    "question": "Fragmen DNA pendek yang disintesis secara terputus-putus pada lagging strand selama replikasi DNA disebut...",
+    "options": ["Primer RNA", "Fragmen Okazaki", "Leading strand", "Replication fork"],
+    "correct": 1,
+    "explanation": "Karena sintesis DNA hanya dapat berlangsung dalam arah 5' ke 3', salah satu untai (lagging strand) disintesis secara diskontinu dalam bentuk fragmen-fragmen pendek yang disebut fragmen Okazaki, yang kemudian disambung oleh DNA ligase.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 43, 'ELONGASI'"
+  },
+  {
+    "question": "Proses penerjemahan kode genetik pada mRNA menjadi urutan asam amino yang terjadi di ribosom disebut...",
+    "options": ["Transkripsi", "Replikasi", "Translasi", "Mutasi"],
+    "correct": 2,
+    "explanation": "Translasi adalah tahap kedua sintesis protein di mana ribosom 'membaca' urutan kodon pada mRNA dan, dengan bantuan tRNA, merakit rantai polipeptida (protein) yang sesuai.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 70, 'TRANSLASI'"
+  },
+  {
+    "question": "Kodon stop yang menandakan akhir dari proses translasi adalah...",
+    "options": ["AUG, UAA, UAG", "UGA, UAG, UGG", "UAA, UAG, UGA", "AUG, UAA, UGA"],
+    "correct": 2,
+    "explanation": "Ada tiga kodon stop dalam kode genetik standar: UAA, UAG, dan UGA. Ketika ribosom mencapai salah satu dari kodon ini pada mRNA, proses translasi akan berakhir.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 64, 'KODE GENETIK (KODON)'"
+  },
+  {
+    "question": "Enzim yang berfungsi menyambung fragmen Okazaki pada lagging strand menjadi satu untai DNA yang utuh adalah...",
+    "options": ["Helikase", "Polimerase I", "Ligase", "Primase"],
+    "correct": 2,
+    "explanation": "Setelah primer RNA digantikan oleh DNA, enzim DNA ligase membentuk ikatan fosfodiester terakhir yang menyambungkan fragmen-fragmen DNA yang berdekatan menjadi untai yang kontinu.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 45, 'PENYAMBUNGAN DNA'"
+  },
+  {
+    "question": "Sistem organ yang berfungsi untuk menopang tubuh, melindungi organ vital, dan menjadi tempat pembentukan sel darah adalah...",
+    "options": ["Sistem Otot", "Sistem Saraf", "Sistem Rangka (Skeletal)", "Sistem Integumen"],
+    "correct": 2,
+    "explanation": "Sistem rangka, yang terdiri dari tulang, ligamen, dan kartilago, memberikan kerangka struktural bagi tubuh, melindungi organ dalam seperti otak dan jantung, serta sumsum tulang merah di dalamnya memproduksi sel darah.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 61, 'Skeletal system'"
+  },
+  {
+    "question": "Jenis jaringan ikat yang serat kolagennya tersusun padat dan teratur, ditemukan pada tendon dan ligamen, adalah...",
+    "options": ["Jaringan Ikat Longgar (Areolar)", "Jaringan Adiposa", "Jaringan Ikat Padat Teratur (Dense Regular)", "Jaringan Tulang Rawan Hialin"],
+    "correct": 2,
+    "explanation": "Jaringan ikat padat teratur memiliki serat kolagen yang tersusun paralel, memberikan kekuatan tarik yang sangat besar dalam satu arah, yang ideal untuk fungsi tendon (menghubungkan otot ke tulang) dan ligamen (menghubungkan tulang ke tulang).",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 31, 'Dense Regular Connective Tissue'"
+  },
+  {
+    "question": "Sel utama dalam jaringan ikat yang berfungsi memproduksi serat (kolagen, elastin) dan substansi dasar matriks adalah...",
+    "options": ["Makrofag", "Sel Mast", "Adiposit", "Fibroblas"],
+    "correct": 3,
+    "explanation": "Fibroblas adalah sel yang paling umum dalam jaringan ikat dan bertanggung jawab untuk mensintesis sebagian besar komponen matriks ekstraseluler, termasuk serat protein dan substansi dasar.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 19, 'Kompenen Sel Penyusun Jaringan Ikat'"
+  },
+  {
+    "question": "Otot yang memiliki ciri lurik (striated), bercabang, dan memiliki diskus interkalaris adalah...",
+    "options": ["Otot Polos", "Otot Rangka", "Otot Jantung", "Otot Visereral"],
+    "correct": 2,
+    "explanation": "Otot jantung (cardiac muscle) memiliki ciri khas berupa sel-sel yang bercabang dan terhubung oleh diskus interkalaris, yang memungkinkan kontraksi yang terkoordinasi dan efisien untuk memompa darah. Otot ini juga memiliki pola lurik seperti otot rangka.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 56, 'Cardiac Muscle'"
+  },
+  {
+    "question": "Bagian dari sistem pencernaan yang berfungsi utama menyerap nutrisi dari makanan yang telah dicerna adalah...",
+    "options": ["Lambung", "Usus Besar", "Usus Halus", "Esofagus"],
+    "correct": 2,
+    "explanation": "Usus halus memiliki permukaan yang sangat luas karena adanya vili dan mikrovili, yang dirancang untuk penyerapan maksimal nutrisi seperti karbohidrat, protein, dan lemak ke dalam aliran darah.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 65, 'SISTEM DIGESTI/PENCERNAAN'"
+  },
+  {
+    "question": "Organel yang tidak memiliki membran dan terdiri dari dua subunit (besar dan kecil) adalah...",
+    "options": ["Mitokondria", "Lisosom", "Ribosom", "Nukleus"],
+    "correct": 2,
+    "explanation": "Ribosom adalah kompleks makromolekul yang terdiri dari rRNA dan protein, tidak dikelilingi oleh membran. Strukturnya terdiri dari subunit besar dan kecil yang bergabung selama sintesis protein.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 34, 'RIBOSOM'"
+  },
+  {
+    "question": "Pada penamaan enzim secara sistematis (EC Number), angka pertama menunjukkan...",
+    "options": ["Subkelas enzim", "Nomor urut enzim", "Kelas utama enzim", "Jenis substrat"],
+    "correct": 2,
+    "explanation": "Dalam sistem klasifikasi EC, angka pertama (dari empat angka) menunjukkan kelas utama enzim, yang didasarkan pada jenis reaksi umum yang dikatalisis (misalnya, 1 untuk Oksidoreduktase, 2 untuk Transferase, dll.).",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 18, 'KLASIFIKASI & PENAMAAN ENZIM'"
+  },
+  {
+    "question": "Proses di mana sel 'memakan' atau menelan partikel besar seperti bakteri, yang kemudian dicerna oleh lisosom, disebut...",
+    "options": ["Eksositosis", "Pinositosis", "Fagositosis", "Autofagi"],
+    "correct": 2,
+    "explanation": "Fagositosis adalah proses di mana sel, seperti makrofag, menelan partikel padat untuk membentuk fagosom internal. Fagosom ini kemudian akan menyatu dengan lisosom agar isinya dapat dicerna.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 42, 'Phagocytosis'"
+  },
+  {
+    "question": "Dalam anatomi wajah, regio yang terletak di area pipi adalah...",
+    "options": ["Regio Frontalis", "Regio Mentalis", "Regio Buccalis", "Regio Orbitalis"],
+    "correct": 2,
+    "explanation": "Regio Buccalis merujuk pada area pipi, yang terletak di antara hidung dan telinga, serta dari tepi bawah orbit mata hingga tepi rahang bawah.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 24, 'Regio pada kepala leher'"
+  },
+  {
+    "question": "Struktur aksesoria mata yang berfungsi menghasilkan air mata untuk membersihkan dan melumasi permukaan mata adalah...",
+    "options": ["Konjungtiva", "Kelenjar Tarsal", "Kelenjar Lakrimal", "Otot Mata Ekstrinsik"],
+    "correct": 2,
+    "explanation": "Kelenjar Lakrimal (kelenjar air mata) adalah kelenjar yang terletak di sudut superolateral rongga mata dan bertanggung jawab untuk memproduksi komponen air dari air mata.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 35, 'Apparatus Lacrimalis'"
+  },
+  {
+    "question": "Lapisan pada epidermis yang hanya ditemukan pada kulit tebal seperti telapak tangan dan telapak kaki adalah...",
+    "options": ["Stratum corneum", "Stratum granulosum", "Stratum spinosum", "Stratum lucidum"],
+    "correct": 3,
+    "explanation": "Stratum lucidum adalah lapisan tipis dan transparan yang terletak di antara stratum corneum dan stratum granulosum, dan keberadaannya merupakan ciri khas kulit tebal.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 53, 'LAPISAN PADA EPIDERMIS'"
+  },
+  {
+    "question": "Faktor yang BUKAN mempengaruhi kecepatan frekuensi pernapasan adalah...",
+    "options": ["Usia", "Suhu tubuh", "Warna mata", "Aktivitas fisik"],
+    "correct": 2,
+    "explanation": "Frekuensi pernapasan dipengaruhi oleh faktor fisiologis seperti usia, jenis kelamin, suhu tubuh, posisi tubuh, dan tingkat aktivitas. Warna mata adalah sifat genetik yang tidak berhubungan dengan regulasi pernapasan.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 49, 'Faktor-faktor yang mempengaruhi kecepatan frekuensi pernapasan'"
+  },
+  {
+    "question": "Dua salinan identik dari satu kromosom yang terbentuk setelah replikasi DNA dan terhubung pada sentromer disebut...",
+    "options": ["Kromosom homolog", "Sister kromatid", "Autosom", "Gonosom"],
+    "correct": 1,
+    "explanation": "Setelah replikasi DNA, setiap kromosom terdiri dari dua sister kromatid yang identik secara genetik. Keduanya akan terpisah selama pembelahan sel (mitosis atau meiosis II).",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 16, 'SISTER KROMATID'"
+  },
+  {
+    "question": "Jenis RNA yang terlibat dalam proses splicing (pemotongan dan penyambungan intron dan ekson) di nukleus adalah...",
+    "options": ["mRNA", "tRNA", "rRNA", "snRNA"],
+    "correct": 3,
+    "explanation": "snRNA (Small Nuclear RNA) adalah komponen kunci dari spliceosome, kompleks molekuler yang melakukan splicing pada pre-mRNA untuk menghasilkan mRNA yang matang.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 58, 'JENIS RNA LAINNYA'"
+  },
+  {
+    "question": "Jika seorang pria memiliki indeks wajah <145.12°, maka profil wajahnya tergolong...",
+    "options": ["Cembung (convex)", "Lurus (straight)", "Cekung (concave)", "Sedang (meso)"],
+    "correct": 2,
+    "explanation": "Berdasarkan tabel interpretasi profil wajah, untuk pria, nilai sudut di bawah 145.12° menunjukkan profil wajah yang cekung (concave).",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 82, 'Interpretasi Profil wajah'"
+  },
+  {
+    "question": "Pada biometrik tangan, ciri-ciri seperti panjang, lebar, dan area telapak tangan termasuk dalam kategori...",
+    "options": ["Ciri garis-garis utama", "Ciri geometri", "Ciri titik delta", "Ciri minutiae"],
+    "correct": 1,
+    "explanation": "Ciri geometri (geometry features) dalam biometrik tangan secara spesifik mengukur dimensi fisik tangan seperti panjang dan lebar jari, serta luas area telapak tangan.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 12, 'HAND GEOMETRY & PALMPRINT'"
+  },
+  {
+    "question": "Bagian dari laring yang berfungsi melindungi saluran napas saat menelan dengan cara menutup adalah...",
+    "options": ["Glottis", "Subglottis", "Pita suara", "Epiglotis"],
+    "correct": 3,
+    "explanation": "Epiglotis adalah katup tulang rawan yang terletak di atas laring. Saat menelan, epiglotis akan melipat ke bawah untuk menutupi pembukaan laring, mencegah makanan atau cairan masuk ke saluran napas (trakea).",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 28, 'Bagian-bagian pada laring'"
+  },
+  {
+    "question": "Dalam struktur DNA, untai yang memiliki urutan basa nitrogen yang sama dengan mRNA (dengan T diganti U) dan tidak digunakan sebagai cetakan transkripsi disebut...",
+    "options": ["Anti-sense strand", "Template strand", "Sense strand", "Lagging strand"],
+    "correct": 2,
+    "explanation": "DNA Sense (rantai coding atau non-template) memiliki urutan yang sesuai dengan mRNA yang akan dihasilkan. Untai pasangannya, DNA anti-sense, adalah yang digunakan sebagai cetakan (template) oleh RNA polimerase.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 65, 'SIFAT DNA'"
+  },
+  {
+    "question": "Enzim yang memiliki nomor EC 2.7.1.1, seperti Heksokinase, termasuk dalam kelas...",
+    "options": ["Oksidoreduktase (Kelas 1)", "Transferase (Kelas 2)", "Hidrolase (Kelas 3)", "Isomerase (Kelas 5)"],
+    "correct": 1,
+    "explanation": "Angka pertama pada nomor EC menunjukkan kelas utama. Angka '2' menunjukkan kelas Transferase. Angka kedua '7' menunjukkan subkelas transfer gugus fosfat (kinase).",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 14, 'KLASIFIKASI & PENAMAAN ENZIM'"
+  },
+  {
+    "question": "Jaringan yang melapisi alveoli paru-paru dan kapiler darah, yang sangat tipis untuk memungkinkan difusi gas yang efisien, adalah...",
+    "options": ["Epitel Kubus Selapis", "Epitel Silindris Selapis", "Epitel Pipih Selapis (Simple Squamous)", "Epitel Transisional"],
+    "correct": 2,
+    "explanation": "Epitel pipih selapis adalah jaringan yang paling tipis, terdiri dari satu lapisan sel pipih. Strukturnya ideal untuk tempat terjadinya difusi dan filtrasi, seperti di alveoli paru-paru.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 14, 'Simple squamous epithelium'"
+  },
+  {
+    "question": "Organel yang berperan dalam detoksifikasi sel, terutama di sel hati, dengan menguraikan senyawa berbahaya seperti hidrogen peroksida adalah...",
+    "options": ["Lisosom", "Peroksisom", "Vakuola", "Sentrosom"],
+    "correct": 1,
+    "explanation": "Peroksisom mengandung enzim seperti katalase yang secara spesifik berfungsi untuk memecah hidrogen peroksida (produk sampingan metabolisme yang beracun) menjadi air dan oksigen.",
+    "reference": "File 'MATER_BIOLOGI_DASAR_Struktur_fungsi_sel_dan_organisasi_kehidupan.pdf', Halaman 47, 'PEROKSISOM'"
+  },
+  {
+    "question": "Otot yang berfungsi untuk mengernyitkan dahi adalah...",
+    "options": ["M. orbicularis oculi", "M. zygomaticus", "M. occipitofrontalis", "M. masseter"],
+    "correct": 2,
+    "explanation": "Musculus occipitofrontalis (bagian frontalis) adalah otot yang terletak di dahi dan bertanggung jawab untuk mengangkat alis dan mengernyitkan dahi.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 39, 'Musculus occipitofrontalis'"
+  },
+  {
+    "question": "Titik buta (blind spot) pada mata disebabkan oleh...",
+    "options": ["Kepadatan sel kerucut yang tinggi di fovea", "Adanya diskus optikus yang tidak memiliki fotoreseptor", "Lensa yang menjadi keruh", "Kurangnya pigmen pada iris"],
+    "correct": 1,
+    "explanation": "Diskus optikus adalah tempat saraf optik dan pembuluh darah keluar dari mata. Karena area ini tidak memiliki sel batang maupun sel kerucut, maka tidak ada deteksi cahaya yang terjadi di sana, menciptakan titik buta.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 4_STRUKTUR DAN ANTROPOMETRI MATA .pdf', Halaman 54, 'Optic disc / diskus optikus'"
+  },
+  {
+    "question": "Pada penghitungan punggungan (ridges) sidik jari, pola yang tidak dihitung karena tidak memiliki titik delta adalah...",
+    "options": ["Loop", "Whorl", "Arch", "Composite"],
+    "correct": 2,
+    "explanation": "Penghitungan punggungan (ridge counting) hanya dapat dilakukan pada pola yang memiliki titik delta dan inti, yaitu Loop dan Whorl. Pola Arch tidak memiliki kedua struktur tersebut sehingga tidak dapat dihitung TRC-nya.",
+    "reference": "File 'PRAKTIKUM ANTROPO (3).pdf', Halaman 8, 'CARA MENGHITUNG PENGGUNGAN (RIDGES)'"
+  },
+  {
+    "question": "Konsumsi makanan seperti daging merah dapat memperburuk bau badan karena pencernaannya menghasilkan produk metabolik seperti...",
+    "options": ["Allicin", "Aseton", "Amonia dan urea", "Asetaldehida"],
+    "correct": 2,
+    "explanation": "Pencernaan protein dalam daging merah menghasilkan produk sampingan seperti amonia dan urea, yang dapat dikeluarkan melalui keringat dan menjadi substrat bagi bakteri untuk menghasilkan bau.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 8, 'Daging Merah'"
+  },
+  {
+    "question": "Kapasitas udara maksimal yang dapat dihirup setelah melakukan ekspirasi normal (IC = IRV + TV) disebut...",
+    "options": ["Kapasitas Vital (VC)", "Kapasitas Paru Total (TLC)", "Kapasitas Inspirasi (IC)", "Kapasitas Residual Fungsional (FRC)"],
+    "correct": 2,
+    "explanation": "Kapasitas Inspirasi (Inspiratory Capacity, IC) adalah jumlah total udara yang dapat dihirup mulai dari akhir ekspirasi normal. Ini merupakan penjumlahan dari Volume Tidal (TV) dan Volume Cadangan Inspirasi (IRV).",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 48, 'Kapasitas paru'"
+  },
+  {
+    "question": "Jika seorang individu memiliki genotipe 'bb' untuk warna mata, di mana 'b' adalah alel resesif untuk mata biru, maka fenotipe yang akan muncul adalah...",
+    "options": ["Mata Cokelat", "Mata Biru", "Mata Hazel", "Tidak dapat ditentukan"],
+    "correct": 1,
+    "explanation": "Alel resesif (disimbolkan dengan huruf kecil) hanya akan diekspresikan dalam fenotipe jika individu tersebut memiliki dua salinan alel tersebut (homozigot resesif). Oleh karena itu, genotipe 'bb' akan menghasilkan fenotipe mata biru.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 27, 'Genotipe dan Fenotipe Warna Mata'"
+  },
+  {
+    "question": "Proses replikasi DNA terjadi pada fase apa dalam siklus sel?",
+    "options": ["Fase G1", "Fase S", "Fase G2", "Fase M (Mitosis)"],
+    "correct": 1,
+    "explanation": "Replikasi DNA terjadi selama Fase S (Sintesis) dari interfase, yaitu periode di antara pembelahan sel. Pada fase ini, seluruh genom sel digandakan untuk persiapan pembelahan.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 40, 'KAPAN TERJADINYA REPLIKASI DNA'"
+  },
+  {
+    "question": "Molekul protein yang membantu pelipatan (folding) protein lain yang baru disintesis agar memiliki bentuk yang benar disebut...",
+    "options": ["Proteasom", "Inhibitor", "Chaperon", "Kodon"],
+    "correct": 2,
+    "explanation": "Chaperon adalah protein yang membimbing proses pelipatan polipeptida menjadi struktur tiga dimensi yang fungsional dan mencegah agregasi atau pelipatan yang salah.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 77, 'Chaperon'"
+  },
+  {
+    "question": "Enzim yang berfungsi memecah laktosa menjadi glukosa dan galaktosa adalah...",
+    "options": ["Sukrase", "Maltase", "Laktase", "Amilase"],
+    "correct": 2,
+    "explanation": "Penamaan enzim seringkali didasarkan pada nama substratnya dengan akhiran -ase. Laktase adalah enzim yang secara spesifik mengkatalisis hidrolisis laktosa.",
+    "reference": "File 'BIOLOGI DASAR_ENZIM (PERTEMUAN 2).pdf', Halaman 15, 'Tata nama enzim secara Trivial'"
+  },
+  {
+    "question": "Tingkat organisasi kehidupan di mana berbagai jenis jaringan yang berbeda bekerja sama untuk melakukan fungsi tertentu, seperti jantung atau paru-paru, adalah...",
+    "options": ["Tingkat Seluler", "Tingkat Jaringan", "Tingkat Organ", "Tingkat Sistem Organ"],
+    "correct": 2,
+    "explanation": "Organ didefinisikan sebagai struktur yang terdiri dari dua atau lebih jenis jaringan yang terorganisir untuk menjalankan fungsi yang kompleks dan spesifik.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 58, 'TINGKAT ORGAN'"
+  },
+  {
+    "question": "Jenis jaringan epitel yang sel-selnya dapat berubah bentuk dari bulat menjadi pipih saat diregangkan, seperti yang ditemukan pada kandung kemih, adalah...",
+    "options": ["Epitel Pipih Berlapis", "Epitel Kubus Selapis", "Epitel Transisional", "Epitel Silindris Bersilia"],
+    "correct": 2,
+    "explanation": "Epitel transisional memiliki kemampuan unik untuk meregang dan kembali ke bentuk semula. Ini memungkinkannya melapisi organ-organ saluran kemih yang volumenya dapat berubah-ubah, seperti kandung kemih.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 16, 'Transitional epithelium'"
+  },
+  {
+    "question": "Sel glia di sistem saraf pusat yang berfungsi sebagai sel imun dan membersihkan sel-sel mati atau patogen adalah...",
+    "options": ["Astrosit", "Oligodendrosit", "Sel Ependim", "Mikroglia"],
+    "correct": 3,
+    "explanation": "Mikroglia adalah sel fagositik di otak dan sumsum tulang belakang, bertindak sebagai garis pertahanan imun utama dalam sistem saraf pusat.",
+    "reference": "File 'SEL,_JARINGAN,_ORGAN_&_SISTEM_ORGAN_Tingkat_Organisasi_Kehidupan.pdf', Halaman 43, 'MICROGLIA'"
+  },
+  {
+    "question": "Otot yang berfungsi untuk menutup mata adalah...",
+    "options": ["M. orbicularis oris", "M. orbicularis oculi", "M. levator palpebrae superioris", "M. depressor supercilii"],
+    "correct": 1,
+    "explanation": "Musculus orbicularis oculi adalah otot melingkar yang mengelilingi mata. Kontraksinya menyebabkan kelopak mata menutup.",
+    "reference": "File 'BIOLOGI DASAR_STRUKTUR DAN ANTROPOMETRI WAJAH (PERTEMUAN 3).pdf', Halaman 40, 'Musculus orbicularis oculi'"
+  },
+  {
+    "question": "Bagian dari struktur permukaan tangan yang merupakan lipatan kulit di sekitar pangkal ibu jari, sering disebut 'garis kehidupan', adalah...",
+    "options": ["Distal palmar crease", "Proximal palmar crease", "Thenar crease", "Hypothenar eminence"],
+    "correct": 2,
+    "explanation": "Thenar crease adalah lipatan kulit yang melengkung di sekitar thenar eminence (bantalan pangkal ibu jari) dan secara tradisional dikenal sebagai 'life line'.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 23, 'BAGIAN VOLAR PADA TANGAN'"
+  },
+  {
+    "question": "Pada struktur ujung jari, lapisan kulit terluar yang membentuk pola sidik jari adalah...",
+    "options": ["Dermis", "Hipodermis", "Epidermis", "Subkutis"],
+    "correct": 2,
+    "explanation": "Pola punggungan dan lembah (dermatoglyph) yang membentuk sidik jari adalah fitur dari lapisan epidermis kulit pada ujung jari.",
+    "reference": "File 'BIOLOGI_DASAR_PERTEMUAN_5_STRUKTUR_DAN_ANTROPOMETRI_TANGAN_DAN_SIDIK.pdf', Halaman 45 & 47, 'STRUKTUR UJUNG JARI' & 'STRUKTUR KULIT'"
+  },
+  {
+    "question": "Bronkus utama kanan (Bronchus Principalis Dexter) lebih sering menjadi tempat masuknya benda asing dibandingkan bronkus kiri karena...",
+    "options": ["Bentuknya lebih sempit dan panjang", "Posisinya lebih miring", "Bentuknya lebih lebar, pendek, dan lebih vertikal", "Memiliki lebih banyak percabangan"],
+    "correct": 2,
+    "explanation": "Secara anatomis, bronkus utama kanan lebih lebar dan posisinya lebih lurus (vertikal) dibandingkan bronkus kiri yang lebih miring. Hal ini membuat benda asing yang terhirup lebih mudah masuk ke sisi kanan.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 35, 'Bronkus'"
+  },
+  {
+    "question": "Selaput tipis rangkap yang membungkus paru-paru disebut...",
+    "options": ["Perikardium", "Peritoneum", "Pleura", "Meningen"],
+    "correct": 2,
+    "explanation": "Pleura adalah selaput serosa yang terdiri dari dua lapisan (viseral dan parietal) yang membungkus paru-paru dan melapisi rongga dada, berfungsi untuk melindungi dan mengurangi gesekan saat bernapas.",
+    "reference": "File 'BIOLOGI DASAR PERTEMUAN 6_RESPIRASI (BIOMETRIK ODOR).pdf', Halaman 40, 'Pulmo (Paru-paru) dan Alveolus'"
+  },
+  {
+    "question": "Jika seorang individu memiliki genotipe heterozigot (misalnya 'Bb'), maka alel yang akan diekspresikan pada fenotipe adalah alel...",
+    "options": ["Dominan", "Resesif", "Kodominan", "Intermediet"],
+    "correct": 0,
+    "explanation": "Dalam pewarisan sifat dominan-resesif, alel dominan (disimbolkan dengan huruf kapital) akan menutupi ekspresi alel resesif. Oleh karena itu, individu dengan genotipe 'Bb' akan menunjukkan sifat yang dikodekan oleh alel 'B'.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 25, 'DEFINISI GEN-ALEL-LOKUS'"
+  },
+  {
+    "question": "Dalam struktur nukleotida RNA, basa nitrogen Timin (T) digantikan oleh...",
+    "options": ["Adenin (A)", "Guanin (G)", "Sitosin (C)", "Urasil (U)"],
+    "correct": 3,
+    "explanation": "Salah satu perbedaan utama antara DNA dan RNA adalah basa pirimidin yang digunakan. RNA mengandung Urasil (U) sebagai pengganti Timin (T) yang ditemukan di DNA.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 48, 'RNA'"
+  },
+  {
+    "question": "Enzim yang berperan dalam tahap inisiasi replikasi DNA dengan membentuk primer RNA adalah...",
+    "options": ["Helikase", "DNA Polimerase III", "Ligase", "Primase"],
+    "correct": 3,
+    "explanation": "Primase adalah jenis RNA polimerase yang mensintesis untaian pendek RNA (primer) yang komplementer dengan cetakan DNA. Primer ini menyediakan gugus 3'-OH yang diperlukan oleh DNA polimerase untuk memulai sintesis DNA.",
+    "reference": "File 'BIOLOGI DASAR_KONSEP DASAR GENETIKA (PERTEMUAN 2).pdf', Halaman 42, 'PEMBENTUKAN PRIMER'"
+  }
+]

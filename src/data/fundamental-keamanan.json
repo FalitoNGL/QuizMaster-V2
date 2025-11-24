@@ -1,0 +1,1082 @@
+[
+    {
+        "question": "Tujuan utama dari Business Continuity Plan adalah…",
+        "options": [
+            "Menjamin operasional tetap berjalan meski terjadi insiden besar",
+            "Membatasi akses karyawan ke media sosial kantor",
+            "Mengatur firewall agar serangan tidak masuk ke jaringan",
+            "Menyembunyikan log aktivitas agar tidak terlacak auditor"
+        ],
+        "correct": 0,
+        "explanation": "Business Continuity Plan (BCP) dirancang untuk memastikan fungsi bisnis yang krusial dapat terus berlanjut atau cepat pulih saat terjadi gangguan serius.",
+        "reference": "Prinsip Manajemen Keberlangsungan Bisnis"
+    },
+    {
+        "question": "Business Continuity Plan diperlukan untuk menghadapi…",
+        "options": [
+            "Keterlambatan update antivirus",
+            "Persaingan vendor penyedia layanan cloud",
+            "Gangguan layanan akibat serangan DDoS atau bencana alam",
+            "Patch management yang tidak diperbarui tepat waktu"
+        ],
+        "correct": 2,
+        "explanation": "BCP mencakup respons terhadap berbagai skenario bencana, termasuk bencana alam dan serangan siber skala besar seperti DDoS yang dapat melumpuhkan layanan.",
+        "reference": "Prinsip Manajemen Keberlangsungan Bisnis"
+    },
+    {
+        "question": "Salah satu komponen utama dalam Business Continuity Plan adalah…",
+        "options": [
+            "Rencana hardening sistem operasi terhadap malware",
+            "Rencana komunikasi darurat ketika terjadi insiden",
+            "Rencana konfigurasi ulang firewall perimeter",
+            "Rencana patching aplikasi untuk mengurangi celah"
+        ],
+        "correct": 1,
+        "explanation": "Rencana komunikasi darurat sangat krusial dalam BCP untuk memastikan semua pemangku kepentingan (staf, manajemen, pelanggan) mendapatkan informasi yang tepat waktu saat terjadi krisis.",
+        "reference": "Komponen Inti BCP"
+    },
+    {
+        "question": "Tahapan pertama dalam menyusun Business Continuity Plan adalah…",
+        "options": [
+            "Menyusun laporan insiden keamanan siber tahunan",
+            "Melakukan penetration test pada sistem kritis",
+            "Memilih vendor penyedia cloud backup",
+            "Analisis dampak bisnis"
+        ],
+        "correct": 3,
+        "explanation": "Proses penyusunan BCP selalu diawali dengan Business Impact Analysis (BIA) untuk mengidentifikasi proses bisnis kritis dan memahami dampak potensial dari gangguan.",
+        "reference": "Siklus Hidup BCP"
+    },
+    {
+        "question": "Apa yang dimaksud dengan BIA?",
+        "options": [
+            "Basic Infrastructure Audit pada jaringan dan server",
+            "Banking Information Archive untuk penyimpanan data",
+            "Business Impact Analysis terhadap gangguan operasional",
+            "Business Internal Assessment untuk mengecek aset TI"
+        ],
+        "correct": 2,
+        "explanation": "BIA adalah singkatan dari Business Impact Analysis, yaitu proses menganalisis dampak dari gangguan terhadap operasional bisnis.",
+        "reference": "Terminologi Keamanan Informasi"
+    },
+    {
+        "question": "Tujuan dari Business Impact Analysis adalah…",
+        "options": [
+            "Menilai dampak gangguan, misalnya serangan DDoS, terhadap proses bisnis",
+            "Memprediksi tren teknologi keamanan cloud",
+            "Membandingkan biaya implementasi firewall antar vendor",
+            "Menganalisis laporan phishing dari pelanggan"
+        ],
+        "correct": 0,
+        "explanation": "BIA bertujuan untuk mengidentifikasi fungsi bisnis yang paling kritis dan mengukur dampak finansial serta operasional jika fungsi tersebut terganggu.",
+        "reference": "Tujuan Business Impact Analysis"
+    },
+    {
+        "question": "Uji coba Business Continuity Plan bertujuan untuk…",
+        "options": [
+            "Mengukur kesiapan organisasi menghadapi bencana atau serangan siber",
+            "Mengurangi biaya operasional lewat otomatisasi patch",
+            "Melihat respons vendor cloud ketika terjadi downtime",
+            "Mengukur tingkat kesabaran tim keamanan saat terjadi serangan"
+        ],
+        "correct": 0,
+        "explanation": "Pengujian BCP secara berkala sangat penting untuk memvalidasi rencana, melatih tim, dan memastikan organisasi benar-benar siap saat terjadi insiden nyata.",
+        "reference": "Pengujian dan Pemeliharaan BCP"
+    },
+    {
+        "question": "Risiko yang perlu diantisipasi dalam Business Continuity Plan dapat berupa…",
+        "options": [
+            "Loyalitas pelanggan yang stabil meski ada insiden",
+            "Komunikasi lancar antar divisi IT dan non-IT",
+            "Kebakaran, banjir, atau serangan ransomware/DDoS",
+            "Overload server karena patch gagal terpasang"
+        ],
+        "correct": 2,
+        "explanation": "BCP harus mengantisipasi berbagai jenis bencana, termasuk bencana alam (kebakaran, banjir) dan bencana buatan manusia (serangan siber seperti ransomware/DDoS).",
+        "reference": "Manajemen Risiko BCP"
+    },
+    {
+        "question": "Mengapa penting melibatkan semua divisi dalam Business Continuity Plan?",
+        "options": [
+            "Supaya ada pihak yang bisa dipersalahkan jika terjadi insiden",
+            "Untuk menambah jumlah laporan audit yang harus dikirim",
+            "Karena semua bagian memiliki peran menjaga kelangsungan operasional",
+            "Agar setiap divisi ikut serta dalam pelatihan phishing awareness"
+        ],
+        "correct": 2,
+        "explanation": "Keberlangsungan bisnis adalah tanggung jawab bersama. Setiap departemen memiliki proses kritis yang saling bergantung, sehingga keterlibatan semua pihak sangat esensial.",
+        "reference": "Implementasi BCP Lintas Fungsi"
+    },
+    {
+        "question": "Penyusunan BCP sebaiknya dilakukan oleh…",
+        "options": [
+            "Tim lintas fungsi (cross-functional)",
+            "Tim keuangan saja",
+            "Tim audit eksternal",
+            "Tim pemasaran"
+        ],
+        "correct": 0,
+        "explanation": "Tim lintas fungsi memastikan bahwa semua aspek bisnis, dari teknis hingga operasional dan komunikasi, terwakili dalam perencanaan kesinambungan bisnis.",
+        "reference": "Struktur Tim BCP"
+    },
+    {
+        "question": "Apa yang dimaksud dengan Recovery Time Objective (RTO)?",
+        "options": [
+            "Jumlah kerugian akibat insiden yang tidak disengaja",
+            "Waktu maksimum yang diperbolehkan untuk pemulihan layanan akibat insiden",
+            "Jumlah kerugian yang diterima akibat insiden yang terjadi sepanjang tahun",
+            "Total waktu kerja karyawan sejak insiden terjadi sampai pemulihan selesai"
+        ],
+        "correct": 1,
+        "explanation": "RTO adalah metrik kritis dalam BCP/DRP yang mendefinisikan target waktu maksimal untuk memulihkan fungsi bisnis setelah terjadi bencana agar dampak kerugian bisa diminimalisir.",
+        "reference": "Metrik BCP/DRP"
+    },
+    {
+        "question": "Lokasi pemulihan yang sudah lengkap dan siap digunakan disebut...",
+        "options": [
+            "Warm site",
+            "Passive site",
+            "Hot site",
+            "Cold site"
+        ],
+        "correct": 2,
+        "explanation": "Hot site adalah fasilitas pemulihan bencana yang memiliki semua infrastruktur IT dan data yang termutakhir, siap digunakan dalam waktu sangat singkat.",
+        "reference": "Tipe Lokasi Pemulihan Bencana"
+    },
+    {
+        "question": "Salah satu strategi mitigasi dalam Disaster Recovery Plan adalah...",
+        "options": [
+            "Menambah klien",
+            "Membuka cabang baru",
+            "Backup data secara rutin",
+            "Mengganti tim TI"
+        ],
+        "correct": 2,
+        "explanation": "Backup data secara rutin ke lokasi yang aman adalah salah satu pilar utama dari setiap Disaster Recovery Plan (DRP) untuk memastikan data dapat dipulihkan.",
+        "reference": "Strategi Disaster Recovery Plan"
+    },
+    {
+        "question": "Aktivasi BCP dilakukan setelah...",
+        "options": [
+            "Pelatihan SDM",
+            "Evaluasi awal situasi",
+            "Analisis SWOT",
+            "Simulasi pajak"
+        ],
+        "correct": 1,
+        "explanation": "Sebelum BCP diaktifkan sepenuhnya, tim manajemen krisis harus melakukan evaluasi awal untuk memahami skala insiden dan menentukan apakah aktivasi BCP diperlukan.",
+        "reference": "Proses Aktivasi BCP"
+    },
+    {
+        "question": "Apa yang dimaksud dengan cold site dalam BCP?",
+        "options": [
+            "Lokasi yang bisa digunakan langsung",
+            "Lokasi yang hanya menyediakan ruang dan utilitas dasar",
+            "Lokasi online-only",
+            "Lokasi yang sangat mahal"
+        ],
+        "correct": 1,
+        "explanation": "Cold site adalah fasilitas pemulihan bencana paling dasar yang hanya menyediakan ruang kosong dengan listrik dan konektivitas, tanpa adanya perangkat keras.",
+        "reference": "Tipe Lokasi Pemulihan Bencana"
+    },
+    {
+        "question": "Manakah berikut yang bukan anggota tim DRP?",
+        "options": [
+            "Tim Evaluasi Pegawai",
+            "Tim Logistik",
+            "Tim Manajemen Data",
+            "Tim Pemulihan Jaringan"
+        ],
+        "correct": 0,
+        "explanation": "Tim DRP fokus pada pemulihan teknis dan operasional pasca-bencana, seperti logistik, jaringan, dan data. Evaluasi pegawai adalah fungsi HR yang terpisah.",
+        "reference": "Struktur Tim DRP"
+    },
+    {
+        "question": "Tahap akhir dalam implementasi DRP adalah...",
+        "options": [
+            "Pemulihan awal",
+            "Presentasi data",
+            "Aktivasi DRP",
+            "Restorasi operasi penuh"
+        ],
+        "correct": 3,
+        "explanation": "Tujuan akhir dari DRP adalah restorasi operasi penuh, di mana semua sistem dan layanan kembali berjalan normal seperti sebelum terjadi bencana.",
+        "reference": "Siklus Hidup DRP"
+    },
+    {
+        "question": "Serangan DDoS bertujuan untuk…",
+        "options": [
+            "Membuat sistem tidak dapat diakses",
+            "Menjalankan virus",
+            "Meningkatkan performa sistem",
+            "Mengganti password"
+        ],
+        "correct": 0,
+        "explanation": "Serangan Distributed Denial-of-Service (DDoS) membanjiri server dengan lalu lintas palsu, membuatnya kewalahan dan tidak dapat diakses oleh pengguna yang sah.",
+        "reference": "Jenis Serangan Siber"
+    },
+    {
+        "question": "Malware yang menyamar sebagai software sah disebut…",
+        "options": [
+            "Trojan",
+            "Spyware",
+            "Worm",
+            "Adware"
+        ],
+        "correct": 0,
+        "explanation": "Kuda Troya atau Trojan adalah jenis malware yang menyamar sebagai program yang berguna atau sah untuk mengelabui pengguna agar menginstalnya.",
+        "reference": "Jenis Malware"
+    },
+    {
+        "question": "Teknik rekayasa sosial (social engineering) sering memanfaatkan…",
+        "options": [
+            "Kelemahan teknis",
+            "Kepercayaan pengguna",
+            "Kode enkripsi",
+            "Firewall"
+        ],
+        "correct": 1,
+        "explanation": "Rekayasa sosial adalah seni memanipulasi psikologis pengguna untuk mendapatkan akses atau informasi, dengan memanfaatkan sifat dasar manusia seperti kepercayaan dan keinginan untuk membantu.",
+        "reference": "Prinsip Rekayasa Sosial"
+    },
+    {
+        "question": "Firewall digunakan untuk…",
+        "options": [
+            "Mengamankan jaringan dengan memblokir akses yang tidak sah",
+            "Membuat salinan data sebagai cadangan bila terjadi kegagalan sistem",
+            "Mempercepat throughput jaringan agar akses lebih lancar",
+            "Menyaring spam email sebelum masuk ke inbox pengguna"
+        ],
+        "correct": 0,
+        "explanation": "Fungsi utama firewall adalah bertindak sebagai penghalang antara jaringan internal yang aman dan jaringan eksternal yang tidak terpercaya, dengan menyaring lalu lintas berdasarkan aturan keamanan.",
+        "reference": "Dasar Keamanan Jaringan"
+    },
+    {
+        "question": "Penambalan (patching) dilakukan untuk…",
+        "options": [
+            "Menghapus file duplikat untuk menghemat ruang penyimpanan",
+            "Menambahkan fitur baru tanpa memperhatikan keamanan",
+            "Memperbaiki kerentanan keamanan pada perangkat lunak",
+            "Mengubah antarmuka sistem agar lebih user friendly"
+        ],
+        "correct": 2,
+        "explanation": "Patch adalah pembaruan perangkat lunak yang dirilis oleh vendor untuk memperbaiki bug atau celah keamanan (kerentanan) yang ditemukan setelah produk dirilis.",
+        "reference": "Manajemen Kerentanan"
+    },
+    {
+        "question": "IDS (Intrusion Detection System) berfungsi untuk…",
+        "options": [
+            "Mengatur bandwidth agar trafik lebih stabil",
+            "Mencegah semua serangan masuk sebelum mencapai jaringan",
+            "Menghapus malware secara otomatis tanpa campur tangan admin",
+            "Mendeteksi aktivitas mencurigakan atau serangan dalam jaringan"
+        ],
+        "correct": 3,
+        "explanation": "IDS bekerja seperti alarm keamanan; ia memantau lalu lintas jaringan atau aktivitas sistem dan memberikan peringatan jika mendeteksi pola yang mencurigakan atau cocok dengan tanda tangan serangan yang diketahui.",
+        "reference": "Sistem Deteksi Intrusi"
+    },
+    {
+        "question": "Enkripsi data digunakan untuk…",
+        "options": [
+            "Menyimpan data di cloud secara permanen",
+            "Mengacak informasi sehingga hanya pihak berwenang yang bisa membacanya",
+            "Menyembunyikan file agar tidak terlihat oleh sistem operasi",
+            "Menghapus data usang dari server agar lebih efisien"
+        ],
+        "correct": 1,
+        "explanation": "Enkripsi adalah proses mengubah data (plaintext) menjadi format acak (ciphertext) menggunakan algoritma, sehingga hanya pihak yang memiliki kunci yang benar yang dapat mengembalikannya ke bentuk semula.",
+        "reference": "Prinsip Kriptografi"
+    },
+    {
+        "question": "Tujuan utama dari autentikasi multi-faktor (MFA) adalah…",
+        "options": [
+            "Memberikan lapisan keamanan tambahan selain password",
+            "Menambah beban login agar lebih rumit",
+            "Menggantikan firewall yang sudah ketinggalan zaman",
+            "Mempercepat proses login pengguna"
+        ],
+        "correct": 0,
+        "explanation": "MFA mensyaratkan pengguna untuk memberikan dua atau lebih bukti verifikasi (misalnya, password dan kode dari ponsel) untuk membuktikan identitas mereka, sehingga secara signifikan lebih aman daripada hanya password.",
+        "reference": "Manajemen Akses"
+    },
+    {
+        "question": "Backup data secara rutin dilakukan agar…",
+        "options": [
+            "Data tetap tersedia jika terjadi kerusakan atau serangan",
+            "Bandwidth jaringan berkurang saat jam sibuk",
+            "Sistem bisa berjalan lebih cepat dari biasanya",
+            "Semua log lama bisa dihapus secara permanen"
+        ],
+        "correct": 0,
+        "explanation": "Backup adalah pilar dari ketersediaan (availability) data. Jika data asli hilang karena kerusakan perangkat keras, serangan ransomware, atau kesalahan manusia, data dapat dipulihkan dari salinan cadangan.",
+        "reference": "Prinsip Ketersediaan Data"
+    },
+    {
+        "question": "Kebijakan keamanan informasi harus disusun oleh…",
+        "options": [
+            "Manajemen dan divisi TI",
+            "Divisi desain",
+            "Klien eksternal",
+            "Semua divisi secara acak"
+        ],
+        "correct": 0,
+        "explanation": "Penyusunan kebijakan keamanan memerlukan kolaborasi antara manajemen (untuk arahan strategis dan dukungan) dan divisi TI (untuk implementasi teknis).",
+        "reference": "Tata Kelola Keamanan Informasi"
+    },
+    {
+        "question": "Salah satu indikator keamanan siber yang baik adalah…",
+        "options": [
+            "Frekuensi pelatihan keamanan untuk pegawai",
+            "Rendahnya downtime sistem",
+            "Banyaknya email diterima",
+            "Banyaknya perangkat terkini yang digunakan"
+        ],
+        "correct": 1,
+        "explanation": "Rendahnya waktu henti (downtime) sistem menunjukkan bahwa sistem tangguh terhadap gangguan, yang merupakan salah satu hasil dari program keamanan siber yang matang.",
+        "reference": "Metrik Keamanan Siber"
+    },
+    {
+        "question": "Salah satu ancaman terhadap aplikasi web adalah…",
+        "options": [
+            "Cross Site Scripting (XSS)",
+            "Overheating server",
+            "Spamming email",
+            "File berukuran besar"
+        ],
+        "correct": 0,
+        "explanation": "XSS adalah serangan injeksi di mana penyerang menyisipkan skrip berbahaya ke dalam situs web yang dipercaya, yang kemudian dieksekusi di browser korban.",
+        "reference": "Keamanan Aplikasi Web"
+    },
+    {
+        "question": "Pengamanan perangkat mobile perlu dilakukan karena…",
+        "options": [
+            "Akses internet pada perangkat mobile selalu aman",
+            "Perangkat mobile jarang menjadi target serangan siber",
+            "Hanya berfungsi untuk komunikasi sederhana",
+            "Banyak digunakan untuk menyimpan data sensitif"
+        ],
+        "correct": 3,
+        "explanation": "Perangkat mobile modern sering digunakan untuk mengakses email kantor, data perusahaan, dan informasi pribadi yang sensitif, menjadikannya target yang menarik bagi penyerang.",
+        "reference": "Keamanan Perangkat Mobile"
+    },
+    {
+        "question": "Salah satu prinsip pengembangan sistem yang aman adalah…",
+        "options": [
+            "Menerapkan pengujian manual tanpa proses otomatis agar tidak ada tahap yang terlewat",
+            "Menambahkan keamanan setelah sistem selesai dibangun",
+            "Mengurangi dokumentasi agar lebih cepat rilis",
+            "Mengintegrasikan keamanan sejak tahap perancangan"
+        ],
+        "correct": 3,
+        "explanation": "Prinsip 'Security by Design' atau 'Shift-Left Security' menekankan bahwa keamanan harus menjadi pertimbangan sejak awal siklus hidup pengembangan perangkat lunak (SDLC), bukan sebagai tambahan di akhir.",
+        "reference": "Secure SDLC"
+    },
+    {
+        "question": "Apa tujuan utama dari keamanan fisik dalam keamanan informasi?",
+        "options": [
+            "Meningkatkan kenyamanan estetika ruang kerja",
+            "Melindungi aset fisik dan infrastruktur dari ancaman fisik",
+            "Mencegah pencurian data digital melalui kontrol logis",
+            "Mengurangi konsumsi energi di gedung kantor"
+        ],
+        "correct": 1,
+        "explanation": "Keamanan fisik berfokus pada perlindungan terhadap aset berwujud seperti server, perangkat jaringan, dan fasilitas dari ancaman seperti pencurian, vandalisme, atau kerusakan akibat lingkungan.",
+        "reference": "Dasar Keamanan Fisik"
+    },
+    {
+        "question": "Salah satu tujuan kontrol keamanan fisik adalah...",
+        "options": [
+            "Membatasi akses fisik yang tidak sah ke aset penting",
+            "Mengurangi jumlah staf operasional",
+            "Mengembangkan aplikasi bisnis yang lebih cepat",
+            "Menyediakan cadangan data berbasis cloud"
+        ],
+        "correct": 0,
+        "explanation": "Tujuan mendasar dari kontrol keamanan fisik seperti kunci, kartu akses, dan penjaga adalah untuk memastikan hanya personel yang berwenang yang dapat mengakses area atau aset sensitif secara fisik.",
+        "reference": "Kontrol Akses Fisik"
+    },
+    {
+        "question": "Ancaman fisik yang umum terhadap fasilitas adalah...",
+        "options": [
+            "Spam email yang masuk ke server",
+            "Pergantian regulasi pemerintah terkait IT",
+            "Pemadaman listrik, kebakaran, dan intrusi",
+            "Peretasan akun media sosial Perusahaan"
+        ],
+        "correct": 2,
+        "explanation": "Ancaman fisik mencakup kejadian yang dapat merusak fasilitas secara langsung, seperti bencana alam (kebakaran), kegagalan utilitas (pemadaman listrik), dan tindakan jahat (intrusi/pencurian).",
+        "reference": "Jenis Ancaman Fisik"
+    },
+    {
+        "question": "Risiko yang terjadi karena cuaca ekstrem termasuk dalam kategori...",
+        "options": [
+            "Ancaman teknis akibat kelemahan sistem perangkat lunak",
+            "Ancaman sosial yang berasal dari konflik komunitas",
+            "Ancaman internal yang dilakukan staf organisasi",
+            "Ancaman lingkungan seperti banjir, badai, atau gempa"
+        ],
+        "correct": 3,
+        "explanation": "Ancaman lingkungan (environmental threats) secara spesifik merujuk pada risiko yang berasal dari alam, seperti cuaca ekstrem, gempa bumi, dan bencana alam lainnya.",
+        "reference": "Klasifikasi Ancaman"
+    },
+    {
+        "question": "Risiko sosial mencakup...",
+        "options": [
+            "Kebocoran pipa air di ruang server",
+            "Virus komputer yang menyebar melalui internet",
+            "Gangguan jaringan akibat kerusakan perangkat keras",
+            "Unjuk rasa, aksi kriminal, dan kerusuhan sosial"
+        ],
+        "correct": 3,
+        "explanation": "Risiko sosial adalah ancaman yang timbul dari interaksi atau konflik antar manusia dalam skala besar, seperti kerusuhan atau unjuk rasa yang dapat membahayakan fasilitas.",
+        "reference": "Klasifikasi Ancaman"
+    },
+    {
+        "question": "Lapisan pertama dalam kontrol keamanan fisik adalah...",
+        "options": [
+            "Kontrol internal",
+            "Lingkungan luar (outer perimeter)",
+            "Sistem backup",
+            "Kontrol akses logis"
+        ],
+        "correct": 1,
+        "explanation": "Pertahanan fisik dimulai dari lapisan terluar (perimeter), yang mencakup pagar, gerbang, dan sistem pengawasan di sekitar properti.",
+        "reference": "Layered Physical Security"
+    },
+    {
+        "question": "Lapisan ketiga dalam keamanan fisik adalah...",
+        "options": [
+            "Halaman parkir",
+            "Akses pintu utama",
+            "Inner areas",
+            "Tempat umum"
+        ],
+        "correct": 2,
+        "explanation": "Setelah melewati perimeter luar dan akses gedung, lapisan ketiga adalah area dalam (inner areas) di mana aset-aset paling kritis seperti ruang server atau pusat data berada.",
+        "reference": "Layered Physical Security"
+    },
+    {
+        "question": "Salah satu contoh metode otentikasi fisik adalah...",
+        "options": [
+            "Face recognition",
+            "SSH Key",
+            "Enkripsi data",
+            "Antivirus"
+        ],
+        "correct": 0,
+        "explanation": "Pengenalan wajah (face recognition) adalah metode biometrik yang digunakan untuk otentikasi akses fisik ke suatu area, berbeda dengan SSH key yang untuk akses logis.",
+        "reference": "Metode Otentikasi"
+    },
+    {
+        "question": "Akses berbasis peran (Role-Based Access Control) digunakan untuk...",
+        "options": [
+            "Menentukan jadwal kerja harian karyawan",
+            "Memberikan izin akses sesuai jabatan atau tanggung jawab",
+            "Memblokir email mencurigakan yang masuk",
+            "Membatasi jumlah perangkat pemantau keamanan"
+        ],
+        "correct": 1,
+        "explanation": "RBAC adalah prinsip di mana hak akses ke sistem atau area tidak diberikan secara individual, melainkan berdasarkan peran atau fungsi pekerjaan seseorang dalam organisasi.",
+        "reference": "Prinsip Kontrol Akses"
+    },
+    {
+        "question": "Langkah awal evaluasi keamanan fisik adalah...",
+        "options": [
+            "Melakukan audit sertifikasi ISO secara langsung",
+            "Membuat laporan keuangan perusahaan secara detail",
+            "Melakukan analisis risiko dan mengidentifikasi aset yang perlu dilindungi",
+            "Menyusun jadwal kerja karyawan agar lebih efisien"
+        ],
+        "correct": 2,
+        "explanation": "Sebelum menerapkan kontrol, langkah pertama adalah memahami apa yang perlu dilindungi (identifikasi aset) dan apa saja ancamannya (analisis risiko).",
+        "reference": "Manajemen Keamanan Fisik"
+    },
+    {
+        "question": "Pelatihan keamanan fisik ditujukan untuk...",
+        "options": [
+            "Menambah keterampilan digital dalam penggunaan software",
+            "Meningkatkan kesadaran dan kemampuan respons pegawai terhadap ancaman",
+            "Meningkatkan efektivitas pemasaran produk perusahaan",
+            "Menghindari potensi konflik internal antar karyawan"
+        ],
+        "correct": 1,
+        "explanation": "Pelatihan membantu karyawan mengenali potensi ancaman fisik (misalnya, orang asing tanpa tanda pengenal) dan mengetahui prosedur yang benar untuk meresponsnya.",
+        "reference": "Kesadaran Keamanan"
+    },
+    {
+        "question": "Salah satu alasan utama pentingnya kontrol keamanan fasilitas adalah...",
+        "options": [
+            "Membuat tampilan gedung terlihat lebih modern dan menarik",
+            "Menjaga kerahasiaan dan integritas aset dari ancaman fisik maupun digital",
+            "Mengurangi kewajiban pajak organisasi",
+            "Memudahkan pelanggan masuk tanpa batasan akses"
+        ],
+        "correct": 1,
+        "explanation": "Kontrol fasilitas yang baik melindungi aset informasi (yang seringkali berada di dalam fasilitas tersebut) dari berbagai ancaman, baik yang bersifat fisik (pencurian) maupun digital (akses tidak sah ke terminal).",
+        "reference": "Tujuan Keamanan Fasilitas"
+    },
+    {
+        "question": "Kunci dengan tipe fail-secure akan menyebabkan ...",
+        "options": [
+            "Tetap terkunci saat sistem gagal",
+            "Selalu terbuka untuk evakuasi",
+            "Tidak berfungsi tanpa biometrik",
+            "Terbuka saat terjadi kebakaran"
+        ],
+        "correct": 0,
+        "explanation": "Sistem fail-secure dirancang untuk gagal dalam keadaan aman. Untuk kunci pintu, ini berarti pintu akan tetap terkunci saat listrik padam untuk mencegah akses tidak sah.",
+        "reference": "Sistem Kontrol Akses"
+    },
+    {
+        "question": "Apa jenis gas yang digunakan untuk memadamkan api tetapi aman untuk manusia?",
+        "options": [
+            "CO₂",
+            "Nitrogen",
+            "Amonia",
+            "Halon"
+        ],
+        "correct": 3,
+        "explanation": "Halon (dan penggantinya yang lebih ramah lingkungan seperti FM-200) adalah agen pemadam api berbasis gas yang efektif memadamkan api tanpa merusak peralatan elektronik dan aman bagi manusia dalam konsentrasi yang digunakan.",
+        "reference": "Sistem Pemadam Api"
+    },
+    {
+        "question": "Ancaman berupa pengamatan langsung terhadap aktivitas pengguna disebut…",
+        "options": [
+            "Intersepsi",
+            "Sniffing",
+            "Wiretapping",
+            "Shoulder surfing"
+        ],
+        "correct": 3,
+        "explanation": "Shoulder surfing adalah teknik mendapatkan informasi rahasia (seperti password) dengan cara mengintip dari balik bahu korban saat mereka mengetik.",
+        "reference": "Teknik Serangan Fisik"
+    },
+    {
+        "question": "Sistem UPS digunakan untuk…",
+        "options": [
+            "Menyediakan daya saat listrik padam",
+            "Mengontrol suhu",
+            "Menyaring konten internet",
+            "Mendeteksi intrusi"
+        ],
+        "correct": 0,
+        "explanation": "Uninterruptible Power Supply (UPS) adalah perangkat yang menyediakan daya listrik darurat dari baterai saat sumber daya utama (PLN) gagal.",
+        "reference": "Keamanan Utilitas"
+    },
+    {
+        "question": "Contoh serangan intersepsi elektromagnetik adalah…",
+        "options": [
+            "Shoulder surfing",
+            "Keylogging",
+            "Sniffing via Wi-Fi",
+            "Mencuri sinyal dari kabel"
+        ],
+        "correct": 3,
+        "explanation": "Serangan ini melibatkan penangkapan emisi elektromagnetik yang dipancarkan oleh kabel atau perangkat untuk merekonstruksi data yang sedang ditransmisikan, contohnya menggunakan teknik Van Eck phreaking.",
+        "reference": "Ancaman Elektromagnetik"
+    },
+    {
+        "question": "Apa risiko dari kelembaban udara yang sangat rendah dalam ruang server?",
+        "options": [
+            "Listrik statis",
+            "Kondensasi air",
+            "Ledakan",
+            "Korsleting"
+        ],
+        "correct": 0,
+        "explanation": "Udara yang terlalu kering dapat meningkatkan penumpukan muatan listrik statis (ESD), yang dapat merusak komponen elektronik sensitif saat terjadi pelepasan muatan.",
+        "reference": "Kontrol Lingkungan Data Center"
+    },
+    {
+        "question": "Berikut ini adalah pengendalian akses fisik, kecuali:",
+        "options": [
+            "Biometrik",
+            "Mantrap",
+            "VPN",
+            "Kartu pintar"
+        ],
+        "correct": 2,
+        "explanation": "VPN (Virtual Private Network) adalah kontrol akses logis untuk mengamankan koneksi jaringan, sedangkan biometrik, mantrap, dan kartu pintar adalah kontrol untuk akses fisik.",
+        "reference": "Kontrol Akses Fisik vs Logis"
+    },
+    {
+        "question": "Apa fungsi GFCI pada instalasi listrik?",
+        "options": [
+            "Menyediakan tegangan tinggi",
+            "Menyimpan energi cadangan",
+            "Menstabilkan frekuensi jaringan",
+            "Memutus arus saat terjadi kebocoran"
+        ],
+        "correct": 3,
+        "explanation": "Ground Fault Circuit Interrupter (GFCI) adalah perangkat keselamatan yang cepat memutus sirkuit listrik ketika mendeteksi adanya kebocoran arus ke tanah, mencegah sengatan listrik yang fatal.",
+        "reference": "Keamanan Kelistrikan"
+    },
+    {
+        "question": "Mengapa penggunaan VPN penting dalam komputasi jarak jauh?",
+        "options": [
+            "Mempercepat koneksi",
+            "Mengurangi tagihan listrik",
+            "Meningkatkan suhu sistem",
+            "Mengamankan data saat transmisi"
+        ],
+        "correct": 3,
+        "explanation": "VPN membuat 'terowongan' terenkripsi melalui jaringan publik (internet), sehingga data yang dikirim antara pengguna jarak jauh dan jaringan kantor tetap rahasia dan aman dari penyadapan.",
+        "reference": "Keamanan Akses Jarak Jauh"
+    },
+    {
+        "question": "Dalam konsep layered security, pagar berada pada lapisan…",
+        "options": [
+            "Pertama (luar)",
+            "Ketiga",
+            "Paling dalam",
+            "Tidak termasuk"
+        ],
+        "correct": 0,
+        "explanation": "Pagar adalah contoh klasik dari kontrol di lapisan pertama atau terluar (outer perimeter) dalam model keamanan fisik berlapis.",
+        "reference": "Layered Physical Security"
+    },
+    {
+        "question": "Apa yang dilakukan oleh smart mantrap dalam kontrol akses?",
+        "options": [
+            "Memeriksa data sensor",
+            "Mengunci pengguna dalam area terbatas untuk verifikasi",
+            "Menyaring spam",
+            "Mengawasi CCTV"
+        ],
+        "correct": 1,
+        "explanation": "Mantrap adalah ruang kecil dengan dua pintu yang saling mengunci. Pengguna masuk melalui pintu pertama, yang kemudian terkunci di belakang mereka, lalu mereka harus melewati proses otentikasi kedua sebelum pintu kedua terbuka.",
+        "reference": "Sistem Kontrol Akses Fisik"
+    },
+    {
+        "question": "Apa ancaman dari lubang ventilasi yang tidak terlindungi?",
+        "options": [
+            "Kelembaban tinggi",
+            "Kerusakan kabel",
+            "Celah masuk ke fasilitas",
+            "Gangguan suara"
+        ],
+        "correct": 2,
+        "explanation": "Lubang ventilasi atau saluran udara yang besar dan tidak diamankan dengan baik dapat menjadi titik masuk fisik bagi penyusup ke dalam gedung atau area terbatas.",
+        "reference": "Keamanan Fasilitas"
+    },
+    {
+        "question": "Manfaat dari penggunaan RFID pada badge pegawai adalah…",
+        "options": [
+            "Menyimpan data video",
+            "Memudahkan pelacakan dan akses otomatis",
+            "Menyaring data",
+            "Mendeteksi malware"
+        ],
+        "correct": 1,
+        "explanation": "RFID (Radio-Frequency Identification) memungkinkan kartu akses dibaca dari jarak dekat tanpa kontak fisik, mempercepat proses masuk dan memungkinkan pelacakan personel secara otomatis.",
+        "reference": "Teknologi Kontrol Akses"
+    },
+    {
+        "question": "Apa tujuan utama dari domain keamanan siber?",
+        "options": [
+            "Mengurangi jumlah pengguna jaringan",
+            "Meningkatkan kecepatan akses internet",
+            "Menjaga kerahasiaan, integritas, dan ketersediaan informasi",
+            "Mempermudah penggunaan perangkat"
+        ],
+        "correct": 2,
+        "explanation": "Domain keamanan siber berpusat pada 'CIA Triad': Confidentiality (Kerahasiaan), Integrity (Integritas), dan Availability (Ketersediaan) dari data dan sistem.",
+        "reference": "Prinsip Dasar Keamanan Siber (CIA Triad)"
+    },
+    {
+        "question": "Teknik untuk mencuri data dengan menyamar sebagai pihak terpercaya disebut …",
+        "options": [
+            "Sniffing",
+            "Spoofing",
+            "Hijacking",
+            "Phishing"
+        ],
+        "correct": 3,
+        "explanation": "Phishing adalah bentuk rekayasa sosial di mana penyerang menyamar sebagai entitas yang sah (misalnya, bank) melalui email atau situs web palsu untuk menipu korban agar memberikan informasi sensitif.",
+        "reference": "Jenis Serangan Siber"
+    },
+    {
+        "question": "Enkripsi digunakan untuk menjamin aspek keamanan …",
+        "options": [
+            "Autentikasi",
+            "Ketersediaan",
+            "Integritas",
+            "Kerahasiaan"
+        ],
+        "correct": 3,
+        "explanation": "Fungsi utama enkripsi adalah untuk menjaga kerahasiaan (confidentiality) data, memastikan bahwa hanya pihak yang berwenang yang dapat membacanya.",
+        "reference": "Prinsip Kriptografi (CIA Triad)"
+    },
+    {
+        "question": "Upaya mengakses sistem tanpa izin dikenal sebagai …",
+        "options": [
+            "Unauthorized Access",
+            "Hardening",
+            "Ethical Hacking",
+            "Penetration Testing"
+        ],
+        "correct": 0,
+        "explanation": "Unauthorized Access adalah istilah umum untuk setiap upaya mengakses data, sistem, atau sumber daya jaringan tanpa memiliki izin yang sah.",
+        "reference": "Terminologi Keamanan Informasi"
+    },
+    {
+        "question": "Sistem yang mendeteksi aktivitas mencurigakan dalam jaringan disebut …",
+        "options": [
+            "DNS",
+            "IDS",
+            "VPN",
+            "SIEM"
+        ],
+        "correct": 1,
+        "explanation": "IDS (Intrusion Detection System) secara spesifik dirancang untuk memantau dan mendeteksi aktivitas yang berpotensi berbahaya atau melanggar kebijakan keamanan.",
+        "reference": "Sistem Keamanan Jaringan"
+    },
+    {
+        "question": "IDPS yang dipasang langsung pada host disebut...",
+        "options": [
+            "Network-based IDPS",
+            "Proxy IDPS",
+            "Virtual IDPS",
+            "Host-based IDPS"
+        ],
+        "correct": 3,
+        "explanation": "Host-based IDPS (HIDPS) diinstal pada masing-masing komputer atau server (host) untuk memantau aktivitas internal pada sistem tersebut, seperti perubahan file atau panggilan sistem yang mencurigakan.",
+        "reference": "Tipe IDPS"
+    },
+    {
+        "question": "Apa tujuan dari alarm clustering dalam IDPS?",
+        "options": [
+            "Menggabungkan alarm serupa agar lebih efisien",
+            "Menyimpan semua alarm",
+            "Menampilkan semua alarm dalam bentuk grafik",
+            "Menghapus alarm palsu"
+        ],
+        "correct": 0,
+        "explanation": "Alarm clustering adalah teknik untuk mengelompokkan banyak alarm individual yang serupa menjadi satu insiden yang lebih mudah dikelola, mengurangi kebisingan dan membantu analis fokus pada ancaman yang sebenarnya.",
+        "reference": "Manajemen Peringatan IDPS"
+    },
+    {
+        "question": "Salah satu keunggulan dari Honeypot adalah...",
+        "options": [
+            "Mengalihkan perhatian penyerang dari sistem nyata",
+            "Mencuri data penyerang",
+            "Memblokir semua koneksi keluar",
+            "Menyembunyikan semua aktivitas pengguna"
+        ],
+        "correct": 0,
+        "explanation": "Honeypot bertindak sebagai umpan yang menarik penyerang. Ini mengalihkan mereka dari target produksi yang asli dan memungkinkan tim keamanan untuk mempelajari metode serangan mereka di lingkungan yang terkendali.",
+        "reference": "Teknologi Deception"
+    },
+    {
+        "question": "Apa yang dimaksud dengan false positive dalam konteks IDPS?",
+        "options": [
+            "Alarm yang tidak berbunyi",
+            "Aktivitas normal yang terdeteksi sebagai serangan",
+            "Serangan nyata yang gagal dideteksi",
+            "Aktivitas berbahaya yang tidak terdeteksi"
+        ],
+        "correct": 1,
+        "explanation": "False positive adalah alarm palsu, di mana sistem secara keliru menandai lalu lintas atau aktivitas yang sah dan normal sebagai sesuatu yang berbahaya.",
+        "reference": "Akurasi IDPS"
+    },
+    {
+        "question": "IDPS berbasis jaringan (NIDPS) terutama digunakan untuk...",
+        "options": [
+            "Memeriksa file di komputer lokal",
+            "Mendeteksi virus",
+            "Melindungi sandi pengguna",
+            "Memantau lalu lintas jaringan secara real-time"
+        ],
+        "correct": 3,
+        "explanation": "NIDPS ditempatkan pada titik strategis di jaringan untuk menganalisis lalu lintas data yang lewat di antara semua perangkat, mencari pola serangan secara real-time.",
+        "reference": "Tipe IDPS"
+    },
+    {
+        "question": "Metode deteksi IDPS yang membandingkan aktivitas dengan pola serangan yang telah diketahui disebut...",
+        "options": [
+            "Signature-based detection",
+            "Predictive detection",
+            "Heuristic detection",
+            "Anomaly-based detection"
+        ],
+        "correct": 0,
+        "explanation": "Deteksi berbasis tanda tangan (signature-based) bekerja seperti antivirus, yaitu dengan mencari pola (tanda tangan) yang cocok dengan database serangan yang sudah dikenal.",
+        "reference": "Metode Deteksi IDPS"
+    },
+    {
+        "question": "Proses penyesuaian konfigurasi IDPS agar lebih efisien disebut...",
+        "options": [
+            "Adapting",
+            "Filtering",
+            "Compaction",
+            "Tuning"
+        ],
+        "correct": 3,
+        "explanation": "Tuning adalah proses berkelanjutan untuk menyesuaikan aturan dan sensitivitas IDPS guna mengurangi false positive dan meningkatkan akurasi deteksi sesuai dengan lingkungan jaringan spesifik.",
+        "reference": "Manajemen IDPS"
+    },
+    {
+        "question": "Fungsi utama dari SIEM adalah...",
+        "options": [
+            "Menyediakan ruang penyimpanan cadangan",
+            "Mengatur password pengguna",
+            "Menyediakan informasi analitik keamanan dan korelasi peristiwa",
+            "Memfilter spam email"
+        ],
+        "correct": 2,
+        "explanation": "Security Information and Event Management (SIEM) mengumpulkan data log dari berbagai sumber, kemudian menganalisis dan mengkorelasikannya untuk memberikan gambaran keamanan yang komprehensif dan mendeteksi insiden.",
+        "reference": "Sistem Manajemen Keamanan"
+    },
+    {
+        "question": "Sistem yang menyamar sebagai sistem rentan untuk menjebak penyerang disebut...",
+        "options": [
+            "Honeypot",
+            "VPN",
+            "Firewall",
+            "IDS"
+        ],
+        "correct": 0,
+        "explanation": "Honeypot secara harfiah berarti 'wadah madu', yang dirancang untuk menjadi target yang menarik tetapi palsu bagi penyerang.",
+        "reference": "Teknologi Deception"
+    },
+    {
+        "question": "IDPS dapat mengirim peringatan menggunakan …",
+        "options": [
+            "Hanya visual",
+            "Visual, suara, email, SMS",
+            "SMS saja",
+            "Firewall log"
+        ],
+        "correct": 1,
+        "explanation": "Sistem IDPS modern dapat dikonfigurasi untuk mengirim peringatan melalui berbagai saluran, termasuk antarmuka visual (dashboard), notifikasi suara, email, atau bahkan pesan teks (SMS) untuk respons cepat.",
+        "reference": "Fitur IDPS"
+    },
+    {
+        "question": "Kelebihan Honeypot dibanding IDPS tradisional adalah...",
+        "options": [
+            "Dapat menyimpan semua data",
+            "Dapat mendeteksi virus",
+            "Lebih murah",
+            "Dapat mempelajari perilaku penyerang"
+        ],
+        "correct": 3,
+        "explanation": "Karena semua aktivitas di dalam honeypot secara definisi mencurigakan, ia menjadi alat yang sangat baik untuk mengamati teknik, alat, dan motif penyerang secara mendalam tanpa risiko terhadap sistem produksi.",
+        "reference": "Teknologi Deception"
+    },
+    {
+        "question": "Alat yang berfungsi menyaring lalu lintas jaringan berdasarkan aturan tertentu adalah...",
+        "options": [
+            "Modem",
+            "Switch",
+            "Repeater",
+            "Firewall"
+        ],
+        "correct": 3,
+        "explanation": "Firewall adalah perangkat keamanan jaringan yang memantau dan menyaring lalu lintas masuk dan keluar berdasarkan seperangkat aturan keamanan yang telah ditentukan.",
+        "reference": "Dasar Keamanan Jaringan"
+    },
+    {
+        "question": "Salah satu cara melindungi jaringan nirkabel adalah...",
+        "options": [
+            "Menggunakan WEP",
+            "Menonaktifkan password",
+            "Menggunakan default SSID",
+            "Menggunakan WPA3"
+        ],
+        "correct": 3,
+        "explanation": "WPA3 adalah standar keamanan Wi-Fi terbaru yang menawarkan enkripsi yang jauh lebih kuat dan perlindungan terhadap serangan dibandingkan pendahulunya seperti WEP atau WPA2.",
+        "reference": "Keamanan Jaringan Nirkabel"
+    },
+    {
+        "question": "Pengamanan personel bertujuan utama untuk…",
+        "options": [
+            "Melindungi personel dari ancaman internal maupun eksternal",
+            "Mengurangi biaya operasional organisasi",
+            "Mempercepat proses kerja staf",
+            "Meningkatkan penampilan gedung kantor"
+        ],
+        "correct": 0,
+        "explanation": "Pengamanan personel mencakup perlindungan terhadap karyawan dari ancaman (misalnya, rekayasa sosial) dan perlindungan organisasi dari ancaman yang mungkin ditimbulkan oleh personel (misalnya, ancaman orang dalam).",
+        "reference": "Keamanan Personel"
+    },
+    {
+        "question": "Dalam keamanan informasi, personel dianggap sebagai…",
+        "options": [
+            "Faktor penghambat otomatisasi",
+            "Bagian yang mudah diganti oleh teknologi",
+            "Garis pertahanan pertama dan terakhir",
+            "Beban administratif organisasi"
+        ],
+        "correct": 2,
+        "explanation": "Personel adalah garis pertahanan pertama karena mereka yang menghadapi upaya rekayasa sosial, dan juga garis pertahanan terakhir karena keputusan dan tindakan merekalah yang pada akhirnya dapat mencegah atau menyebabkan insiden keamanan.",
+        "reference": "Peran Manusia dalam Keamanan"
+    },
+    {
+        "question": "Kekhawatiran karyawan terhadap program keamanan informasi biasanya terkait dengan…",
+        "options": [
+            "Kenaikan gaji tahunan",
+            "Penyediaan fasilitas parkir",
+            "Penghapusan file pribadi oleh HR",
+            "Monitoring email dan pekerjaan oleh manajemen"
+        ],
+        "correct": 3,
+        "explanation": "Salah satu penolakan utama dari karyawan adalah kekhawatiran tentang privasi, di mana mereka merasa bahwa kebijakan keamanan baru memungkinkan manajemen untuk memata-matai aktivitas mereka.",
+        "reference": "Aspek Manusia dalam Keamanan Informasi"
+    },
+    {
+        "question": "Salah satu tantangan ketika keamanan informasi ditempatkan di bawah TI adalah…",
+        "options": [
+            "Semua pegawai otomatis mendukung kebijakan baru",
+            "CISO lebih sering fokus pada estetika kantor",
+            "CIO tidak memahami konsep jaringan",
+            "Potensi konflik tujuan antara efisiensi TI dan kontrol keamanan"
+        ],
+        "correct": 3,
+        "explanation": "Departemen TI seringkali diukur berdasarkan kecepatan dan ketersediaan layanan, sementara keamanan berfokus pada kontrol dan pembatasan. Tujuan yang berbeda ini dapat menimbulkan konflik prioritas.",
+        "reference": "Struktur Organisasi Keamanan"
+    },
+    {
+        "question": "Prinsip pemisahan tugas dalam keamanan informasi bertujuan untuk…",
+        "options": [
+            "Menghindari konflik kepentingan",
+            "Menambah jumlah laporan harian",
+            "Mengurangi beban kerja CIO",
+            "Mempercepat proses login"
+        ],
+        "correct": 0,
+        "explanation": "Pemisahan tugas (Separation of Duties) adalah prinsip kontrol internal di mana tidak ada satu orang pun yang memiliki kontrol penuh atas suatu proses kritis, untuk mencegah penipuan dan kesalahan.",
+        "reference": "Prinsip Keamanan Informasi"
+    },
+    {
+        "question": "Menurut Charles Cresson Wood, fungsi keamanan informasi dapat ditempatkan di bawah…",
+        "options": [
+            "Tim desain grafis",
+            "Departemen hukum atau manajemen risiko",
+            "Departemen keuangan rumah tangga",
+            "Departemen periklanan"
+        ],
+        "correct": 1,
+        "explanation": "Menempatkan keamanan di bawah departemen yang berfokus pada kepatuhan dan risiko (seperti hukum atau manajemen risiko) dapat memastikan bahwa keamanan dilihat sebagai fungsi bisnis yang strategis, bukan hanya fungsi teknis TI.",
+        "reference": "Struktur Organisasi Keamanan"
+    },
+    {
+        "question": "Mengapa komunikasi yang kuat penting bagi profesional keamanan informasi?",
+        "options": [
+            "Hanya berfungsi sebagai dokumentasi",
+            "Untuk menyampaikan kebijakan dan membangun kesadaran karyawan",
+            "Supaya bisa mengajar di universitas",
+            "Agar mudah memimpin rapat internal"
+        ],
+        "correct": 1,
+        "explanation": "Profesional keamanan harus dapat menjelaskan risiko teknis dalam bahasa bisnis yang mudah dipahami oleh manajemen dan membangun budaya sadar keamanan di seluruh lapisan organisasi melalui komunikasi yang efektif.",
+        "reference": "Keterampilan Profesional Keamanan"
+    },
+    {
+        "question": "Tujuan utama pengujian keamanan informasi adalah…",
+        "options": [
+            "Mengurangi penggunaan bandwidth jaringan",
+            "Memastikan sistem lebih cepat dipakai pengguna",
+            "Menemukan kelemahan sebelum dieksploitasi penyerang",
+            "Membuat desain antarmuka lebih ramah pengguna"
+        ],
+        "correct": 2,
+        "explanation": "Pengujian keamanan bersifat proaktif, bertujuan untuk mengidentifikasi dan memperbaiki kerentanan dalam sistem sebelum pihak jahat menemukannya dan memanfaatkannya.",
+        "reference": "Dasar Pengujian Keamanan"
+    },
+    {
+        "question": "Pengujian penetrasi dilakukan untuk…",
+        "options": [
+            "Menguji kontrol keamanan dengan mencoba mengeksploitasinya",
+            "Mengganti hardware lama dengan yang baru",
+            "Mempercepat proses backup data",
+            "Memastikan performa jaringan tetap stabil"
+        ],
+        "correct": 0,
+        "explanation": "Pengujian penetrasi (penetration testing) secara aktif mencoba untuk menembus pertahanan keamanan sistem untuk melihat apakah kerentanan yang ada benar-benar dapat dieksploitasi.",
+        "reference": "Metodologi Pengujian Keamanan"
+    },
+    {
+        "question": "Perbedaan utama antara vulnerability assessment dan penetration testing adalah…",
+        "options": [
+            "VA selalu lebih mahal daripada PT",
+            "VA hanya relevan untuk aplikasi mobile",
+            "PT tidak pernah memerlukan izin dari manajemen",
+            "VA hanya mengidentifikasi celah, PT mencoba mengeksploitasi celah tersebut"
+        ],
+        "correct": 3,
+        "explanation": "Vulnerability Assessment (VA) menghasilkan daftar potensi kelemahan (bersifat 'apa jika'), sedangkan Penetration Testing (PT) melangkah lebih jauh dengan mencoba mengeksploitasi kelemahan tersebut untuk membuktikan dampaknya (bersifat 'dapatkah kita').",
+        "reference": "Metodologi Pengujian Keamanan"
+    },
+    {
+        "question": "Standar internasional yang sering dijadikan acuan dalam audit keamanan adalah…",
+        "options": [
+            "IEEE 802.11",
+            "HTML 5",
+            "ISO/IEC 27001",
+            "TCP/IP"
+        ],
+        "correct": 2,
+        "explanation": "ISO/IEC 27001 adalah standar yang diakui secara global untuk Sistem Manajemen Keamanan Informasi (ISMS), yang menyediakan kerangka kerja untuk audit dan sertifikasi.",
+        "reference": "Standar Keamanan Informasi"
+    },
+    {
+        "question": "Langkah awal dalam audit keamanan informasi adalah…",
+        "options": [
+            "Mengubah semua password karyawan",
+            "Menginstal ulang sistem operasi",
+            "Menutup port jaringan yang terbuka",
+            "Menentukan ruang lingkup dan rencana audit"
+        ],
+        "correct": 3,
+        "explanation": "Setiap audit yang terstruktur selalu dimulai dengan perencanaan, yang mencakup penentuan tujuan, ruang lingkup (sistem apa yang akan diaudit), dan kriteria yang akan digunakan.",
+        "reference": "Proses Audit Keamanan"
+    },
+    {
+        "question": "Monitoring keamanan yang efektif harus bersifat…",
+        "options": [
+            "Proaktif dan berkesinambungan",
+            "Dilakukan hanya saat serangan besar",
+            "Dilakukan setelah adanya temuan audit",
+            "Dilakukan setahun sekali"
+        ],
+        "correct": 0,
+        "explanation": "Monitoring yang efektif adalah proses yang berjalan terus-menerus (24/7) dan proaktif, mencari anomali dan tanda-tanda serangan sebelum insiden besar terjadi, bukan reaktif.",
+        "reference": "Prinsip Monitoring Keamanan"
+    },
+    {
+        "question": "Vulnerability scanning biasanya dilakukan…",
+        "options": [
+            "Sekali seumur hidup sistem",
+            "Secara berkala untuk menemukan celah baru",
+            "Saat sistem dalam kondisi offline penuh",
+            "Hanya setelah terjadi serangan"
+        ],
+        "correct": 1,
+        "explanation": "Karena kerentanan baru terus ditemukan, pemindaian harus dilakukan secara teratur (misalnya, mingguan atau bulanan) untuk memastikan sistem tetap terlindungi dari ancaman terbaru.",
+        "reference": "Manajemen Kerentanan"
+    },
+    {
+        "question": "Salah satu tantangan audit keamanan adalah…",
+        "options": [
+            "Perubahan desain web perusahaan",
+            "Resistensi karyawan terhadap kontrol baru",
+            "Keterbatasan jumlah printer",
+            "Kesulitan memblokir media sosial"
+        ],
+        "correct": 1,
+        "explanation": "Aspek manusia seringkali menjadi tantangan terbesar. Karyawan mungkin menolak atau mencoba mengakali kontrol keamanan baru jika mereka merasa itu mengganggu pekerjaan mereka.",
+        "reference": "Tantangan Audit Keamanan"
+    },
+    {
+        "question": "Hasil audit keamanan biasanya dituangkan dalam…",
+        "options": [
+            "Poster motivasi untuk karyawan",
+            "Template desain grafis",
+            "Catatan informal di email",
+            "Laporan resmi yang berisi temuan, risiko, dan rekomendasi"
+        ],
+        "correct": 3,
+        "explanation": "Keluaran formal dari audit adalah laporan terstruktur yang mendokumentasikan temuan (apa yang salah), risiko terkait (mengapa ini berbahaya), dan rekomendasi perbaikan (bagaimana cara memperbaikinya).",
+        "reference": "Pelaporan Audit Keamanan"
+    }
+]
