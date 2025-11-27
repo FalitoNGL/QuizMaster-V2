@@ -13,7 +13,7 @@ import Results from '../components/Results';
 import Timer from '../components/Timer';
 import { FocusOverlay } from '../components/ui/FocusOverlay';
 
-// Wrapper Sederhana Tanpa Efek Berat
+// Wrapper Sederhana
 const QuizWrapper = styled(motion.div)`
   position: relative; width: 100%; max-width: 48rem; margin: 0 auto;
   padding: 1rem;
@@ -24,7 +24,8 @@ const LoadingText = styled.div`
   color: ${({theme}) => theme.accent}; font-weight: bold;
 `;
 
-const QuizPage = ({ config, onQuizEnd }) => {
+// Tambahkan prop 'onReview' di sini
+const QuizPage = ({ config, onQuizEnd, onReview }) => {
   if (!config) return null;
 
   const { updateStats, setHighScores, highScores, unlockAchievement, addWrongAnswer, wrongAnswers } = useUserProgress();
@@ -170,6 +171,7 @@ const QuizPage = ({ config, onQuizEnd }) => {
   if (questions.length === 0) return null;
   
   if (isFinished) {
+    // Teruskan onReview ke Results
     return <Results 
       score={finalScore} totalQuestions={questions.length} onRestart={onQuizEnd} 
       highScore={highScores[`${config.categoryId}-${config.mode}`] || 0} 
@@ -177,6 +179,7 @@ const QuizPage = ({ config, onQuizEnd }) => {
       questions={quizSessionQuestions} userAnswers={sessionAnswers}
       challengeConfig={config.isChallenge ? { target: config.targetScore, challenger: config.challengerName } : null}
       timeRemaining={timeRemaining}
+      onReview={onReview} // <-- INI KUNCINYA
     />;
   }
   
@@ -201,7 +204,6 @@ const QuizPage = ({ config, onQuizEnd }) => {
             isFocusMode={isFocusMode}
             toggleFocusMode={() => setIsFocusMode(p => !p)}
             
-            // TIMER DI-PASS SEBAGAI KOMPONEN AGAR TIDAK RESET
             timerComponent={
               <Timer 
                 isRunning={isTimerRunning} 

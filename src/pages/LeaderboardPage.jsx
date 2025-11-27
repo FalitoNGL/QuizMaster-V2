@@ -2,75 +2,147 @@
 
 import { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { db } from '../services/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import { quizCategories } from '../data/quizData';
 import { Button } from '../components/ui/Button';
-// PERBAIKAN: Ganti FiTrophy dengan FaTrophy dari 'react-icons/fa'
-import { FiArrowLeft, FiUser } from 'react-icons/fi';
-import { FaTrophy } from 'react-icons/fa'; 
+import { PageContainer } from '../components/ui/PageLayout'; // Gunakan Layout Standar agar background sama
+import { FiArrowLeft, FiUser, FiAward } from 'react-icons/fi';
+import { FaTrophy, FaMedal } from 'react-icons/fa';
 
-const PageWrapper = styled.div`
-  padding: 2rem; max-width: 800px; margin: 0 auto; min-height: 100vh;
-  color: ${({ theme }) => theme.text};
-`;
+// --- STYLED COMPONENTS (NEON GLASS STYLE) ---
 
 const Header = styled.div`
   display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem;
+  position: relative; z-index: 2;
+`;
+
+const BackButton = styled(Button)`
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0.8rem; border-radius: 50%; width: 50px; height: 50px;
+  display: flex; align-items: center; justify-content: center;
+  &:hover { background: ${({ theme }) => theme.accent}20; border-color: ${({ theme }) => theme.accent}; }
 `;
 
 const Title = styled.h1`
-  margin: 0; font-size: 2rem;
+  font-size: 2rem; margin: 0;
   background: linear-gradient(135deg, #FFD700, #FFA500);
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  display: flex; align-items: center; gap: 0.5rem;
+  filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.3));
 `;
 
+// Container Filter (Scrollable Horizontal)
 const FilterContainer = styled.div`
-  display: flex; gap: 0.5rem; overflow-x: auto; padding-bottom: 1rem; margin-bottom: 2rem;
-  &::-webkit-scrollbar { height: 4px; }
-  &::-webkit-scrollbar-thumb { background: ${({ theme }) => theme.accent}; }
+  display: flex; gap: 0.8rem; overflow-x: auto; padding-bottom: 1rem; margin-bottom: 1.5rem;
+  
+  /* Sembunyikan Scrollbar tapi tetap bisa discroll */
+  &::-webkit-scrollbar { display: none; }
+  -ms-overflow-style: none; scrollbar-width: none;
+  
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  padding-left: 1rem; padding-right: 1rem;
 `;
 
+// Tombol Filter ala "Neon Pill"
 const FilterButton = styled.button`
-  padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid ${({ theme }) => theme.accent}40;
-  background: ${({ $active, theme }) => $active ? theme.accent : 'transparent'};
-  color: ${({ $active, theme }) => $active ? theme.buttonText : theme.textSecondary};
-  cursor: pointer; white-space: nowrap; transition: all 0.2s;
-  &:hover { border-color: ${({ theme }) => theme.accent}; }
+  padding: 0.6rem 1.2rem; 
+  border-radius: 50px; 
+  border: 1px solid ${({ $active, theme }) => $active ? '#FFD700' : 'rgba(255,255,255,0.1)'};
+  background: ${({ $active, theme }) => $active ? 'rgba(255, 215, 0, 0.15)' : 'rgba(255, 255, 255, 0.03)'};
+  color: ${({ $active, theme }) => $active ? '#FFD700' : theme.textSecondary};
+  cursor: pointer; white-space: nowrap; transition: all 0.3s ease;
+  font-size: 0.9rem; font-weight: 600;
+
+  &:hover { 
+    border-color: #FFD700; 
+    color: #FFD700;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2);
+  }
 `;
 
 const ListContainer = styled(motion.div)`
   display: flex; flex-direction: column; gap: 1rem;
+  max-width: 800px; margin: 0 auto;
 `;
 
+// Kartu Peringkat (Glass Effect)
 const RankItem = styled(motion.div)`
   display: flex; align-items: center; gap: 1rem;
-  background: ${({ theme }) => theme.cardBg}; padding: 1rem 1.5rem;
-  border-radius: 16px; border: 1px solid rgba(255,255,255,0.1);
-  
-  ${({ $rank }) => $rank === 1 && `border: 2px solid #FFD700; box-shadow: 0 0 15px #FFD70040;`}
-  ${({ $rank }) => $rank === 2 && `border: 1px solid #C0C0C0;`}
-  ${({ $rank }) => $rank === 3 && `border: 1px solid #CD7F32;`}
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  padding: 1rem 1.5rem;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+  transition: all 0.3s;
+
+  /* Style Khusus Juara 1, 2, 3 */
+  ${({ $rank }) => $rank === 1 && `
+    border-color: #FFD700; 
+    background: linear-gradient(90deg, rgba(255, 215, 0, 0.1), transparent);
+    box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+  `}
+  ${({ $rank }) => $rank === 2 && `
+    border-color: #C0C0C0; 
+    background: linear-gradient(90deg, rgba(192, 192, 192, 0.1), transparent);
+  `}
+  ${({ $rank }) => $rank === 3 && `
+    border-color: #CD7F32; 
+    background: linear-gradient(90deg, rgba(205, 127, 50, 0.1), transparent);
+  `}
+
+  &:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.08);
+  }
 `;
 
-const RankNumber = styled.div`
-  font-size: 1.5rem; font-weight: 800; width: 40px; text-align: center;
+const RankBadge = styled.div`
+  width: 45px; height: 45px; display: flex; align-items: center; justify-content: center;
+  font-size: 1.5rem; font-weight: 800;
+  
+  /* Ikon Piala/Medali untuk Top 3 */
   color: ${({ $rank }) => 
     $rank === 1 ? '#FFD700' : 
     $rank === 2 ? '#C0C0C0' : 
-    $rank === 3 ? '#CD7F32' : 'inherit'};
+    $rank === 3 ? '#CD7F32' : 'rgba(255,255,255,0.3)'};
 `;
 
 const UserAvatar = styled.div`
-  width: 45px; height: 45px; border-radius: 50%; overflow: hidden;
-  background: rgba(255,255,255,0.1); display: flex; align-items: center; justify-content: center;
+  width: 50px; height: 50px; border-radius: 50%; overflow: hidden;
+  background: rgba(255,255,255,0.05); display: flex; align-items: center; justify-content: center;
+  border: 2px solid ${({ $rank }) => 
+    $rank === 1 ? '#FFD700' : 
+    $rank === 2 ? '#C0C0C0' : 
+    $rank === 3 ? '#CD7F32' : 'transparent'};
+    
   img { width: 100%; height: 100%; object-fit: cover; }
+  svg { font-size: 1.5rem; color: rgba(255,255,255,0.5); }
 `;
 
 const UserInfo = styled.div` flex: 1; `;
-const UserName = styled.div` font-weight: bold; font-size: 1.1rem; `;
-const UserScore = styled.div` font-weight: 800; color: ${({ theme }) => theme.accent}; font-size: 1.2rem; `;
+const UserName = styled.div` 
+  font-weight: 700; font-size: 1.1rem; 
+  color: ${({ theme }) => theme.text};
+`;
+const UserSubtext = styled.div` font-size: 0.8rem; color: ${({ theme }) => theme.textSecondary}; `;
+
+const ScoreBadge = styled.div`
+  background: rgba(0,0,0,0.3);
+  padding: 0.5rem 1rem; border-radius: 12px;
+  font-weight: 700; font-family: 'Poppins', sans-serif;
+  color: ${({ $rank, theme }) => 
+    $rank === 1 ? '#FFD700' : 
+    $rank === 2 ? '#C0C0C0' : 
+    $rank === 3 ? '#CD7F32' : theme.accent};
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex; align-items: center; gap: 0.5rem;
+`;
+
+// --- MAIN COMPONENT ---
 
 const LeaderboardPage = ({ onBack }) => {
   const [activeCategory, setActiveCategory] = useState(quizCategories[0].id);
@@ -89,6 +161,7 @@ const LeaderboardPage = ({ onBack }) => {
           const scores = data.highScores || {};
           
           let maxScore = 0;
+          // Logika pencarian skor per kategori (DARI KODE ANDA)
           Object.keys(scores).forEach(key => {
             if (key.startsWith(activeCategory)) {
               if (scores[key] > maxScore) maxScore = scores[key];
@@ -98,8 +171,9 @@ const LeaderboardPage = ({ onBack }) => {
           if (maxScore > 0) {
             allUsers.push({
               uid: doc.id,
-              name: data.displayName || 'Anonymous',
+              name: data.displayName || 'Agen Rahasia',
               photo: data.photoURL, 
+              email: data.email,
               score: maxScore
             });
           }
@@ -118,12 +192,16 @@ const LeaderboardPage = ({ onBack }) => {
   }, [activeCategory]);
 
   return (
-    <PageWrapper>
+    <PageContainer>
       <Header>
-        <Button onClick={onBack} style={{padding: '0.5rem'}}><FiArrowLeft/></Button>
-        <Title><FaTrophy style={{marginRight: '10px', color: '#FFD700'}}/> Leaderboard</Title>
+        <BackButton onClick={onBack}><FiArrowLeft size={20}/></BackButton>
+        <Title>
+            <FaTrophy color="#FFD700"/>
+            Leaderboard
+        </Title>
       </Header>
 
+      {/* FILTER BUTTONS (Gaya Neon Pills) */}
       <FilterContainer>
         {quizCategories.map(cat => (
           <FilterButton 
@@ -137,11 +215,14 @@ const LeaderboardPage = ({ onBack }) => {
       </FilterContainer>
 
       {loading ? (
-        <div style={{textAlign: 'center', marginTop: '3rem'}}>Memuat Peringkat...</div>
+        <div style={{textAlign: 'center', marginTop: '3rem', opacity: 0.7}}>Mengakses Database Pusat...</div>
       ) : (
         <ListContainer initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
           {leaderboard.length === 0 ? (
-            <div style={{textAlign: 'center', opacity: 0.6, marginTop: '2rem'}}>Belum ada data skor untuk kategori ini.</div>
+            <div style={{textAlign: 'center', opacity: 0.5, marginTop: '3rem', padding: '2rem', border: '1px dashed rgba(255,255,255,0.2)', borderRadius: '20px'}}>
+               <FiUser size={40} style={{marginBottom: '1rem'}}/>
+               <p>Belum ada agen yang menaklukkan kategori ini.</p>
+            </div>
           ) : (
             leaderboard.map((user, index) => (
               <RankItem 
@@ -151,20 +232,35 @@ const LeaderboardPage = ({ onBack }) => {
                 animate={{ x: 0, opacity: 1 }}
                 transition={{ delay: index * 0.1 }}
               >
-                <RankNumber $rank={index + 1}>{index + 1}</RankNumber>
-                <UserAvatar>
+                {/* NOMOR / MEDALI */}
+                <RankBadge $rank={index + 1}>
+                    {index === 0 ? <FaTrophy /> : 
+                     index === 1 ? <FaMedal /> : 
+                     index === 2 ? <FaMedal /> : 
+                     (index + 1)}
+                </RankBadge>
+
+                {/* AVATAR */}
+                <UserAvatar $rank={index + 1}>
                   {user.photo ? <img src={user.photo} alt={user.name} /> : <FiUser />}
                 </UserAvatar>
+
+                {/* INFO USER */}
                 <UserInfo>
                   <UserName>{user.name}</UserName>
+                  <UserSubtext>{user.email ? user.email.split('@')[0] : 'Unknown'}</UserSubtext>
                 </UserInfo>
-                <UserScore>{user.score}</UserScore>
+
+                {/* SKOR */}
+                <ScoreBadge $rank={index + 1}>
+                   {user.score} pts
+                </ScoreBadge>
               </RankItem>
             ))
           )}
         </ListContainer>
       )}
-    </PageWrapper>
+    </PageContainer>
   );
 };
 

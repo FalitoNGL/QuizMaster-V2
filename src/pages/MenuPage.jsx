@@ -5,7 +5,6 @@ import styled from 'styled-components';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useUserProgress } from '../context/UserProgressContext';
 import { quizCategories, getQuestionCount } from '../data/quizData';
-// Menambahkan FiUsers untuk ikon Sosial
 import { FiBarChart2, FiAward, FiSettings, FiBookOpen, FiThumbsUp, FiSun, FiMoon, FiLogOut, FiUser, FiDatabase, FiUsers } from 'react-icons/fi';
 import { FaTrophy } from 'react-icons/fa';
 import { AuroraCard } from '../components/ui/AuroraCard';
@@ -14,6 +13,8 @@ import { PageContainer } from '../components/ui/PageLayout';
 import { playSound } from '../utils/audioManager';
 import QuizConfigModal from '../components/ui/QuizConfigModal';
 import { isAdmin } from '../utils/adminConfig'; 
+
+// --- STYLED COMPONENTS ---
 
 const ThemeToggleButton = styled(motion.button)`
   position: absolute; top: 2rem; right: 2rem;
@@ -63,14 +64,51 @@ const Header = styled.header`
 `;
 
 const NavContainer = styled.div`
-  display: flex; justify-content: center; gap: 1rem; margin-bottom: 3rem; flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;         
+  width: 100%;
 `;
 
 const NavButton = styled(Button)`
-  padding: 0.75rem 1.5rem; font-size: 1rem; display: flex; align-items: center; gap: 0.75rem;
-  background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.2);
-  color: ${({ theme }) => theme.text}; box-shadow: none;
-  &:hover { background: rgba(255, 255, 255, 0.1); border-color: ${({ theme }) => theme.accent}; color: ${({ theme }) => theme.accent}; }
+  padding: 0.6rem 1.2rem; 
+  font-size: 0.9rem; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
+  gap: 0.5rem;
+  white-space: nowrap; 
+  background: rgba(255, 255, 255, 0.05); 
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 50px; 
+  color: ${({ theme }) => theme.text}; 
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+  transition: all 0.2s ease;
+  flex: 0 1 auto; 
+  
+  /* PENTING: Pastikan tombol navigasi bisa diklik */
+  pointer-events: auto; 
+
+  &:hover { 
+    background: ${({ theme }) => theme.accent}15;
+    border-color: ${({ theme }) => theme.accent}; 
+    color: ${({ theme }) => theme.accent}; 
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px ${({ theme }) => theme.accent}30;
+  }
+  
+  &.admin-btn {
+    border-color: #eab308; 
+    color: #eab308;
+    background: rgba(234, 179, 8, 0.05);
+    &:hover { 
+      background: rgba(234, 179, 8, 0.15); 
+      box-shadow: 0 4px 12px rgba(234, 179, 8, 0.3);
+    }
+  }
 `;
 
 const CategoryGrid = styled(motion.div)`
@@ -79,9 +117,14 @@ const CategoryGrid = styled(motion.div)`
 
 const ClickableCard = styled(AuroraCard)` cursor: pointer; `;
 
+/* PERBAIKAN UTAMA DI SINI:
+   Saya menghapus 'pointer-events: none' yang menghalangi klik.
+   Sekarang diganti logic: kalau disabled baru none, kalau tidak ya auto.
+*/
 const CategoryCardContent = styled.div`
   text-align: center; display: flex; flex-direction: column; height: 100%;
-  opacity: ${({ $isDisabled }) => ($isDisabled ? 0.6 : 1)}; pointer-events: none;
+  opacity: ${({ $isDisabled }) => ($isDisabled ? 0.6 : 1)}; 
+  pointer-events: ${({ $isDisabled }) => ($isDisabled ? 'none' : 'auto')};
 `;
 
 const IconWrapper = styled.div` font-size: 3.5rem; margin-bottom: 1rem; color: ${({ theme }) => theme.accent}; `;
@@ -96,12 +139,28 @@ const MenuPage = ({ onNavigate, onStartQuiz }) => {
 
   const containerVariants = { hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.1 } } };
   const itemVariants = { hidden: { y: 20, opacity: 0, scale: 0.95 }, visible: { y: 0, opacity: 1, scale: 1 } };
-  const hasWrongAnswers = wrongAnswers && Object.values(wrongAnswers).flat().length > 0;
   
+  // --- MODE TESTING ---
+  const realWrongCount = wrongAnswers ? Object.values(wrongAnswers).flat().length : 0;
+
   const handleCategoryClick = (category) => { clickSound(); setSelectedCategory(category); setIsModalOpen(true); };
   const handleCloseModal = () => { setIsModalOpen(false); setSelectedCategory(null); };
   const handleStartFromModal = (categoryId, mode, questionCount, duration) => { setIsModalOpen(false); onStartQuiz({ categoryId, mode, questionCount, duration }); };
   const handleLogout = () => { if(window.confirm("Apakah Anda yakin ingin logout?")) logout(); };
+
+  const handleRemedialClick = () => {
+    clickSound();
+    if (realWrongCount > 0) {
+      onStartQuiz({
+        categoryId: 'wrong_answers', 
+        mode: 'klasik', 
+        questionCount: realWrongCount, 
+        duration: 120
+      });
+    } else {
+      alert("⚠️ MODE DEMO BERHASIL DIKLIK!\n\nTombol berfungsi normal. Saat ini Anda belum memiliki data jawaban salah untuk dimainkan.");
+    }
+  };
 
   return (
     <PageContainer>
@@ -126,17 +185,28 @@ const MenuPage = ({ onNavigate, onStartQuiz }) => {
       </Header>
       
       <NavContainer>
-        <NavButton onClick={() => { clickSound(); onNavigate('stats'); }}><FiBarChart2/> Statistik</NavButton>
-        <NavButton onClick={() => { clickSound(); onNavigate('achievements'); }}><FiAward/> Pencapaian</NavButton>
-        <NavButton onClick={() => { clickSound(); onNavigate('settings'); }}><FiSettings/> Pengaturan</NavButton>
-        <NavButton onClick={() => { clickSound(); onNavigate('leaderboard'); }}><FaTrophy/> Peringkat</NavButton>
-        
-        {/* TOMBOL SOSIAL BARU */}
-        <NavButton onClick={() => { clickSound(); onNavigate('social'); }}><FiUsers/> Sosial</NavButton>
+        <NavButton onClick={() => { clickSound(); onNavigate('stats'); }}>
+          <FiBarChart2/> <span>Statistik</span>
+        </NavButton>
+        <NavButton onClick={() => { clickSound(); onNavigate('achievements'); }}>
+          <FiAward/> <span>Pencapaian</span>
+        </NavButton>
+        <NavButton onClick={() => { clickSound(); onNavigate('settings'); }}>
+          <FiSettings/> <span>Pengaturan</span>
+        </NavButton>
+        <NavButton onClick={() => { clickSound(); onNavigate('leaderboard'); }}>
+          <FaTrophy/> <span>Peringkat</span>
+        </NavButton>
+        <NavButton onClick={() => { clickSound(); onNavigate('social'); }}>
+          <FiUsers/> <span>Sosial</span>
+        </NavButton>
         
         {user && isAdmin(user.email) && (
-          <NavButton onClick={() => { clickSound(); onNavigate('admin'); }} style={{borderColor: '#eab308', color: '#eab308'}}>
-            <FiDatabase/> Admin
+          <NavButton 
+            onClick={() => { clickSound(); onNavigate('admin'); }} 
+            className="admin-btn"
+          >
+            <FiDatabase/> <span>Admin</span>
           </NavButton>
         )}
       </NavContainer>
@@ -146,7 +216,7 @@ const MenuPage = ({ onNavigate, onStartQuiz }) => {
           const Icon = category.icon;
           return (
             <ClickableCard key={category.id} variants={itemVariants} whileHover={{ y: -5, scale: 1.02 }} layoutId={`quiz-card-${category.id}`} onClick={() => handleCategoryClick(category)}>
-              <CategoryCardContent>
+              <CategoryCardContent $isDisabled={false}>
                   <IconWrapper><Icon /></IconWrapper>
                   <CategoryName>{category.name}</CategoryName>
                   <CategoryDescription>{category.description}</CategoryDescription>
@@ -155,16 +225,27 @@ const MenuPage = ({ onNavigate, onStartQuiz }) => {
           );
         })}
 
-        <AuroraCard variants={itemVariants} whileHover={hasWrongAnswers ? {y: -5, scale: 1.02} : {}}>
-          <CategoryCardContent $isDisabled={!hasWrongAnswers}>
-            <IconWrapper style={{color: hasWrongAnswers ? '#eab308' : '#22c55e'}}>{hasWrongAnswers ? <FiBookOpen/> : <FiThumbsUp />}</IconWrapper>
+        {/* KARTU LATIHAN PERSONAL */}
+        <AuroraCard variants={itemVariants} whileHover={{y: -5, scale: 1.02}}>
+          <CategoryCardContent $isDisabled={false}>
+            <IconWrapper style={{color: '#eab308'}}>
+               <FiBookOpen/>
+            </IconWrapper>
             <CategoryName>Latihan Personal</CategoryName>
-            <CategoryDescription>{hasWrongAnswers ? "Uji kembali soal-soal yang pernah Anda jawab salah." : "Kerja bagus! Tidak ada jawaban salah untuk dilatih."}</CategoryDescription>
-            <div style={{marginTop: '2rem'}}>
-              <Button style={!hasWrongAnswers ? {background: 'linear-gradient(145deg, #166534, #15803d)', cursor: 'default'} : {background: 'linear-gradient(145deg, #eab308, #a16207)'}} 
-                onClick={() => { if(hasWrongAnswers) { clickSound(); onStartQuiz({categoryId: 'wrong_answers', mode: 'klasik', questionCount: Object.values(wrongAnswers).flat().length, duration: 120}) } }}
-                disabled={!hasWrongAnswers}>
-                {hasWrongAnswers ? 'Mulai Latihan' : 'Luar Biasa!'}
+            <CategoryDescription>
+              {realWrongCount > 0 
+                ? `Ada ${realWrongCount} soal untuk diperbaiki.` 
+                : "Mode Demo: Tombol aktif untuk percobaan."}
+            </CategoryDescription>
+            
+            {/* Wrapper ini juga diberi pointer-events: auto untuk keamanan ganda */}
+            <div style={{marginTop: '2rem', pointerEvents: 'auto', position: 'relative', zIndex: 10}}>
+              <Button 
+                style={{background: 'linear-gradient(145deg, #eab308, #a16207)', cursor: 'pointer'}} 
+                onClick={handleRemedialClick}
+                disabled={false}
+              >
+                Mulai Latihan
               </Button>
             </div>
           </CategoryCardContent>

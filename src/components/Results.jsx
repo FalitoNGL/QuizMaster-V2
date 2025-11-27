@@ -2,101 +2,141 @@
 
 import styled from 'styled-components';
 import { motion } from 'framer-motion';
-import { AuroraCard } from './ui/AuroraCard';
 import { Button } from './ui/Button';
-import { FiActivity, FiRefreshCw, FiHome, FiZap } from 'react-icons/fi';
+import { FiRefreshCw, FiHome, FiAward, FiList } from 'react-icons/fi'; 
+import { playSound } from '../utils/audioManager';
+import { useEffect } from 'react';
 
-const ScoreTitle = styled.h2`
-  font-size: 1.5rem; margin-bottom: 0.5rem; color: ${({ theme }) => theme.text};
+// --- NEON GLASS STYLES ---
+
+const ResultsContainer = styled(motion.div)`
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(20px);
+  border-radius: 24px;
+  padding: 3rem 2rem;
+  text-align: center;
+  max-width: 500px;
+  width: 90%;
+  margin: 2rem auto;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+
+  /* Glow Effect di atas */
+  &::before {
+    content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 4px;
+    background: ${({ $isWin, theme }) => $isWin ? '#22c55e' : theme.accent};
+    box-shadow: 0 0 20px ${({ $isWin, theme }) => $isWin ? '#22c55e' : theme.accent};
+  }
 `;
 
-const ScoreValue = styled.div`
-  font-size: 4rem; font-weight: 800;
-  background: linear-gradient(135deg, ${({ theme }) => theme.accent}, #fff);
+const Title = styled.h1`
+  font-size: 2.5rem; margin-bottom: 0.5rem;
+  background: linear-gradient(135deg, #fff, ${({ theme }) => theme.accent});
   -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-  margin-bottom: 1rem;
+  text-shadow: 0 0 30px ${({ theme }) => theme.accent}40;
 `;
 
-const Message = styled.p`
+const SubTitle = styled.p`
   font-size: 1.1rem; color: ${({ theme }) => theme.textSecondary}; margin-bottom: 2rem;
 `;
 
-const StatGrid = styled.div`
-  display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 2rem;
+const ScoreCircle = styled(motion.div)`
+  width: 180px; height: 180px; border-radius: 50%;
+  background: rgba(255,255,255,0.02);
+  border: 4px solid ${({ $color }) => $color};
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  margin: 0 auto 2rem auto;
+  box-shadow: 0 0 30px ${({ $color }) => $color}30, inset 0 0 20px ${({ $color }) => $color}20;
+  
+  h2 { font-size: 3.5rem; margin: 0; color: ${({ $color }) => $color}; text-shadow: 0 0 15px ${({ $color }) => $color}60; }
+  span { font-size: 0.9rem; color: ${({ theme }) => theme.textSecondary}; margin-top: -5px; }
 `;
 
-const StatBox = styled.div`
-  background: rgba(255, 255, 255, 0.05); padding: 1rem; border-radius: 16px;
-  span { display: block; font-size: 0.9rem; color: ${({ theme }) => theme.textSecondary}; margin-bottom: 0.25rem; }
-  strong { font-size: 1.2rem; color: ${({ theme }) => theme.text}; }
+const StatRow = styled.div`
+  display: flex; justify-content: center; gap: 2rem; margin-bottom: 2rem;
 `;
 
-// Style Khusus Hasil Tantangan
-const ChallengeResultBox = styled(motion.div)`
-  background: ${({ $won }) => $won ? 'rgba(34, 197, 94, 0.2)' : 'rgba(239, 68, 68, 0.2)'};
-  border: 1px solid ${({ $won }) => $won ? '#22c55e' : '#ef4444'};
-  padding: 1rem; border-radius: 16px; margin-bottom: 1.5rem;
-  color: ${({ $won }) => $won ? '#22c55e' : '#ef4444'};
-  font-weight: bold; font-size: 1.1rem; display: flex; align-items: center; justify-content: center; gap: 0.5rem;
+const StatItem = styled.div`
+  text-align: center;
+  .val { font-size: 1.5rem; font-weight: 800; color: ${({ theme }) => theme.text}; }
+  .label { font-size: 0.8rem; color: ${({ theme }) => theme.textSecondary}; text-transform: uppercase; }
 `;
 
-const Results = ({ score, totalQuestions, onRestart, highScore, gameMode, isPracticeMode, challengeConfig }) => {
-  // Tentukan pesan berdasarkan skor
-  let message = "Terus Belajar!";
-  if (score > totalQuestions * 5) message = "Bagus Sekali!";
-  if (score === totalQuestions * 10) message = "Sempurna! Luar Biasa!";
+const ActionButtons = styled.div`
+  display: flex; flex-direction: column; gap: 1rem;
+`;
 
-  // Logika Tantangan
-  let isChallengeWon = false;
-  if (challengeConfig) {
-    isChallengeWon = score > challengeConfig.target;
-  }
+const ReviewButton = styled(Button)`
+  background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1);
+  color: ${({ theme }) => theme.text};
+  &:hover { background: rgba(255,255,255,0.1); border-color: ${({ theme }) => theme.accent}; }
+`;
 
-  return (
-    <AuroraCard initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}>
-      <div style={{ textAlign: 'center' }}>
-        <ScoreTitle>{isPracticeMode ? 'Latihan Selesai' : 'Kuis Selesai'}</ScoreTitle>
-        <ScoreValue>{score}</ScoreValue>
-        
-        {/* TAMPILKAN HASIL TANTANGAN DI SINI */}
-        {challengeConfig ? (
-          <ChallengeResultBox 
-            $won={isChallengeWon}
-            initial={{ y: 20, opacity: 0 }} animate={{ y: 0, opacity: 1 }}
-          >
-            <FiZap/>
-            {isChallengeWon 
-              ? `ANDA MENANG! Mengalahkan ${challengeConfig.challenger} (${challengeConfig.target})` 
-              : `KALAH... Target ${challengeConfig.challenger} adalah ${challengeConfig.target}`}
-          </ChallengeResultBox>
-        ) : (
-          <Message>{message}</Message>
-        )}
+const Results = ({ score, totalQuestions, onRestart, highScore, questions, userAnswers, onReview }) => {
+    useEffect(() => {
+        playSound('finish');
+    }, []);
 
-        <StatGrid>
-          <StatBox>
-            <span>Soal</span>
-            <strong>{totalQuestions}</strong>
-          </StatBox>
-          <StatBox>
-            <span>Tertinggi</span>
-            <strong>{highScore}</strong>
-          </StatBox>
-        </StatGrid>
+    const percentage = Math.round((score / (totalQuestions * 10)) * 100);
+    
+    // Logika warna skor
+    let color = '#ef4444'; // Merah
+    if (percentage >= 50) color = '#eab308'; // Kuning
+    if (percentage >= 80) color = '#22c55e'; // Hijau
 
-        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center' }}>
-          <Button onClick={onRestart} style={{ background: 'rgba(255,255,255,0.1)' }}>
-            <FiHome /> Menu
-          </Button>
-          {!isPracticeMode && !challengeConfig && (
-            <Button onClick={() => alert("Fitur 'Main Lagi' akan segera hadir!")} primary>
-              <FiRefreshCw /> Main Lagi
-            </Button>
-          )}
-        </div>
-      </div>
-    </AuroraCard>
-  );
+    const handleReviewClick = () => {
+        if (onReview) {
+            // Kirim data soal dan jawaban user ke fungsi onReview (yang ada di App.jsx)
+            onReview({ questions, userAnswers });
+        }
+    };
+
+    return (
+        <ResultsContainer 
+            initial={{ scale: 0.8, opacity: 0 }} 
+            animate={{ scale: 1, opacity: 1 }}
+            $isWin={percentage >= 80}
+        >
+            <Title>{percentage >= 80 ? 'Misi Sukses!' : 'Misi Selesai'}</Title>
+            <SubTitle>{percentage >= 80 ? 'Performa Luar Biasa, Agen.' : 'Perlu latihan lebih lanjut.'}</SubTitle>
+
+            <ScoreCircle 
+                $color={color}
+                initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: 0.3, type: 'spring' }}
+            >
+                <h2>{score}</h2>
+                <span>Skor Akhir</span>
+            </ScoreCircle>
+
+            <StatRow>
+                <StatItem>
+                    <div className="val">{percentage}%</div>
+                    <div className="label">Akurasi</div>
+                </StatItem>
+                <StatItem>
+                    <div className="val">{highScore}</div>
+                    <div className="label">Rekor</div>
+                </StatItem>
+            </StatRow>
+
+            <ActionButtons>
+                {/* TOMBOL REVIEW YANG BARU */}
+                <ReviewButton onClick={handleReviewClick}>
+                    <FiList style={{marginRight: 8}}/> Analisis & Pembahasan
+                </ReviewButton>
+
+                <div style={{display: 'flex', gap: '1rem'}}>
+                    <Button onClick={onRestart} style={{flex: 1, background: '#3b82f6'}}>
+                        <FiHome style={{marginRight: 8}}/> Menu Utama
+                    </Button>
+                </div>
+            </ActionButtons>
+
+        </ResultsContainer>
+    );
 };
 
 export default Results;

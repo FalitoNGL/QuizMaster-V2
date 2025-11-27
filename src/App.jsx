@@ -13,7 +13,8 @@ import AchievementsPage from './pages/AchievementsPage';
 import SettingsPage from './pages/SettingsPage';
 import AdminPage from './pages/AdminPage'; 
 import LeaderboardPage from './pages/LeaderboardPage';
-import SocialPage from './pages/SocialPage'; // <--- PENTING: Import Halaman Sosial
+import SocialPage from './pages/SocialPage';
+import ReviewPage from './pages/ReviewPage'; // <-- PENTING: Import ReviewPage
 import ParticleBackground from './components/ui/ParticleBackground';
 import WelcomeModal from './components/ui/WelcomeModal';
 
@@ -44,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${({ theme }) => theme.text};
     transition: background-color 0.4s ease, color 0.4s ease;
     margin: 0;
-    font-family: 'Poppins', sans-serif; /* Pastikan font konsisten */
+    font-family: 'Poppins', sans-serif;
   }
   * { box-sizing: border-box; }
 `;
@@ -87,27 +88,50 @@ const ThemedApp = () => {
 const AppRouter = () => {
   const [currentPage, setCurrentPage] = useState('menu');
   const [quizConfig, setQuizConfig] = useState(null);
+  
+  // STATE BARU: Menyimpan data kuis terakhir untuk halaman Review
+  const [lastQuizData, setLastQuizData] = useState(null);
 
-  // Fungsi Navigasi Sederhana
   const handleNavigate = useCallback((page) => {
     setCurrentPage(page);
   }, []);
 
-  // Fungsi Memulai Kuis (Penting untuk Challenge)
   const handleStartQuiz = useCallback((config) => {
     setQuizConfig(config);
     setCurrentPage('quiz');
   }, []);
 
-  // Fungsi Selesai Kuis
   const handleQuizEnd = useCallback(() => {
     setCurrentPage('menu');
+  }, []);
+
+  // FUNGSI BARU: Menangani navigasi ke halaman Review dengan data
+  const handleReview = useCallback((data) => {
+    setLastQuizData(data);
+    setCurrentPage('review');
   }, []);
   
   let pageComponent;
   switch (currentPage) {
     case 'quiz':
-      pageComponent = <QuizPage key="quiz" config={quizConfig} onQuizEnd={handleQuizEnd} />;
+      pageComponent = (
+        <QuizPage 
+          key="quiz" 
+          config={quizConfig} 
+          onQuizEnd={handleQuizEnd}
+          onReview={handleReview} // <-- Props baru diteruskan ke QuizPage
+        />
+      );
+      break;
+    case 'review': // <-- CASE BARU
+      pageComponent = (
+        <ReviewPage 
+          key="review"
+          questions={lastQuizData?.questions}
+          userAnswers={lastQuizData?.userAnswers}
+          onBack={() => handleNavigate('menu')}
+        />
+      );
       break;
     case 'stats':
       pageComponent = <StatsPage key="stats" onBack={handleQuizEnd} />;
@@ -124,18 +148,15 @@ const AppRouter = () => {
     case 'leaderboard':
       pageComponent = <LeaderboardPage key="leaderboard" onBack={() => handleNavigate('menu')} />;
       break;
-    
-    // --- RUTE SOSIAL (PASTIKAN INI ADA) ---
     case 'social': 
       pageComponent = (
         <SocialPage 
           key="social" 
           onBack={() => handleNavigate('menu')} 
-          onStartQuiz={handleStartQuiz} // Teruskan fungsi start quiz
+          onStartQuiz={handleStartQuiz} 
         />
       );
       break;
-    // --------------------------------------
 
     case 'menu':
     default:

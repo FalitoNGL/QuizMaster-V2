@@ -33,7 +33,7 @@ export const UserProgressProvider = ({ children }) => {
   const [settings, setSettings] = useState(() => {
     const saved = localStorage.getItem('quiz_settings');
     return saved ? JSON.parse(saved) : { 
-      themeFamily: 'ocean', themeMode: 'dark', accentColor: null, fontSize: 'medium' 
+      themeFamily: 'ocean', themeMode: 'dark', accentColor: null, fontSize: 'medium', backgroundEffect: 'jaringan' 
     };
   });
 
@@ -44,10 +44,12 @@ export const UserProgressProvider = ({ children }) => {
   // Pantau Status Login
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, async (currentUser) => {
-      setUser(currentUser);
       if (currentUser) {
+        // Kita clone object user agar bisa dimodifikasi (displayName) secara lokal
+        setUser({ ...currentUser });
         await loadUserData(currentUser);
       } else {
+        setUser(null);
         setStats(initialStats);
         setHighScores({});
         setUnlockedAchievements({});
@@ -88,7 +90,6 @@ export const UserProgressProvider = ({ children }) => {
 
   // --- LOGIC AUTHENTICATION ---
 
-  // 1. Login Google
   const loginGoogle = async () => {
     try {
       await signInWithPopup(auth, googleProvider);
@@ -99,7 +100,6 @@ export const UserProgressProvider = ({ children }) => {
     }
   };
 
-  // 2. Login Email/Password
   const loginEmail = async (email, password) => {
     try {
       await signInWithEmailAndPassword(auth, email, password);
@@ -110,20 +110,14 @@ export const UserProgressProvider = ({ children }) => {
     }
   };
 
-  // 3. Register Email/Password
   const registerEmail = async (name, email, password) => {
     try {
-      // Buat akun
       const userCredential = await createUserWithEmailAndPassword(auth, email, password);
       const newUser = userCredential.user;
       
-      // Update nama tampilan (DisplayName)
       await updateProfile(newUser, { displayName: name });
-      
-      // Paksa reload user agar displayName terupdate di state lokal
       setUser({ ...newUser, displayName: name });
       
-      // Buat dokumen Firestore awal secara manual agar namanya benar
       const userRef = doc(db, "users", newUser.uid);
       await setDoc(userRef, {
         email: email,
@@ -147,6 +141,41 @@ export const UserProgressProvider = ({ children }) => {
       playSound('click');
     } catch (error) {
       console.error("Logout gagal:", error);
+    }
+  };
+
+  // --- FUNGSI BARU (FIX ERROR) ---
+  
+  // 1. Fungsi manual update nama di state lokal (agar UI langsung berubah)
+  const setUserName = (newName) => {
+    if (user) {
+      setUser((prev) => ({ ...prev, displayName: newName }));
+    }
+  };
+
+  // 2. Fungsi reset semua progres (Danger Zone)
+  const resetAllProgress = async () => {
+    if (!user) return;
+    
+    // Reset Local State
+    setStats(initialStats);
+    setHighScores({});
+    setUnlockedAchievements({});
+    setWrongAnswers({});
+
+    // Reset Firestore
+    try {
+      const userRef = doc(db, "users", user.uid);
+      await updateDoc(userRef, {
+        stats: initialStats,
+        highScores: {},
+        unlockedAchievements: {},
+        wrongAnswers: "{}"
+      });
+      alert("Semua progres telah direset.");
+    } catch (error) {
+      console.error("Gagal reset progres:", error);
+      alert("Gagal mereset data di server.");
     }
   };
 
@@ -210,6 +239,8 @@ export const UserProgressProvider = ({ children }) => {
   const value = {
     user, loading, 
     loginGoogle, loginEmail, registerEmail, logout,
+    setUserName, // <-- SUDAH DITAMBAHKAN
+    resetAllProgress, // <-- SUDAH DITAMBAHKAN
     stats, updateStats,
     highScores, setHighScores: updateHighScores,
     unlockedAchievements, unlockAchievement,

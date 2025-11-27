@@ -7,70 +7,120 @@ import { Button } from '../components/ui/Button';
 import { quizCategories } from '../data/quizData';
 import { fetchQuestionsFromDB, saveQuestionsToDB, migrateAllData } from '../services/quizService';
 import { useUserProgress } from '../context/UserProgressContext';
-import { ADMIN_EMAILS } from '../utils/adminConfig'; // Import Config Admin
-import { FiSave, FiTrash2, FiPlus, FiEdit3, FiDatabase, FiArrowLeft, FiLock } from 'react-icons/fi';
+import { ADMIN_EMAILS } from '../utils/adminConfig'; 
+import { FiSave, FiTrash2, FiPlus, FiEdit3, FiDatabase, FiArrowLeft, FiLock, FiCheckCircle } from 'react-icons/fi';
+import { PageContainer } from '../components/ui/PageLayout'; // Layout konsisten
 
-// Styles
-const AdminWrapper = styled.div`
-  padding: 2rem; max-width: 1200px; margin: 0 auto; color: ${({ theme }) => theme.text}; min-height: 100vh;
-`;
-
-const AccessDeniedWrapper = styled.div`
-  display: flex; flex-direction: column; align-items: center; justify-content: center;
-  height: 80vh; text-align: center; color: #ef4444;
-`;
+// --- NEON GLASS STYLES ---
 
 const Header = styled.div`
   display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;
 `;
 
+const BackButton = styled(Button)`
+  background: rgba(255, 255, 255, 0.05); padding: 0.8rem 1.2rem; border-radius: 12px;
+  display: flex; align-items: center; gap: 0.5rem;
+  &:hover { background: ${({ theme }) => theme.accent}20; }
+`;
+
+const Title = styled.h2`
+  font-size: 1.8rem; margin: 0;
+  background: linear-gradient(to right, #fff, ${({ theme }) => theme.accent});
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+`;
+
+// Tab Neon Style
 const TabContainer = styled.div`
-  display: flex; gap: 1rem; overflow-x: auto; padding-bottom: 1rem; margin-bottom: 2rem;
-  &::-webkit-scrollbar { height: 6px; }
-  &::-webkit-scrollbar-thumb { background: ${({ theme }) => theme.accent}; border-radius: 3px; }
+  display: flex; gap: 0.8rem; overflow-x: auto; padding-bottom: 1rem; margin-bottom: 2rem;
+  &::-webkit-scrollbar { display: none; }
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  padding-left: 5px;
 `;
 
 const Tab = styled.button`
-  padding: 0.75rem 1.5rem; border-radius: 12px; border: none; cursor: pointer;
-  background: ${({ $active, theme }) => $active ? theme.accent : 'rgba(255,255,255,0.05)'};
-  color: ${({ $active, theme }) => $active ? theme.buttonText : theme.text};
+  padding: 0.6rem 1.2rem; border-radius: 50px; cursor: pointer;
+  border: 1px solid ${({ $active, theme }) => $active ? theme.accent : 'rgba(255,255,255,0.1)'};
+  background: ${({ $active, theme }) => $active ? theme.accent + '30' : 'rgba(255,255,255,0.03)'};
+  color: ${({ $active, theme }) => $active ? theme.accent : theme.textSecondary};
   font-weight: 600; white-space: nowrap; transition: all 0.3s;
-  &:hover { background: ${({ theme }) => theme.accent}80; }
+  box-shadow: ${({ $active, theme }) => $active ? `0 0 15px ${theme.accent}40` : 'none'};
+
+  &:hover { 
+    border-color: ${({ theme }) => theme.accent}; 
+    color: ${({ theme }) => theme.accent};
+    transform: translateY(-2px);
+  }
 `;
 
 const QuestionList = styled.div` display: flex; flex-direction: column; gap: 1rem; `;
 
 const QuestionItem = styled.div`
-  background: ${({ theme }) => theme.cardBg}; padding: 1.5rem; border-radius: 16px;
-  border: 1px solid rgba(255,255,255,0.1); display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem;
-  h4 { margin: 0 0 0.5rem 0; font-size: 1.1rem; }
+  background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px);
+  padding: 1.5rem; border-radius: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+  display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem;
+  transition: all 0.3s;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.06);
+    border-color: ${({ theme }) => theme.accent}60;
+    transform: scale(1.01);
+  }
+
+  h4 { margin: 0 0 0.5rem 0; font-size: 1.1rem; color: ${({ theme }) => theme.text}; }
   p { margin: 0; color: ${({ theme }) => theme.textSecondary}; font-size: 0.9rem; }
+  .answer-badge {
+    display: inline-block; margin-top: 0.5rem; padding: 0.2rem 0.6rem;
+    background: rgba(16, 185, 129, 0.2); color: #34d399; border-radius: 8px; font-size: 0.85rem; font-weight: 600;
+  }
 `;
 
 const ActionGroup = styled.div` display: flex; gap: 0.5rem; flex-shrink: 0; `;
 
 const ModalOverlay = styled(motion.div)`
   position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(0,0,0,0.8); z-index: 1000;
+  background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); z-index: 1000;
   display: flex; justify-content: center; align-items: flex-start;
-  overflow-y: auto; padding: 2rem 0; backdrop-filter: blur(5px);
+  overflow-y: auto; padding: 3rem 1rem;
 `;
 
 const ModalContent = styled(motion.div)`
-  background: ${({ theme }) => theme.bg}; padding: 2rem; border-radius: 20px;
-  width: 90%; max-width: 700px; border: 1px solid ${({ theme }) => theme.accent};
-  box-shadow: 0 0 30px rgba(0,0,0,0.5); margin-bottom: 2rem;
+  background: rgba(15, 23, 42, 0.95); padding: 2rem; border-radius: 24px;
+  width: 100%; max-width: 700px; 
+  border: 1px solid ${({ theme }) => theme.accent}60;
+  box-shadow: 0 0 40px rgba(0,0,0,0.5); margin-bottom: 2rem;
+  position: relative;
+
+  /* Neon glow border effect */
+  &::before {
+    content: ''; position: absolute; inset: -1px; z-index: -1; border-radius: 24px;
+    background: linear-gradient(45deg, ${({ theme }) => theme.accent}, transparent, ${({ theme }) => theme.accent});
+    opacity: 0.3;
+  }
 `;
 
 const InputGroup = styled.div`
   margin-bottom: 1.25rem;
-  label { display: block; margin-bottom: 0.5rem; font-weight: bold; color: ${({ theme }) => theme.accent}; font-size: 0.9rem; }
+  label { display: block; margin-bottom: 0.5rem; font-weight: 600; color: ${({ theme }) => theme.textSecondary}; font-size: 0.9rem; }
   input, textarea, select {
-    width: 100%; padding: 0.8rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.2);
-    background: rgba(0,0,0,0.2); color: ${({ theme }) => theme.text}; outline: none; font-family: inherit; font-size: 1rem;
-    &:focus { border-color: ${({ theme }) => theme.accent}; background: rgba(0,0,0,0.3); }
+    width: 100%; padding: 0.8rem; border-radius: 12px; 
+    border: 1px solid rgba(255,255,255,0.1);
+    background: rgba(255,255,255,0.05); 
+    color: ${({ theme }) => theme.text}; outline: none; font-family: inherit; font-size: 1rem;
+    transition: all 0.3s;
+    
+    &:focus { 
+      border-color: ${({ theme }) => theme.accent}; 
+      background: rgba(255,255,255,0.1); 
+      box-shadow: 0 0 10px ${({ theme }) => theme.accent}30;
+    }
   }
   textarea { min-height: 100px; resize: vertical; }
+`;
+
+const AccessDeniedWrapper = styled.div`
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  height: 80vh; text-align: center; color: #ef4444;
 `;
 
 const AdminPage = ({ onBack }) => {
@@ -86,30 +136,26 @@ const AdminPage = ({ onBack }) => {
   });
 
   useEffect(() => {
-    // PROTEKSI: Jika user ada tapi emailnya tidak ada di daftar admin, jangan load data
     if (user && ADMIN_EMAILS.includes(user.email)) {
       loadQuestions(activeTab);
     }
   }, [activeTab, user]);
 
-  // --- LOGIKA PROTEKSI AKSES ---
-  if (!user) {
-    return <AdminWrapper><div style={{textAlign: 'center', marginTop: '5rem'}}>Silakan login terlebih dahulu.</div></AdminWrapper>;
-  }
+  // --- PROTEKSI AKSES ---
+  if (!user) return <PageContainer><div style={{textAlign: 'center', marginTop: '5rem'}}>Silakan login terlebih dahulu.</div></PageContainer>;
 
   if (!ADMIN_EMAILS.includes(user.email)) {
     return (
-      <AdminWrapper>
+      <PageContainer>
         <AccessDeniedWrapper>
-          <FiLock size={80} style={{marginBottom: '1rem'}}/>
-          <h2>Akses Ditolak</h2>
-          <p>Maaf, akun <b>{user.email}</b> tidak memiliki izin akses ke halaman Admin.</p>
-          <Button onClick={onBack} style={{marginTop: '2rem'}}>Kembali ke Menu</Button>
+          <FiLock size={80} style={{marginBottom: '1rem', opacity: 0.8}}/>
+          <h2 style={{fontSize: '2rem'}}>Akses Terbatas</h2>
+          <p>Hanya personel berwenang yang dapat mengakses panel ini.</p>
+          <Button onClick={onBack} style={{marginTop: '2rem', background: 'rgba(255,255,255,0.1)'}}><FiArrowLeft/> Kembali ke Markas</Button>
         </AccessDeniedWrapper>
-      </AdminWrapper>
+      </PageContainer>
     );
   }
-  // -----------------------------
 
   const loadQuestions = async (catId) => {
     setLoading(true);
@@ -123,7 +169,7 @@ const AdminPage = ({ onBack }) => {
       setLoading(true);
       await saveQuestionsToDB(activeTab, questions);
       setLoading(false);
-      alert("Berhasil disimpan ke Database!");
+      alert("Data berhasil disinkronisasi ke Mainframe!");
     }
   };
 
@@ -140,7 +186,7 @@ const AdminPage = ({ onBack }) => {
   };
 
   const handleDelete = (idx) => {
-    if(window.confirm("Yakin ingin menghapus soal ini?")) {
+    if(window.confirm("Hapus data ini secara permanen?")) {
       const newQ = [...questions];
       newQ.splice(idx, 1);
       setQuestions(newQ);
@@ -160,18 +206,18 @@ const AdminPage = ({ onBack }) => {
   };
 
   return (
-    <AdminWrapper>
+    <PageContainer>
       <Header>
         <div style={{display: 'flex', alignItems: 'center', gap: '1rem'}}>
-          <Button onClick={onBack} style={{padding: '0.6rem 1rem'}}><FiArrowLeft/> Kembali</Button>
-          <h2 style={{margin: 0}}>Admin Dashboard</h2>
+          <BackButton onClick={onBack}><FiArrowLeft/> Kembali</BackButton>
+          <Title>Panel Admin</Title>
         </div>
         <div style={{display: 'flex', gap: '1rem'}}>
-           <Button onClick={migrateAllData} style={{background: '#f59e0b', color: '#000'}}>
-             <FiDatabase/> Migrasi Data JSON
+           <Button onClick={migrateAllData} style={{background: '#f59e0b', color: '#000', borderRadius: '12px'}}>
+             <FiDatabase/> Migrasi JSON
            </Button>
-           <Button onClick={handleSaveToDB} primary>
-             <FiSave/> Simpan Perubahan
+           <Button onClick={handleSaveToDB} style={{background: '#3b82f6', borderRadius: '12px'}}>
+             <FiSave/> Simpan Data
            </Button>
         </div>
       </Header>
@@ -184,19 +230,19 @@ const AdminPage = ({ onBack }) => {
         ))}
       </TabContainer>
 
-      {loading ? <p style={{textAlign: 'center', fontSize: '1.2rem'}}>Memuat data dari database...</p> : (
+      {loading ? <p style={{textAlign: 'center', fontSize: '1.2rem', opacity: 0.7}}>Sedang mengambil data terenkripsi...</p> : (
         <>
-          <div style={{marginBottom: '1rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(255,255,255,0.05)', padding: '1rem', borderRadius: '12px'}}>
-            <span>Total Soal Aktif: <b>{questions.length}</b></span>
-            <Button onClick={handleAdd} primary><FiPlus/> Tambah Soal Baru</Button>
+          <div style={{marginBottom: '1.5rem', display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'rgba(255,255,255,0.03)', padding: '1rem 1.5rem', borderRadius: '16px', border: '1px solid rgba(255,255,255,0.05)'}}>
+            <span style={{opacity: 0.8}}>Total Soal: <b style={{color: '#fff', fontSize: '1.1rem'}}>{questions.length}</b></span>
+            <Button onClick={handleAdd} style={{background: 'linear-gradient(135deg, #10b981, #059669)', borderRadius: '12px'}}><FiPlus/> Buat Soal Baru</Button>
           </div>
 
           <QuestionList>
             {questions.length === 0 && (
-              <div style={{textAlign: 'center', padding: '3rem', opacity: 0.7}}>
+              <div style={{textAlign: 'center', padding: '3rem', opacity: 0.5, border: '2px dashed rgba(255,255,255,0.1)', borderRadius: '20px'}}>
                 <FiDatabase size={50} style={{marginBottom: '1rem'}}/>
-                <p>Belum ada soal di database untuk kategori ini.</p>
-                <p>Klik tombol <b>"Migrasi Data JSON"</b> di kanan atas jika ini pertama kali.</p>
+                <p>Database kosong untuk sektor ini.</p>
+                <p>Gunakan tombol <b>"Migrasi JSON"</b> untuk inisialisasi awal.</p>
               </div>
             )}
             
@@ -204,12 +250,12 @@ const AdminPage = ({ onBack }) => {
               <QuestionItem key={idx}>
                 <div style={{flex: 1}}>
                   <h4>{idx + 1}. {q.question}</h4>
-                  <p style={{color: '#10b981', fontWeight: 'bold'}}>Jawaban: {q.options[q.correct]}</p>
-                  {q.explanation && <p style={{marginTop: '0.5rem', fontSize: '0.85rem'}}>💡 {q.explanation}</p>}
+                  <span className="answer-badge"><FiCheckCircle style={{verticalAlign: 'middle'}}/> {q.options[q.correct]}</span>
+                  {q.explanation && <p style={{marginTop: '0.8rem', fontSize: '0.85rem', fontStyle: 'italic'}}>ℹ️ {q.explanation}</p>}
                 </div>
                 <ActionGroup>
-                  <Button onClick={() => handleEdit(idx)} style={{padding: '0.6rem', background: '#3b82f6'}} title="Edit"><FiEdit3/></Button>
-                  <Button onClick={() => handleDelete(idx)} style={{padding: '0.6rem', background: '#ef4444'}} title="Hapus"><FiTrash2/></Button>
+                  <Button onClick={() => handleEdit(idx)} style={{padding: '0.6rem', background: 'rgba(59, 130, 246, 0.2)', color: '#60a5fa', borderRadius: '10px'}} title="Edit"><FiEdit3/></Button>
+                  <Button onClick={() => handleDelete(idx)} style={{padding: '0.6rem', background: 'rgba(239, 68, 68, 0.2)', color: '#f87171', borderRadius: '10px'}} title="Hapus"><FiTrash2/></Button>
                 </ActionGroup>
               </QuestionItem>
             ))}
@@ -220,56 +266,56 @@ const AdminPage = ({ onBack }) => {
       <AnimatePresence>
         {isModalOpen && (
           <ModalOverlay initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
-            <ModalContent initial={{scale:0.9, y: 50}} animate={{scale:1, y: 0}} exit={{scale:0.9, y: 50}}>
-              <h3 style={{marginTop: 0}}>{editingIndex !== null ? 'Edit Soal' : 'Tambah Soal Baru'}</h3>
+            <ModalContent initial={{scale:0.95, opacity: 0}} animate={{scale:1, opacity: 1}} exit={{scale:0.95, opacity: 0}}>
+              <h3 style={{marginTop: 0, fontSize: '1.5rem', color: '#fff'}}>{editingIndex !== null ? 'Edit Data Soal' : 'Input Soal Baru'}</h3>
               <form onSubmit={handleFormSubmit}>
                 <InputGroup>
                   <label>Pertanyaan</label>
-                  <textarea value={formData.question} onChange={e => setFormData({...formData, question: e.target.value})} required placeholder="Tulis pertanyaan di sini..." />
+                  <textarea value={formData.question} onChange={e => setFormData({...formData, question: e.target.value})} required placeholder="Input pertanyaan..." />
                 </InputGroup>
                 
                 <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem'}}>
                   {formData.options.map((opt, i) => (
                     <InputGroup key={i} style={{marginBottom: '0.5rem'}}>
-                      <label style={{fontSize: '0.8rem'}}>Pilihan Jawaban {i + 1}</label>
+                      <label style={{fontSize: '0.8rem'}}>Opsi {String.fromCharCode(65+i)}</label>
                       <input value={opt} onChange={e => {
                         const newOpts = [...formData.options];
                         newOpts[i] = e.target.value;
                         setFormData({...formData, options: newOpts});
-                      }} required placeholder={`Opsi ${i+1}`} />
+                      }} required placeholder={`Pilihan ${i+1}`} />
                     </InputGroup>
                   ))}
                 </div>
 
                 <InputGroup style={{marginTop: '1rem'}}>
-                  <label>Kunci Jawaban</label>
+                  <label>Kunci Jawaban Benar</label>
                   <select value={formData.correct} onChange={e => setFormData({...formData, correct: parseInt(e.target.value)})}>
                     {formData.options.map((opt, i) => (
-                      <option key={i} value={i}>Opsi {i+1}: {opt.substring(0, 30)}{opt.length > 30 ? '...' : ''}</option>
+                      <option key={i} value={i}>Opsi {String.fromCharCode(65+i)}: {opt.substring(0, 30)}{opt.length > 30 ? '...' : ''}</option>
                     ))}
                   </select>
                 </InputGroup>
 
                 <InputGroup>
                   <label>Penjelasan (Opsional)</label>
-                  <textarea value={formData.explanation} onChange={e => setFormData({...formData, explanation: e.target.value})} placeholder="Penjelasan jawaban..." style={{minHeight: '80px'}} />
+                  <textarea value={formData.explanation} onChange={e => setFormData({...formData, explanation: e.target.value})} placeholder="Detail pembahasan..." style={{minHeight: '80px'}} />
                 </InputGroup>
 
                 <InputGroup>
-                  <label>Referensi (Opsional)</label>
-                  <input value={formData.reference} onChange={e => setFormData({...formData, reference: e.target.value})} placeholder="Contoh: Buku Hal 12" />
+                  <label>Referensi Sumber (Opsional)</label>
+                  <input value={formData.reference} onChange={e => setFormData({...formData, reference: e.target.value})} placeholder="Contoh: Modul A Hal. 10" />
                 </InputGroup>
 
                 <div style={{display: 'flex', gap: '1rem', marginTop: '2rem', justifyContent: 'flex-end'}}>
-                  <Button type="button" onClick={() => setIsModalOpen(false)} style={{background: '#64748b'}}>Batal</Button>
-                  <Button type="submit" primary>Simpan ke Daftar (Draft)</Button>
+                  <Button type="button" onClick={() => setIsModalOpen(false)} style={{background: 'rgba(255,255,255,0.1)', borderRadius: '12px'}}>Batal</Button>
+                  <Button type="submit" style={{background: 'linear-gradient(135deg, #3b82f6, #2563eb)', borderRadius: '12px'}}>Simpan Data</Button>
                 </div>
               </form>
             </ModalContent>
           </ModalOverlay>
         )}
       </AnimatePresence>
-    </AdminWrapper>
+    </PageContainer>
   );
 };
 
